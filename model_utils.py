@@ -13,9 +13,9 @@ def sharded_variable(name, shape, num_shards, dtype=tf.float32, transposed=False
     # This should be fine for embeddings.
     shard_size = int((shape[0] + num_shards - 1) / num_shards)
     if transposed:
-        initializer = tf.uniform_unit_scaling_initializer(dtype=dtype, full_shape=[shape[1], shape[0]])
+        initializer = tf.uniform_unit_scaling_initializer(dtype=dtype)
     else:
-        initializer = tf.uniform_unit_scaling_initializer(dtype=dtype, full_shape=shape)
+        initializer = tf.uniform_unit_scaling_initializer(dtype=dtype)
     return [tf.get_variable(name + "_%d" % i, [shard_size, shape[1]], initializer=initializer, dtype=dtype)
             for i in range(num_shards)]
 
