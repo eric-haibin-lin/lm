@@ -1,0 +1,55 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so.7.5 locally
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:31 in __init__.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+E tensorflow/stream_executor/cuda/cuda_driver.cc:509] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: ip-172-31-45-236
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: ip-172-31-45-236
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 367.57.0
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:363] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  367.57  Mon Oct  3 20:37:01 PDT 2016
+GCC version:  gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+"""
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 367.57.0
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:300] kernel version seems to match DSO: 367.57.0
+WARNING:tensorflow:From /home/ubuntu/lm/run_utils.py:107 in run_eval.: __init__ (from tensorflow.python.training.summary_io) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.FileWriter. The interface and behavior is the same; this is just a rename.
+WARNING:tensorflow:From /home/ubuntu/lm/run_utils.py:114 in run_eval.: initialize_local_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.local_variables_initializer` instead.
+Averaging parameters for evaluation.
+No checkpoint file found. Waiting...
+No checkpoint file found. Waiting...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Waiting for a new checkpoint...
+Succesfully loaded model at step=790.
+Processing file: /home/ubuntu/data//heldout-monolingual.tokenized.shuffled/news.en.heldout-00000-of-00050
+Finished processing!
+0: 8.300 (4023.098) ... 1: 8.134 (3409.690) ... 2: 8.078 (3224.248) ... 3: 8.053 (3143.961) ... 4: 8.065 (3180.912) ... 5: 8.038 (3097.906) ... 6: 8.036 (3089.315) ... 7: 8.028 (3066.367) ... 8: 8.029 (3067.279) ... 9: 8.024 (3053.537) ... 10: 8.021 (3043.672) ... 11: 8.020 (3040.010) ... 12: 8.014 (3023.012) ... 13: 8.006 (2999.129) ... 14: 8.004 (2991.703) ... 15: 7.998 (2975.052) ... 16: 8.002 (2987.378) ... 17: 8.004 (2992.559) ... 18: 8.007 (3000.696) ... 19: 8.005 (2996.721) ... 20: 8.007 (3003.136) ... 21: 8.004 (2992.955) ... 22: 8.003 (2990.174) ... 23: 8.003 (2991.215) ... 24: 8.004 (2992.478) ... 25: 8.009 (3007.941) ... 26: 8.006 (2998.749) ... 27: 8.005 (2994.863) ... 28: 8.003 (2989.784) ... 29: 8.005 (2994.869) ... 30: 8.002 (2985.600) ... 31: 7.998 (2974.901) ... 32: 7.997 (2973.038) ... 33: 7.999 (2978.139) ... 34: 7.998 (2976.186) ... 35: 7.993 (2961.459) ... 36: 7.990 (2952.530) ... 37: 7.988 (2944.772) ... 38: 7.990 (2950.981) ... 39: 7.991 (2955.185) ... 40: 7.988 (2945.342) ... 41: 7.987 (2943.098) ... 42: 7.986 (2938.720) ... 43: 7.984 (2932.423) ... 44: 7.986 (2938.965) ... 45: 7.986 (2938.154) ... 46: 7.985 (2935.503) ... 47: 7.984 (2933.075) ... 48: 7.986 (2938.118) ... 49: 7.984 (2932.209) ... 50: 7.983 (2930.682) ... 51: 7.983 (2930.082) ... 52: 7.984 (2933.460) ... 53: 7.985 (2937.117) ... 54: 7.989 (2947.046) ... 55: 7.989 (2947.285) ... 56: 7.992 (2955.857) ... 57: 7.991 (2953.255) ... 58: 7.991 (2954.672) ... 59: 7.988 (2944.080) ... 60: 7.987 (2941.658) ... 61: 7.987 (2941.202) ... 62: 7.985 (2936.201) ... 63: 7.984 (2934.741) ... 64: 7.984 (2934.743) ... 65: 7.984 (2934.602) ... WARNING:tensorflow:From /home/ubuntu/lm/run_utils.py:114 in run_eval.: initialize_local_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.local_variables_initializer` instead.
+
+Results at 790: log_perplexity = 7.984 perplexity = 2934.602
+Succesfully loaded model at step=1627.
+Processing file: /home/ubuntu/data//heldout-monolingual.tokenized.shuffled/news.en.heldout-00000-of-00050
+Finished processing!
+0: 6.366 (581.634) ... 1: 6.168 (477.381) ... 2: 6.089 (441.079) ... 3: 6.064 (430.140) ... 4: 6.067 (431.369) ... 5: 6.040 (419.808) ... 6: 6.032 (416.649) ... 7: 6.028 (414.736) ... 8: 6.020 (411.685) ... 9: 6.015 (409.441) ... 10: 6.012 (408.103) ... 11: 6.016 (409.900) ... 12: 6.010 (407.664) ... 13: 6.005 (405.600) ... 14: 6.003 (404.515) ... 15: 5.999 (402.982) ... 16: 6.001 (403.661) ... 17: 6.001 (403.912) ... 18: 6.000 (403.378) ... 19: 5.996 (401.977) ... 20: 6.000 (403.534) ... 21: 5.997 (402.199) ... 22: 5.995 (401.349) ... 23: 5.995 (401.305) ... 24: 5.994 (400.913) ... 25: 5.998 (402.584) ... 26: 5.996 (401.959) ... 27: 5.994 (401.144) ... 28: 5.991 (399.990) ... 29: 5.991 (399.933) ... 30: 5.989 (398.849) ... 31: 5.984 (397.100) ... 32: 5.983 (396.770) ... 33: 5.986 (397.702) ... 34: 5.987 (398.147) ... 35: 5.982 (396.235) ... 36: 5.978 (394.756) ... 37: 5.977 (394.444) ... 38: 5.979 (395.204) ... 39: 5.981 (395.656) ... 40: 5.977 (394.174) ... 41: 5.976 (393.859) ... 42: 5.974 (393.061) ... 43: 5.972 (392.260) ... 44: 5.974 (393.041) ... 45: 5.974 (393.072) ... 46: 5.974 (393.009) ... 47: 5.974 (392.926) ... 48: 5.974 (393.176) ... 49: 5.973 (392.513) ... 50: 5.971 (392.017) ... 51: 5.972 (392.209) ... 52: 5.973 (392.631) ... 53: 5.974 (393.025) ... 54: 5.977 (394.330) ... 55: 5.977 (394.419) ... 56: 5.981 (395.996) ... 57: 5.982 (396.143) ... 58: 5.983 (396.742) ... 59: 5.980 (395.566) ... 60: 5.979 (395.082) ... 61: 5.978 (394.612) ... 62: 5.976 (393.801) ... 63: 5.975 (393.556) ... 64: 5.975 (393.552) ... 65: 5.975 (393.527) ... WARNING:tensorflow:From /home/ubuntu/lm/run_utils.py:114 in run_eval.: initialize_local_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.local_variables_initializer` instead.
+
+Results at 1627: log_perplexity = 5.975 perplexity = 393.527
+Succesfully loaded model at step=2464.
+Processing file: /home/ubuntu/data//heldout-monolingual.tokenized.shuffled/news.en.heldout-00000-of-00050
+Finished processing!
+0: 5.683 (293.875) ... 1: 5.494 (243.160) ... 2: 5.416 (224.978) ... 3: 5.393 (219.774) ... 
