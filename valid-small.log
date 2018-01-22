@@ -52,4 +52,23 @@ Results at 1627: log_perplexity = 5.975 perplexity = 393.527
 Succesfully loaded model at step=2464.
 Processing file: /home/ubuntu/data//heldout-monolingual.tokenized.shuffled/news.en.heldout-00000-of-00050
 Finished processing!
-0: 5.683 (293.875) ... 1: 5.494 (243.160) ... 2: 5.416 (224.978) ... 3: 5.393 (219.774) ... 
+0: 5.683 (293.875) ... 1: 5.494 (243.160) ... 2: 5.416 (224.978) ... 3: 5.393 (219.774) ... Traceback (most recent call last):
+  File "single_lm_train.py", line 38, in <module>
+    tf.app.run()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/platform/app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "single_lm_train.py", line 34, in main
+    run_eval(dataset, hps, FLAGS.logdir, FLAGS.mode, FLAGS.eval_steps)
+  File "/home/ubuntu/lm/run_utils.py", line 121, in run_eval
+    loss = sess.run(model.loss, {model.x: x, model.y: y, model.w: w})
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 766, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 964, in _run
+    feed_dict_string, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1014, in _do_run
+    target_list, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1021, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1003, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
