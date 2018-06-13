@@ -1,0 +1,2671 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so.7.5 locally
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:132 in _backward.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:133 in _backward.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:134 in _backward.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:31 in __init__.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:40 in __init__.: merge_all_summaries (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.merge_all.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/logging_ops.py:264 in merge_all_summaries.: merge_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.merge.
+WARNING:tensorflow:From /home/ubuntu/lm/run_utils.py:17 in run_train.: all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Please use tf.global_variables instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/supervisor.py:344 in __init__.: __init__ (from tensorflow.python.training.summary_io) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.FileWriter. The interface and behavior is the same; this is just a rename.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:0f.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x696f960
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 1 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:10.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x68f08b0
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 2 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:11.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x69deb70
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 3 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:12.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 1 2 3 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 1:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 2:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 3:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:0f.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:00:10.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:00:11.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:00:12.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4381 get requests, put_count=4360 evicted_count=1000 eviction_rate=0.229358 and unsatisfied allocation rate=0.255878
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+ALL VARIABLES
+model/emb_0:0 (99184, 512) /gpu:0
+model/emb_1:0 (99184, 512) /gpu:0
+model/emb_2:0 (99184, 512) /gpu:0
+model/emb_3:0 (99184, 512) /gpu:0
+model/emb_4:0 (99184, 512) /gpu:0
+model/emb_5:0 (99184, 512) /gpu:0
+model/emb_6:0 (99184, 512) /gpu:0
+model/emb_7:0 (99184, 512) /gpu:0
+model/lstm_0/LSTMCell/W_0:0 (1024, 8192) /gpu:0
+model/lstm_0/LSTMCell/B:0 (8192,) /gpu:0
+model/lstm_0/LSTMCell/W_P_0:0 (2048, 512) /gpu:0
+model/softmax_w_0:0 (99184, 512) /gpu:0
+model/softmax_w_1:0 (99184, 512) /gpu:0
+model/softmax_w_2:0 (99184, 512) /gpu:0
+model/softmax_w_3:0 (99184, 512) /gpu:0
+model/softmax_w_4:0 (99184, 512) /gpu:0
+model/softmax_w_5:0 (99184, 512) /gpu:0
+model/softmax_w_6:0 (99184, 512) /gpu:0
+model/softmax_w_7:0 (99184, 512) /gpu:0
+model/softmax_b:0 (793470,) /gpu:0
+model/global_step:0 () 
+model/model/emb_0/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_1/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_2/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_3/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_4/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_5/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_6/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_7/Adagrad:0 (99184, 512) /gpu:0
+model/model/lstm_0/LSTMCell/W_0/Adagrad:0 (1024, 8192) /gpu:0
+model/model/lstm_0/LSTMCell/B/Adagrad:0 (8192,) /gpu:0
+model/model/lstm_0/LSTMCell/W_P_0/Adagrad:0 (2048, 512) /gpu:0
+model/model/softmax_w_0/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_1/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_2/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_3/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_4/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_5/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_6/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_7/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_b/Adagrad:0 (793470,) /gpu:0
+model/lstm_0/LSTMCell/W_0/ExponentialMovingAverage:0 (1024, 8192) /gpu:0
+model/lstm_0/LSTMCell/B/ExponentialMovingAverage:0 (8192,) /gpu:0
+model/lstm_0/LSTMCell/W_P_0/ExponentialMovingAverage:0 (2048, 512) /gpu:0
+TRAINABLE VARIABLES
+model/emb_0:0 (99184, 512) /gpu:0
+model/emb_1:0 (99184, 512) /gpu:0
+model/emb_2:0 (99184, 512) /gpu:0
+model/emb_3:0 (99184, 512) /gpu:0
+model/emb_4:0 (99184, 512) /gpu:0
+model/emb_5:0 (99184, 512) /gpu:0
+model/emb_6:0 (99184, 512) /gpu:0
+model/emb_7:0 (99184, 512) /gpu:0
+model/lstm_0/LSTMCell/W_0:0 (1024, 8192) /gpu:0
+model/lstm_0/LSTMCell/B:0 (8192,) /gpu:0
+model/lstm_0/LSTMCell/W_P_0:0 (2048, 512) /gpu:0
+model/softmax_w_0:0 (99184, 512) /gpu:0
+model/softmax_w_1:0 (99184, 512) /gpu:0
+model/softmax_w_2:0 (99184, 512) /gpu:0
+model/softmax_w_3:0 (99184, 512) /gpu:0
+model/softmax_w_4:0 (99184, 512) /gpu:0
+model/softmax_w_5:0 (99184, 512) /gpu:0
+model/softmax_w_6:0 (99184, 512) /gpu:0
+model/softmax_w_7:0 (99184, 512) /gpu:0
+model/softmax_b:0 (793470,) /gpu:0
+LOCAL VARIABLES
+model/model/state_0_0:0 (256, 2560) /gpu:0
+model/model_1/state_1_0:0 (256, 2560) /gpu:0
+model/model_2/state_2_0:0 (256, 2560) /gpu:0
+model/model_3/state_3_0:0 (256, 2560) /gpu:0
+haibin: a new epoch just started
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00009-of-00100
+Finished processing!
+Iteration 1, time = 4.93s, wps = 4151, train loss = 13.3324
+Iteration 2, time = 0.47s, wps = 43312, train loss = 13.2287
+Iteration 3, time = 0.54s, wps = 38011, train loss = 13.0081
+Iteration 4, time = 0.53s, wps = 38346, train loss = 11.6807
+Iteration 5, time = 0.60s, wps = 34054, train loss = 257.0704
+Iteration 6, time = 0.49s, wps = 41652, train loss = 299.3711
+Iteration 7, time = 0.43s, wps = 48110, train loss = 200.6144
+Iteration 8, time = 0.43s, wps = 47334, train loss = 158.4993
+Iteration 9, time = 0.54s, wps = 38233, train loss = 79.4897
+Iteration 20, time = 7.94s, wps = 28388, train loss = 15.1150
+Iteration 40, time = 12.23s, wps = 33492, train loss = 16.2041
+Iteration 60, time = 11.04s, wps = 37091, train loss = 10.3423
+Iteration 80, timeI tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 29640 get requests, put_count=29648 evicted_count=1000 eviction_rate=0.0337291 and unsatisfied allocation rate=0.0342443
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+ = 11.53s, wps = 35516, train loss = 9.5819
+Iteration 100, time = 11.64s, wps = 35186, train loss = 9.0278
+Iteration 120, time = 12.03s, wps = 34038, train loss = 9.0162
+Iteration 140, time = 11.74s, wps = 34881, train loss = 8.5299
+Iteration 160, time = 12.13s, wps = 33767, train loss = 8.5162
+Iteration 180, time = 11.94s, wps = 34294, train loss = 8.2259
+Iteration 200, time = 12.05s, wps = 33998, train loss = 8.3246
+Iteration 220, time = 11.97s, wps = 34207, train loss = 8.0674
+Iteration 240, time = 12.03s, wps = 34053, train loss = 8.0425
+Iteration 260, time = 12.09s, wps = 33889, train loss = 7.9457
+Iteration 280, time = 12.07s, wps = 33947, train loss = 7.7528
+Iteration 300, time = 12.12s, wps = 33802, train loss = 7.8548
+Iteration 320, time = 12.12s, wps = 33789, train loss = 7.4925
+Iteration 340, time = 12.08s, wps = 33900, train loss = 7.7335
+Iteration 360, time = 12.05s, wps = 33993, train loss = 7.5879
+Iteration 380, time = 12.08s, wps = 33900, train loss = 7.5717
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00014-of-00100
+Finished processing!
+Iteration 400, time = 14.05s, wps = 29154, train loss = 7.8242
+Iteration 420, time = 12.22s, wps = 33530, train loss = 7.3176
+Iteration 440, time = 12.17s, wps = 33654, train loss = 7.1957
+Iteration 460, time = 12.14s, wps = 33752, train loss = 7.5866
+Iteration 480, time = 12.12s, wps = 33805, train loss = 7.0548
+Iteration 500, time = 11.99s, wps = 34162, train loss = 8.4204
+Iteration 520, time = 12.12s, wps = 33784, train loss = 7.1270
+Iteration 540, time = 12.04s, wps = 34006, train loss = 7.2452
+Iteration 560, time = 12.11s, wps = 33811, train loss = 6.8525
+Iteration 580, time = 12.14s, wps = 33734, train loss = 6.8520
+Iteration 600, time = 12.01s, wps = 34099, train loss = 6.7073
+Iteration 620, time = 11.99s, wps = 34158, train loss = 6.6685
+Iteration 640, time = 12.11s, wps = 33829, train loss = 6.7735
+Iteration 660, time = 12.14s, wps = 33741, train loss = 6.8644
+Iteration 680, time = 12.11s, wps = 33824, train loss = 6.6173
+Iteration 700, time = 12.16s, wps = 33678, train loss = 6.5015
+Iteration 720, time = 12.30s, wps = 33301, train loss = 6.6705
+Iteration 740, time = 12.15s, wps = 33716, train loss = 6.4932
+Iteration 760, time = 12.15s, wps = 33707, train loss = 6.3976
+Iteration 780, time = 12.20s, wps = 33576, train loss = 6.5062
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00002-of-00100
+Finished processing!
+Iteration 800, time = 14.17s, wps = 28912, train loss = 6.3438
+Iteration 820, time = 12.12s, wps = 33808, train loss = 6.2858
+Iteration 840, time = 12.18s, wps = 33632, train loss = 6.3217
+Iteration 860, time = 12.18s, wps = 33618, train loss = 6.2143
+Iteration 880, time = 12.20s, wps = 33578, train loss = 6.3532
+Iteration 900, time = 12.15s, wps = 33712, train loss = 6.2541
+Iteration 920, time = 12.00s, wps = 34137, train loss = 6.2214
+Iteration 940, time = 12.18s, wps = 33641, train loss = 6.1249
+Iteration 960, time = 12.03s, wps = 34050, train loss = 6.0856
+Iteration 980, time = 12.13s, wps = 33758, train loss = 5.9806
+Iteration 1000, time = 12.26s, wps = 33416, train loss = 5.9445
+Iteration 1020, time = 15.36s, wps = 26663, train loss = 5.9442
+Iteration 1040, time = 12.18s, wps = 33633, train loss = 5.9143
+Iteration 1060, time = 12.19s, wps = 33595, train loss = 5.8572
+Iteration 1080, time = 12.16s, wps = 33675, train loss = 5.9038
+Iteration 1100, time = 12.07s, wps = 33944, train loss = 5.8401
+Iteration 1120, time = 12.09s, wps = 33877, train loss = 5.8214
+Iteration 1140, time = 12.07s, wps = 33942, train loss = 5.7354
+Iteration 1160, time = 12.14s, wps = 33741, train loss = 5.7697
+Iteration 1180, time = 12.09s, wps = 33879, train loss = 5.7065
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00028-of-00100
+Finished processing!
+Iteration 1200, time = 13.86s, wps = 29545, train loss = 5.6911
+Iteration 1220, time = 12.12s, wps = 33784, train loss = 5.6828
+Iteration 1240, time = 12.09s, wps = 33886, train loss = 5.6792
+Iteration 1260, time =I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 69576 get requests, put_count=69579 evicted_count=1000 eviction_rate=0.0143722 and unsatisfied allocation rate=0.0151776
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+ 12.00s, wps = 34126, train loss = 5.7697
+Iteration 1280, time = 12.15s, wps = 33720, train loss = 5.6909
+Iteration 1300, time = 12.02s, wps = 34070, train loss = 5.6129
+Iteration 1320, time = 12.20s, wps = 33563, train loss = 5.6484
+Iteration 1340, time = 12.15s, wps = 33704, train loss = 5.6431
+Iteration 1360, time = 12.15s, wps = 33705, train loss = 5.5675
+Iteration 1380, time = 12.20s, wps = 33564, train loss = 5.5712
+Iteration 1400, time = 12.13s, wps = 33776, train loss = 5.5074
+Iteration 1420, time = 12.08s, wps = 33897, train loss = 5.5408
+Iteration 1440, time = 12.13s, wps = 33754, train loss = 5.5411
+Iteration 1460, time = 12.11s, wps = 33833, train loss = 5.5511
+Iteration 1480, time = 12.16s, wps = 33685, train loss = 5.4214
+Iteration 1500, time = 12.17s, wps = 33654, train loss = 5.4975
+Iteration 1520, time = 12.10s, wps = 33849, train loss = 5.4175
+Iteration 1540, time = 12.10s, wps = 33857, train loss = 5.3356
+Iteration 1560, time = 12.18s, wps = 33637, train loss = 5.3631
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00003-of-00100
+Finished processing!
+Iteration 1580, time = 14.05s, wps = 29145, train loss = 5.3150
+Iteration 1600, time = 12.13s, wps = 33764, train loss = 5.2705
+Iteration 1620, time = 12.20s, wps = 33584, train loss = 5.3700
+Iteration 1640, time = 12.17s, wps = 33662, train loss = 5.3110
+Iteration 1660, time = 12.18s, wps = 33629, train loss = 5.2609
+Iteration 1680, time = 12.15s, wps = 33702, train loss = 5.2908
+Iteration 1700, time = 12.03s, wps = 34058, train loss = 5.2781
+Iteration 1720, time = 12.18s, wps = 33617, train loss = 5.2347
+Iteration 1740, time = 11.95s, wps = 34284, train loss = 5.2224
+Iteration 1760, time = 12.07s, wps = 33932, train loss = 5.2178
+Iteration 1780, time = 12.09s, wps = 33887, train loss = 5.2510
+Iteration 1800, time = 12.15s, wps = 33712, train loss = 5.1946
+Iteration 1820, time = 12.14s, wps = 33730, train loss = 5.1853
+Iteration 1840, time = 12.25s, wps = 33447, train loss = 5.1438
+Iteration 1860, time = 12.01s, wps = 34102, train loss = 5.2244
+Iteration 1880, time = 12.01s, wps = 34106, train loss = 5.1740
+Iteration 1900, time = 12.18s, wps = 33618, train loss = 5.1360
+Iteration 1920, time = 12.03s, wps = 34037, train loss = 5.1189
+Iteration 1940, time = 12.21s, wps = 33545, train loss = 5.0850
+Iteration 1960, time = 12.10s, wps = 33855, train loss = 5.0972
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00011-of-00100
+Finished processing!
+Iteration 1980, time = 17.58s, wps = 23303, train loss = 5.1077
+Iteration 2000, time = 13.05s, wps = 31391, train loss = 5.0553
+Iteration 2020, time = 12.16s, wps = 33684, train loss = 5.0425
+Iteration 2040, time = 12.17s, wps = 33645, train loss = 5.0414
+Iteration 2060, time = 12.11s, wps = 33835, train loss = 5.0353
+Iteration 2080, time = 12.17s, wps = 33646, train loss = 4.9854
+Iteration 2100, time = 12.11s, wps = 33824, train loss = 5.0441
+Iteration 2120, time = 12.14s, wps = 33750, train loss = 4.9976
+Iteration 2140, time = 12.14s, wps = 33727, train loss = 4.9883
+Iteration 2160, time = 12.11s, wps = 33817, train loss = 4.9700
+Iteration 2180, time = 12.05s, wps = 34006, train loss = 4.9463
+Iteration 2200, time = 12.07s, wps = 33948, train loss = 4.9588
+Iteration 2220, time = 12.14s, wps = 33745, train loss = 4.9882
+Iteration 2240, time = 12.06s, wps = 33961, train loss = 4.9500
+Iteration 2260, time = 12.11s, wps = 33830, train loss = 4.9196
+Iteration 2280, time = 12.09s, wps = 33876, train loss = 4.9274
+Iteration 2300, time = 12.14s, wps = 33737, train loss = 4.9302
+Iteration 2320, time = 12.07s, wps = 33939, train loss = 4.9292
+Iteration 2340, time = 12.23s, wps = 33499, train loss = 4.9163
+Iteration 2360, time = 12.14s, wps = 33747, train loss = 4.8736
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00015-of-00100
+Finished processing!
+Iteration 2380, time = 14.11s, wps = 29038, train loss = 4.8986
+Iteration 2400, time = 12.13s, wps = 33756, train loss = 4.8524
+Iteration 2420, time = 12.10s, wps = 33863, train loss = 4.8550
+Iteration 2440, time = 12.14s, wps = 33731, train loss = 4.8623
+Iteration 2460, time = 12.21s, wps = 33538, train loss = 4.8455
+Iteration 2480, time = 12.12s, wps = 33807, train loss = 4.8417
+Iteration 2500, time = 12.02s, wps = 34085, train loss = 4.8276
+Iteration 2520, time = 12.13s, wps = 33762, train loss = 4.8126
+Iteration 2540, time = 12.09s, wps = 33876, train loss = 4.8183
+Iteration 2560, time = 12.17s, wps = 33662, train loss = 4.7815
+Iteration 2580, time = 12.09s, wps = 33878, train loss = 4.8017
+Iteration 2600, time = 12.19s, wps = 33593, train loss = 4.8447
+Iteration 2620, time = 12.16s, wps = 33673, train loss = 4.8133
+Iteration 2640, time = 12.13s, wps = 33780, train loss = 4.8133
+Iteration 2660, time = 12.19s, wps = 33602, train loss = 4.8290
+Iteration 2680, time = 12.16s, wps = 33692, train loss = 4.7729
+Iteration 2700, time = 12.14s, wps = 33731, train loss = 4.8220
+Iteration 2720, time = 12.15s, wps = 33725, train loss = 4.8043
+Iteration 2740, time = 12.22s, wps = 33531, train loss = 4.7283
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00012-of-00100
+Finished processing!
+Iteration 2760, time = 14.05s, wps = 29144, train loss = 4.7163
+Iteration 2780, time = 11.94s, wps = 34304, train loss = 4.7093
+Iteration 2800, time = 12.10s, wps = 33838, train loss = 4.7367
+Iteration 2820, time = 12.01s, wps = 34106, train loss = 4.7471
+Iteration 2840, time = 12.19s, wps = 33594, train loss = 4.7663
+Iteration 2860, time = 12.18s, wps = 33638, train loss = 4.7521
+Iteration 2880, time = 12.16s, wps = 33671, train loss = 4.7063
+Iteration 2900, time = 12.18s, wps = 33615, train loss = 4.7107
+Iteration 2920, time = 12.15s, wps = 33720, train loss = 4.6993
+Iteration 2940, time = 12.17s, wps = 33646, train loss = 4.7632
+Iteration 2960, time = 15.00s, wps = 27309, train loss = 4.6983
+Iteration 2980, time = 12.40s, wps = 33023, train loss = 4.6801
+Iteration 3000, time = 12.15s, wps = 33709, train loss = 4.6883
+Iteration 3020, time = 12.20s, wps = 33569, train loss = 4.6823
+Iteration 3040, time = 12.15s, wps = 33702, train loss = 4.7201
+Iteration 3060, time = 12.13s, wps = 33765, train loss = 4.6675
+Iteration 3080, time = 12.09s, wps = 33870, train loss = 4.6749
+Iteration 3100, time = 12.18s, wps = 33627, train loss = 4.6916
+Iteration 3120, time = 12.16s, wps = 33695, train loss = 4.7040
+Iteration 3140, time = 12.12s, wps = 33785, train loss = 4.6554
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00023-of-00100
+Finished processing!
+Iteration 3160, time = 14.12s, wps = 29008, train loss = 4.6463
+Iteration 3180, time = 12.23s, wps = 33492, train loss = 4.6376
+Iteration 3200, time = 12.09s, wps = 33872, train loss = 4.6007
+Iteration 3220, time = 11.98s, wps = 34201, train loss = 4.5945
+Iteration 3240, time = 12.21s, wps = 33537, train loss = 4.6071
+Iteration 3260, time = 12.16s, wps = 33685, train loss = 4.6019
+Iteration 3280, time = 12.12s, wps = 33794, train loss = 4.6141
+Iteration 3300, time = 11.95s, wps = 34283, train loss = 4.6059
+Iteration 3320, time = 12.21s, wps = 33541, train loss = 4.5998
+Iteration 3340, time = 12.21s, wps = 33556, train loss = 4.6192
+Iteration 3360, time = 12.17s, wps = 33663, train loss = 4.5917
+Iteration 3380, time = 12.01s, wps = 34117, train loss = 4.5960
+Iteration 3400, time = 12.06s, wps = 33967, train loss = 4.6015
+Iteration 3420, time = 12.27s, wps = 33396, train loss = 4.6138
+Iteration 3440, time = 12.03s, wps = 34053, train loss = 4.6291
+Iteration 3460, time = 12.03s, wps = 34035, train loss = 4.5613
+Iteration 3480, time = 12.12s, wps = 33800, train loss = 4.6247
+Iteration 3500, time = 12.19s, wps = 33599, train loss = 4.5930
+Iteration 3520, time = 12.12s, wps = 33788, train loss = 4.5572
+Iteration 3540, time = 12.12s, wps = 33793, train loss = 4.5582
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00027-of-00100
+Finished processing!
+Iteration 3560, time = 14.19s, wps = 28859, train loss = 4.5590
+Iteration 3580, time = 12.26s, wps = 33414, train loss = 4.5765
+Iteration 3600, time = 12.06s, wps = 33952, train loss = 4.5265
+Iteration 3620, time = 12.11s, wps = 33818, train loss = 4.5628
+Iteration 3640, time = 12.18s, wps = 33635, train loss = 4.5352
+Iteration 3660, time = 12.22s, wps = 33523, train loss = 4.5977
+Iteration 3680, time = 12.19s, wps = 33613, train loss = 4.5448
+Iteration 3700, time = 12.18s, wps = 33640, train loss = 4.5340
+Iteration 3720, time = 12.15s, wps = 33719, train loss = 4.5418
+Iteration 3740, time = 12.25s, wps = 33438, train loss = 4.5389
+Iteration 3760, time = 12.20s, wps = 33579, train loss = 4.5132
+Iteration 3780, time = 12.16s, wps = 33693, train loss = 4.5460
+Iteration 3800, time = 12.11s, wps = 33810, train loss = 4.5242
+Iteration 3820, time = 12.19s, wps = 33608, train loss = 4.5248
+Iteration 3840, time = 12.11s, wps = 33819, train loss = 4.5113
+Iteration 3860, time = 12.21s, wps = 33547, train loss = 4.5185
+Iteration 3880, time = 12.09s, wps = 33890, train loss = 4.5141
+Iteration 3900, time = 12.15s, wps = 33703, train loss = 4.5031
+Iteration 3920, time = 12.16s, wps = 33690, train loss = 4.5213
+Iteration 3940, time = 15.48s, wps = 26463, train loss = 4.5172
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00016-of-00100
+Finished processing!
+Iteration 3960, time = 14.94s, wps = 27414, train loss = 4.4481
+Iteration 3980, time = 12.03s, wps = 34048, train loss = 4.5391
+Iteration 4000, time = 12.12s, wps = 33809, train loss = 4.5357
+Iteration 4020, time = 12.18s, wps = 33632, train loss = 4.4657
+Iteration 4040, time = 12.05s, wps = 33988, train loss = 4.5053
+Iteration 4060, time = 12.14s, wps = 33735, train loss = 4.4981
+Iteration 4080, time = 12.15s, wps = 33703, train loss = 4.4810
+Iteration 4100, time = 12.26s, wps = 33410, train loss = 4.5033
+Iteration 4120, time = 12.07s, wps = 33922, train loss = 4.4634
+Iteration 4140, time = 11.99s, wps = 34167, train loss = 4.4610
+Iteration 4160, time = 12.09s, wps = 33880, train loss = 4.4502
+Iteration 4180, time = 12.15s, wps = 33726, train loss = 4.4922
+Iteration 4200, time = 12.24s, wps = 33458, train loss = 4.4634
+Iteration 4220, time = 12.02s, wps = 34090, train loss = 4.4619
+Iteration 4240, time = 12.04s, wps = 34016, train loss = 4.4261
+Iteration 4260, time = 12.08s, wps = 33908, train loss = 4.4242
+Iteration 4280, time = 12.17s, wps = 33650, train loss = 4.4604
+Iteration 4300, time = 12.13s, wps = 33767, train loss = 4.4329
+Iteration 4320, time = 12.18s, wps = 33626, train loss = 4.4064
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00010-of-00100
+Finished processing!
+Iteration 4340, time = 14.24s, wps = 28767, train loss = 4.4483
+Iteration 4360, time = 11.81s, wps = 34695, train loss = 4.4479
+Iteration 4380, time = 12.15s, wps = 33721, train loss = 4.4154
+Iteration 4400, time = 12.13s, wps = 33758, train loss = 4.4390
+Iteration 4420, time = 12.18s, wps = 33631, train loss = 4.4570
+Iteration 4440, time = 12.21s, wps = 33557, train loss = 4.4156
+Iteration 4460, time = 12.17s, wps = 33645, train loss = 4.4005
+Iteration 4480, time = 12.16s, wps = 33678, train loss = 4.4490
+Iteration 4500, time = 12.18s, wps = 33626, train loss = 4.4003
+Iteration 4520, time = 12.06s, wps = 33954, train loss = 4.3989
+Iteration 4540, time = 12.16s, wps = 33674, train loss = 4.4042
+Iteration 4560, time = 12.19s, wps = 33591, train loss = 4.4034
+Iteration 4580, time = 12.15s, wps = 33726, train loss = 4.4009
+Iteration 4600, time = 12.16s, wps = 33673, train loss = 4.4096
+Iteration 4620, time = 11.94s, wps = 34304, train loss = 4.4297
+Iteration 4640, time = 12.20s, wps = 33586, train loss = 4.3820
+Iteration 4660, time = 12.13s, wps = 33760, train loss = 4.3870
+Iteration 4680, time = 12.15s, wps = 33699, train loss = 4.3743
+Iteration 4700, time = 11.99s, wps = 34168, train loss = 4.3659
+Iteration 4720, time = 12.20s, wps = 33561, train loss = 4.4289
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00008-of-00100
+Finished processing!
+Iteration 4740, time = 14.02s, wps = 29219, train loss = 4.3890
+Iteration 4760, time = 12.04s, wps = 34021, train loss = 4.3761
+Iteration 4780, time = 12.09s, wps = 33878, train loss = 4.4094
+Iteration 4800, time = 12.11s, wps = 33826, train loss = 4.3499
+Iteration 4820, time = 12.20s, wps = 33573, train loss = 4.3865
+Iteration 4840, time = 12.04s, wps = 34018, train loss = 4.3945
+Iteration 4860, time = 12.13s, wps = 33781, train loss = 4.4003
+Iteration 4880, time = 12.15s, wps = 33719, train loss = 4.3998
+Iteration 4900, time = 12.10s, wps = 33862, train loss = 4.3429
+Iteration 4920, time = 15.12s, wps = 27092, train loss = 4.3706
+Iteration 4940, time = 12.10s, wps = 33865, train loss = 4.3639
+Iteration 4960, time = 12.13s, wps = 33768, train loss = 4.3252
+Iteration 4980, time = 12.03s, wps = 34035, train loss = 4.3919
+Iteration 5000, time = 12.13s, wps = 33763, train loss = 4.3537
+Iteration 5020, time = 12.11s, wps = 33822, train loss = 4.3134
+Iteration 5040, time = 12.17s, wps = 33661, train loss = 4.3894
+Iteration 5060, time = 12.10s, wps = 33863, train loss = 4.3096
+Iteration 5080, time = 12.11s, wps = 33811, train loss = 4.3110
+Iteration 5100, time = 12.14s, wps = 33746, train loss = 4.3735
+Iteration 5120, time = 12.15s, wps = 33719, train loss = 4.3218
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00021-of-00100
+Finished processing!
+Iteration 5140, time = 13.96s, wps = 29331, train loss = 4.3452
+Iteration 5160, time = 12.16s, wps = 33695, train loss = 4.3107
+Iteration 5180, time = 12.22s, wps = 33516, train loss = 4.3319
+Iteration 5200, time = 12.21s, wps = 33557, train loss = 4.3596
+Iteration 5220, time = 12.13s, wps = 33768, train loss = 4.3298
+Iteration 5240, time = 12.25s, wps = 33444, train loss = 4.3419
+Iteration 5260, time = 12.14s, wps = 33732, train loss = 4.3498
+Iteration 5280, time = 12.13s, wps = 33769, train loss = 4.2997
+Iteration 5300, time = 12.16s, wps = 33677, train loss = 4.3171
+Iteration 5320, time = 12.20s, wps = 33576, train loss = 4.3326
+Iteration 5340, time = 12.18s, wps = 33636, train loss = 4.3333
+Iteration 5360, time = 12.10s, wps = 33847, train loss = 4.3081
+Iteration 5380, time = 12.19s, wps = 33601, train loss = 4.3127
+Iteration 5400, time = 12.10s, wps = 33853, train loss = 4.3088
+Iteration 5420, time = 12.17s, wps = 33667, train loss = 4.3561
+Iteration 5440, time = 12.25s, wps = 33430, train loss = 4.3609
+Iteration 5460, time = 12.23s, wps = 33491, train loss = 4.2755
+Iteration 5480, time = 12.11s, wps = 33821, train loss = 4.3043
+Iteration 5500, time = 12.06s, wps = 33962, train loss = 4.3225
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00005-of-00100
+Finished processing!
+Iteration 5520, time = 14.00s, wps = 29257, train loss = 4.2734
+Iteration 5540, time = 12.15s, wps = 33708, train loss = 4.3160
+Iteration 5560, time = 12.13s, wps = 33758, train loss = 4.2619
+Iteration 5580, time = 12.15s, wps = 33718, train loss = 4.2907
+Iteration 5600, time = 12.03s, wps = 34056, train loss = 4.2684
+Iteration 5620, time = 12.16s, wps = 33677, train loss = 4.3143
+Iteration 5640, time = 12.15s, wps = 33700, train loss = 4.2430
+Iteration 5660, time = 12.16s, wps = 33696, train loss = 4.2852
+Iteration 5680, time = 11.92s, wps = 34360, train loss = 4.2895
+Iteration 5700, time = 11.99s, wps = 34171, train loss = 4.2879
+Iteration 5720, time = 12.16s, wps = 33680, train loss = 4.2450
+Iteration 5740, time = 12.15s, wps = 33708, train loss = 4.2802
+Iteration 5760, time = 12.21s, wps = 33553, train loss = 4.2721
+Iteration 5780, time = 12.17s, wps = 33657, train loss = 4.3117
+Iteration 5800, time = 11.90s, wps = 34419, train loss = 4.2906
+Iteration 5820, time = 12.13s, wps = 33767, train loss = 4.2544
+Iteration 5840, time = 12.14s, wps = 33742, train loss = 4.2472
+Iteration 5860, time = 12.08s, wps = 33897, train loss = 4.2665
+Iteration 5880, time = 12.09s, wps = 33867, train loss = 4.2557
+Iteration 5900, time = 14.37s, wps = 28513, train loss = 4.2924
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00004-of-00100
+Finished processing!
+Iteration 5920, time = 13.97s, wps = 29327, train loss = 4.2651
+Iteration 5940, time = 12.14s, wps = 33728, train loss = 4.2572
+Iteration 5960, time = 12.19s, wps = 33588, train loss = 4.2801
+Iteration 5980, time = 12.15s, wps = 33722, train loss = 4.2530
+Iteration 6000, time = 12.07s, wps = 33946, train loss = 4.2798
+Iteration 6020, time = 12.14s, wps = 33740, train loss = 4.2719
+Iteration 6040, time = 12.07s, wps = 33934, train loss = 4.2707
+Iteration 6060, time = 12.01s, wps = 34113, train loss = 4.2519
+Iteration 6080, time = 12.13s, wps = 33760, train loss = 4.2369
+Iteration 6100, time = 12.16s, wps = 33696, train loss = 4.2354
+Iteration 6120, time = 12.15s, wps = 33699, train loss = 4.2512
+Iteration 6140, time = 12.08s, wps = 33917, train loss = 4.2023
+Iteration 6160, time = 12.11s, wps = 33830, train loss = 4.2218
+Iteration 6180, time = 12.20s, wps = 33577, train loss = 4.2677
+Iteration 6200, time = 12.12s, wps = 33787, train loss = 4.2247
+Iteration 6220, time = 12.21s, wps = 33550, train loss = 4.2343
+Iteration 6240, time = 12.16s, wps = 33676, train loss = 4.2087
+Iteration 6260, time = 12.13s, wps = 33770, train loss = 4.2491
+Iteration 6280, time = 12.09s, wps = 33874, train loss = 4.2368
+Iteration 6300, time = 12.06s, wps = 33956, train loss = 4.2574
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00019-of-00100
+Finished processing!
+Iteration 6320, time = 14.12s, wps = 29007, train loss = 4.2561
+Iteration 6340, time = 11.93s, wps = 34346, train loss = 4.2367
+Iteration 6360, time = 12.10s, wps = 33846, train loss = 4.2455
+Iteration 6380, time = 12.14s, wps = 33739, train loss = 4.2818
+Iteration 6400, time = 12.11s, wps = 33836, train loss = 4.2507
+Iteration 6420, time = 11.96s, wps = 34255, train loss = 4.2389
+Iteration 6440, time = 12.02s, wps = 34087, train loss = 4.2321
+Iteration 6460, time = 12.13s, wps = 33778, train loss = 4.2593
+Iteration 6480, time = 12.00s, wps = 34146, train loss = 4.1993
+Iteration 6500, time = 12.09s, wps = 33884, train loss = 4.2351
+Iteration 6520, time = 12.16s, wps = 33676, train loss = 4.2181
+Iteration 6540, time = 12.11s, wps = 33813, train loss = 4.2286
+Iteration 6560, time = 12.16s, wps = 33687, train loss = 4.2225
+Iteration 6580, time = 12.16s, wps = 33690, train loss = 4.2266
+Iteration 6600, time = 12.10s, wps = 33852, train loss = 4.2346
+Iteration 6620, time = 12.14s, wps = 33738, train loss = 4.1943
+Iteration 6640, time = 12.21s, wps = 33549, train loss = 4.1917
+Iteration 6660, time = 12.14s, wps = 33728, train loss = 4.2508
+Iteration 6680, time = 12.16s, wps = 33681, train loss = 4.2166
+Iteration 6700, time = 12.10s, wps = 33863, train loss = 4.2279
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00026-of-00100
+Finished processing!
+Iteration 6720, time = 14.00s, wps = 29251, train loss = 4.1924
+Iteration 6740, time = 12.09s, wps = 33893, train loss = 4.2291
+Iteration 6760, time = 11.90s, wps = 34427, train loss = 4.2007
+Iteration 6780, time = 12.12s, wps = 33786, train loss = 4.2204
+Iteration 6800, time = 12.19s, wps = 33605, train loss = 4.2059
+Iteration 6820, time = 11.97s, wps = 34219, train loss = 4.2201
+Iteration 6840, time = 12.09s, wps = 33875, train loss = 4.2217
+Iteration 6860, time = 12.21s, wps = 33534, train loss = 4.1762
+Iteration 6880, time = 14.21s, wps = 28817, train loss = 4.1766
+Iteration 6900, time = 12.07s, wps = 33945, train loss = 4.1565
+Iteration 6920, time = 12.19s, wps = 33596, train loss = 4.2161
+Iteration 6940, time = 12.19s, wps = 33615, train loss = 4.2003
+Iteration 6960, time = 11.99s, wps = 34153, train loss = 4.2043
+Iteration 6980, time = 12.01s, wps = 34106, train loss = 4.1610
+Iteration 7000, time = 12.16s, wps = 33673, train loss = 4.1672
+Iteration 7020, time = 11.94s, wps = 34316, train loss = 4.2247
+Iteration 7040, time = 12.13s, wps = 33769, train loss = 4.1676
+Iteration 7060, time = 12.15s, wps = 33725, train loss = 4.1769
+Iteration 7080, time = 12.13s, wps = 33759, train loss = 4.1885
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00013-of-00100
+Finished processing!
+Iteration 7100, time = 13.89s, wps = 29484, train loss = 4.1628
+Iteration 7120, time = 12.00s, wps = 34123, train loss = 4.1714
+Iteration 7140, time = 12.02s, wps = 34075, train loss = 4.2498
+Iteration 7160, time = 12.07s, wps = 33939, train loss = 4.1773
+Iteration 7180, time = 12.12s, wps = 33806, train loss = 4.1866
+Iteration 7200, time = 12.06s, wps = 33959, train loss = 4.1364
+Iteration 7220, time = 12.06s, wps = 33974, train loss = 4.1729
+Iteration 7240, time = 12.05s, wps = 33992, train loss = 4.1568
+Iteration 7260, time = 12.11s, wps = 33836, train loss = 4.2063
+Iteration 7280, time = 12.16s, wps = 33675, train loss = 4.2008
+Iteration 7300, time = 12.01s, wps = 34101, train loss = 4.1805
+Iteration 7320, time = 12.11s, wps = 33819, train loss = 4.1622
+Iteration 7340, time = 12.05s, wps = 33997, train loss = 4.1977
+Iteration 7360, time = 12.06s, wps = 33954, train loss = 4.1809
+Iteration 7380, time = 12.05s, wps = 33993, train loss = 4.1666
+Iteration 7400, time = 12.03s, wps = 34050, train loss = 4.1342
+Iteration 7420, time = 12.13s, wps = 33761, train loss = 4.1914
+Iteration 7440, time = 12.11s, wps = 33822, train loss = 4.1463
+Iteration 7460, time = 11.95s, wps = 34272, train loss = 4.1750
+Iteration 7480, time = 12.06s, wps = 33963, train loss = 4.2036
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00024-of-00100
+Finished processing!
+Iteration 7500, time = 13.97s, wps = 29320, train loss = 4.1442
+Iteration 7520, time = 12.15s, wps = 33703, train loss = 4.1774
+Iteration 7540, time = 12.04s, wps = 34009, train loss = 4.1358
+Iteration 7560, time = 12.11s, wps = 33822, train loss = 4.1509
+Iteration 7580, time = 12.12s, wps = 33803, train loss = 4.1630
+Iteration 7600, time = 12.15s, wps = 33718, train loss = 4.1177
+Iteration 7620, time = 12.02s, wps = 34068, train loss = 4.1476
+Iteration 7640, time = 12.18s, wps = 33619, train loss = 4.1656
+Iteration 7660, time = 12.14s, wps = 33747, train loss = 4.1269
+Iteration 7680, time = 12.08s, wps = 33898, train loss = 4.1689
+Iteration 7700, time = 12.04s, wps = 34020, train loss = 4.1480
+Iteration 7720, time = 11.94s, wps = 34315, train loss = 4.1487
+Iteration 7740, time = 12.08s, wps = 33909, train loss = 4.1329
+Iteration 7760, time = 12.01s, wps = 34110, train loss = 4.1345
+Iteration 7780, time = 12.13s, wps = 33776, train loss = 4.1391
+Iteration 7800, time = 12.13s, wps = 33769, train loss = 4.0986
+Iteration 7820, time = 12.09s, wps = 33877, train loss = 4.1795
+Iteration 7840, time = 12.20s, wps = 33586, train loss = 4.1699
+Iteration 7860, time = 15.29s, wps = 26786, train loss = 4.1546
+Iteration 7880, time = 12.09s, wps = 33873, train loss = 4.1427
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00020-of-00100
+Finished processing!
+Iteration 7900, time = 14.02s, wps = 29219, train loss = 4.1398
+Iteration 7920, time = 12.01s, wps = 34098, train loss = 4.1483
+Iteration 7940, time = 12.11s, wps = 33828, train loss = 4.1555
+Iteration 7960, time = 12.25s, wps = 33437, train loss = 4.1188
+Iteration 7980, time = 12.26s, wps = 33421, train loss = 4.1142
+Iteration 8000, time = 12.13s, wps = 33764, train loss = 4.1401
+Iteration 8020, time = 12.10s, wps = 33841, train loss = 4.1323
+Iteration 8040, time = 12.07s, wps = 33946, train loss = 4.0962
+Iteration 8060, time = 11.85s, wps = 34558, train loss = 4.1261
+Iteration 8080, time = 12.06s, wps = 33965, train loss = 4.1057
+Iteration 8100, time = 12.02s, wps = 34071, train loss = 4.1231
+Iteration 8120, time = 11.92s, wps = 34361, train loss = 4.0934
+Iteration 8140, time = 12.07s, wps = 33947, train loss = 4.1638
+Iteration 8160, time = 12.13s, wps = 33760, train loss = 4.1094
+Iteration 8180, time = 12.10s, wps = 33859, train loss = 4.1030
+Iteration 8200, time = 12.15s, wps = 33715, train loss = 4.1054
+Iteration 8220, time = 12.07s, wps = 33946, train loss = 4.1210
+Iteration 8240, time = 12.05s, wps = 33993, train loss = 4.1258
+Iteration 8260, time = 12.07s, wps = 33939, train loss = 4.1441
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00007-of-00100
+Finished processing!
+Iteration 8280, time = 14.03s, wps = 29196, train loss = 4.1497
+Iteration 8300, time = 12.11s, wps = 33830, train loss = 4.1286
+Iteration 8320, time = 12.11s, wps = 33811, train loss = 4.1281
+Iteration 8340, time = 12.10s, wps = 33851, train loss = 4.0629
+Iteration 8360, time = 12.10s, wps = 33856, train loss = 4.0926
+Iteration 8380, time = 12.01s, wps = 34106, train loss = 4.1349
+Iteration 8400, time = 12.02s, wps = 34063, train loss = 4.0642
+Iteration 8420, time = 12.10s, wps = 33846, train loss = 4.1046
+Iteration 8440, time = 12.08s, wps = 33900, train loss = 4.0987
+Iteration 8460, time = 12.09s, wps = 33885, train loss = 4.1312
+Iteration 8480, time = 12.12s, wps = 33806, train loss = 4.1056
+Iteration 8500, time = 12.08s, wps = 33896, train loss = 4.1336
+Iteration 8520, time = 12.13s, wps = 33759, train loss = 4.1084
+Iteration 8540, time = 12.05s, wps = 33996, train loss = 4.1254
+Iteration 8560, time = 12.14s, wps = 33746, train loss = 4.0854
+Iteration 8580, time = 12.14s, wps = 33727, train loss = 4.1264
+Iteration 8600, time = 12.03s, wps = 34042, train loss = 4.1160
+Iteration 8620, time = 12.10s, wps = 33843, train loss = 4.0974
+Iteration 8640, time = 12.10s, wps = 33864, train loss = 4.0954
+Iteration 8660, time = 12.10s, wps = 33858, train loss = 4.0622
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00006-of-00100
+Finished processing!
+Iteration 8680, time = 13.83s, wps = 29611, train loss = 4.0911
+Iteration 8700, time = 12.00s, wps = 34140, train loss = 4.1044
+Iteration 8720, time = 12.10s, wps = 33841, train loss = 4.1485
+Iteration 8740, time = 12.08s, wps = 33910, train loss = 4.0916
+Iteration 8760, time = 12.11s, wps = 33812, train loss = 4.0874
+Iteration 8780, time = 12.10s, wps = 33861, train loss = 4.1580
+Iteration 8800, time = 12.08s, wps = 33919, train loss = 4.0788
+Iteration 8820, time = 12.03s, wps = 34035, train loss = 4.0928
+Iteration 8840, time = 15.01s, wps = 27294, train loss = 4.0868
+Iteration 8860, time = 12.09s, wps = 33882, train loss = 4.0917
+Iteration 8880, time = 12.17s, wps = 33658, train loss = 4.1040
+Iteration 8900, time = 12.12s, wps = 33790, train loss = 4.1197
+Iteration 8920, time = 12.10s, wps = 33851, train loss = 4.0679
+Iteration 8940, time = 12.15s, wps = 33707, train loss = 4.1054
+Iteration 8960, time = 12.13s, wps = 33763, train loss = 4.0722
+Iteration 8980, time = 12.11s, wps = 33835, train loss = 4.0833
+Iteration 9000, time = 12.05s, wps = 34001, train loss = 4.1272
+Iteration 9020, time = 12.01s, wps = 34102, train loss = 4.0742
+Iteration 9040, time = 12.05s, wps = 34001, train loss = 4.0697
+Iteration 9060, time = 12.07s, wps = 33949, train loss = 4.0729
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00001-of-00100
+Finished processing!
+Iteration 9080, time = 13.90s, wps = 29474, train loss = 4.0890
+Iteration 9100, time = 12.12s, wps = 33800, train loss = 4.0415
+Iteration 9120, time = 12.10s, wps = 33851, train loss = 4.0713
+Iteration 9140, time = 12.05s, wps = 34004, train loss = 4.0979
+Iteration 9160, time = 12.10s, wps = 33865, train loss = 4.0782
+Iteration 9180, time = 12.10s, wps = 33861, train loss = 4.0405
+Iteration 9200, time = 12.11s, wps = 33818, train loss = 4.0867
+Iteration 9220, time = 12.10s, wps = 33863, train loss = 4.0894
+Iteration 9240, time = 12.16s, wps = 33690, train loss = 4.1014
+Iteration 9260, time = 12.02s, wps = 34078, train loss = 4.0702
+Iteration 9280, time = 12.13s, wps = 33774, train loss = 4.0607
+Iteration 9300, time = 12.08s, wps = 33894, train loss = 4.0578
+Iteration 9320, time = 11.91s, wps = 34377, train loss = 4.0606
+Iteration 9340, time = 12.05s, wps = 33983, train loss = 4.0932
+Iteration 9360, time = 12.01s, wps = 34103, train loss = 4.0859
+Iteration 9380, time = 12.04s, wps = 34027, train loss = 4.0814
+Iteration 9400, time = 12.08s, wps = 33893, train loss = 4.0425
+Iteration 9420, time = 12.10s, wps = 33851, train loss = 4.0917
+Iteration 9440, time = 11.96s, wps = 34238, train loss = 4.0669
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00029-of-00100
+Finished processing!
+Iteration 9460, time = 14.08s, wps = 29091, train loss = 4.0556
+Iteration 9480, time = 11.99s, wps = 34174, train loss = 4.0902
+Iteration 9500, time = 11.90s, wps = 34407, train loss = 4.0487
+Iteration 9520, time = 12.06s, wps = 33962, train loss = 4.0554
+Iteration 9540, time = 12.03s, wps = 34060, train loss = 4.0656
+Iteration 9560, time = 12.05s, wps = 33991, train loss = 4.0903
+Iteration 9580, time = 12.00s, wps = 34141, train loss = 4.0719
+Iteration 9600, time = 12.05s, wps = 33996, train loss = 4.0575
+Iteration 9620, time = 11.82s, wps = 34644, train loss = 4.0979
+Iteration 9640, time = 12.08s, wps = 33918, train loss = 4.0595
+Iteration 9660, time = 12.18s, wps = 33638, train loss = 4.0891
+Iteration 9680, time = 11.97s, wps = 34228, train loss = 4.0786
+Iteration 9700, time = 12.12s, wps = 33806, train loss = 4.0059
+Iteration 9720, time = 11.96s, wps = 34240, train loss = 4.0605
+Iteration 9740, time = 12.14s, wps = 33728, train loss = 4.0798
+Iteration 9760, time = 12.09s, wps = 33876, train loss = 4.0737
+Iteration 9780, time = 12.06s, wps = 33973, train loss = 4.0617
+Iteration 9800, time = 12.20s, wps = 33561, train loss = 4.0880
+Iteration 9820, time = 15.36s, wps = 26669, train loss = 4.0288
+Iteration 9840, time = 12.24s, wps = 33457, train loss = 4.0455
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00025-of-00100
+Finished processing!
+Iteration 9860, time = 14.16s, wps = 28925, train loss = 4.0754
+Iteration 9880, time = 12.19s, wps = 33614, train loss = 4.0377
+Iteration 9900, time = 11.96s, wps = 34237, train loss = 4.0359
+Iteration 9920, time = 12.17s, wps = 33663, train loss = 4.0949
+Iteration 9940, time = 12.19s, wps = 33609, train loss = 4.0307
+Iteration 9960, time = 12.13s, wps = 33776, train loss = 4.0202
+Iteration 9980, time = 12.15s, wps = 33715, train loss = 4.0575
+Iteration 10000, time = 12.19s, wps = 33602, train loss = 4.0333
+Iteration 10020, time = 12.05s, wps = 33988, train loss = 4.0219
+Iteration 10040, time = 12.14s, wps = 33753, train loss = 4.0586
+Iteration 10060, time = 12.23s, wps = 33492, train loss = 4.0942
+Iteration 10080, time = 12.23s, wps = 33495, train loss = 4.0807
+Iteration 10100, time = 12.18s, wps = 33623, train loss = 4.0361
+Iteration 10120, time = 12.13s, wps = 33769, train loss = 3.9945
+Iteration 10140, time = 12.14s, wps = 33747, train loss = 4.0574
+Iteration 10160, time = 12.13s, wps = 33769, train loss = 4.0453
+Iteration 10180, time = 12.20s, wps = 33578, train loss = 4.0439
+Iteration 10200, time = 12.13s, wps = 33771, train loss = 4.0349
+Iteration 10220, time = 12.05s, wps = 33990, train loss = 4.0539
+Iteration 10240, time = 11.98s, wps = 34188, train loss = 4.0340
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00022-of-00100
+Finished processing!
+Iteration 10260, time = 13.98s, wps = 29301, train loss = 4.0313
+Iteration 10280, time = 12.01s, wps = 34112, train loss = 4.0411
+Iteration 10300, time = 12.21s, wps = 33556, train loss = 4.0847
+Iteration 10320, time = 12.25s, wps = 33449, train loss = 4.0077
+Iteration 10340, time = 12.16s, wps = 33690, train loss = 4.0458
+Iteration 10360, time = 12.20s, wps = 33565, train loss = 3.9916
+Iteration 10380, time = 12.05s, wps = 33988, train loss = 4.0352
+Iteration 10400, time = 12.23s, wps = 33487, train loss = 4.0680
+Iteration 10420, time = 12.16s, wps = 33673, train loss = 4.0202
+Iteration 10440, time = 12.13s, wps = 33766, train loss = 4.0515
+Iteration 10460, time = 12.03s, wps = 34047, train loss = 4.0089
+Iteration 10480, time = 12.18s, wps = 33627, train loss = 3.9837
+Iteration 10500, time = 12.20s, wps = 33585, train loss = 4.0331
+Iteration 10520, time = 12.26s, wps = 33410, train loss = 4.0229
+Iteration 10540, time = 12.08s, wps = 33909, train loss = 4.0197
+Iteration 10560, time = 12.06s, wps = 33961, train loss = 3.9805
+Iteration 10580, time = 12.02s, wps = 34067, train loss = 4.0472
+Iteration 10600, time = 12.12s, wps = 33788, train loss = 4.0150
+Iteration 10620, time = 12.11s, wps = 33813, train loss = 4.0569
+Iteration 10640, time = 12.12s, wps = 33790, train loss = 4.0364
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00017-of-00100
+Finished processing!
+Iteration 10660, time = 13.89s, wps = 29493, train loss = 4.0308
+Iteration 10680, time = 12.07s, wps = 33940, train loss = 3.9948
+Iteration 10700, time = 12.09s, wps = 33884, train loss = 4.0926
+Iteration 10720, time = 12.07s, wps = 33922, train loss = 4.0528
+Iteration 10740, time = 12.04s, wps = 34007, train loss = 4.0226
+Iteration 10760, time = 12.05s, wps = 33996, train loss = 4.0185
+Iteration 10780, time = 13.13s, wps = 31207, train loss = 4.0386
+Iteration 10800, time = 14.71s, wps = 27842, train loss = 4.0108
+Iteration 10820, time = 12.06s, wps = 33960, train loss = 4.0210
+Iteration 10840, time = 11.82s, wps = 34659, train loss = 4.0496
+Iteration 10860, time = 12.07s, wps = 33929, train loss = 4.0215
+Iteration 10880, time = 12.06s, wps = 33971, train loss = 4.0356
+Iteration 10900, time = 12.15s, wps = 33721, train loss = 4.0443
+Iteration 10920, time = 12.06s, wps = 33951, train loss = 4.0197
+Iteration 10940, time = 12.09s, wps = 33875, train loss = 4.0526
+Iteration 10960, time = 12.08s, wps = 33905, train loss = 4.0691
+Iteration 10980, time = 12.12s, wps = 33792, train loss = 4.0719
+Iteration 11000, time = 11.98s, wps = 34184, train loss = 4.0350
+Iteration 11020, time = 12.13s, wps = 33775, train loss = 4.0092
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00018-of-00100
+Finished processing!
+Iteration 11040, time = 14.00s, wps = 29253, train loss = 4.0518
+Iteration 11060, time = 11.92s, wps = 34358, train loss = 3.9968
+Iteration 11080, time = 12.13s, wps = 33764, train loss = 3.9912
+Iteration 11100, time = 12.08s, wps = 33914, train loss = 4.0051
+Iteration 11120, time = 12.14s, wps = 33747, train loss = 3.9665
+Iteration 11140, time = 11.99s, wps = 34158, train loss = 4.0063
+Iteration 11160, time = 12.16s, wps = 33689, train loss = 4.0438
+Iteration 11180, time = 11.95s, wps = 34267, train loss = 4.0222
+Iteration 11200, time = 12.06s, wps = 33970, train loss = 4.0231
+Iteration 11220, time = 12.13s, wps = 33767, train loss = 4.0145
+Iteration 11240, time = 11.98s, wps = 34180, train loss = 3.9897
+Iteration 11260, time = 12.15s, wps = 33725, train loss = 3.9951
+Iteration 11280, time = 12.13s, wps = 33771, train loss = 3.9907
+Iteration 11300, time = 12.10s, wps = 33848, train loss = 4.0267
+Iteration 11320, time = 12.17s, wps = 33668, train loss = 3.9930
+Iteration 11340, time = 12.13s, wps = 33772, train loss = 4.0568
+Iteration 11360, time = 12.14s, wps = 33735, train loss = 4.0184
+Iteration 11380, time = 12.10s, wps = 33855, train loss = 4.0390
+Iteration 11400, time = 12.08s, wps = 33916, train loss = 4.0035
+Iteration 11420, time = 12.10s, wps = 33843, train loss = 4.0042
+haibin: a new epoch just started
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00028-of-00100
+Finished processing!
+Iteration 11440, time = 14.03s, wps = 29195, train loss = 3.9994
+Iteration 11460, time = 12.03s, wps = 34048, train loss = 3.9656
+Iteration 11480, time = 12.04s, wps = 34027, train loss = 3.9834
+Iteration 11500, time = 12.12s, wps = 33797, train loss = 3.9763
+Iteration 11520, time = 11.90s, wps = 34420, train loss = 4.0046
+Iteration 11540, time = 12.04s, wps = 34020, train loss = 4.0529
+Iteration 11560, time = 12.08s, wps = 33899, train loss = 3.9920
+Iteration 11580, time = 12.14s, wps = 33751, train loss = 3.9975
+Iteration 11600, time = 12.06s, wps = 33956, train loss = 4.0088
+Iteration 11620, time = 11.99s, wps = 34172, train loss = 3.9621
+Iteration 11640, time = 12.07s, wps = 33928, train loss = 4.0209
+Iteration 11660, time = 12.09s, wps = 33866, train loss = 3.9999
+Iteration 11680, time = 12.08s, wps = 33896, train loss = 3.9693
+Iteration 11700, time = 12.26s, wps = 33421, train loss = 3.9626
+Iteration 11720, time = 12.12s, wps = 33807, train loss = 4.0144
+Iteration 11740, time = 12.02s, wps = 34082, train loss = 4.0111
+Iteration 11760, time = 12.13s, wps = 33774, train loss = 4.0046
+Iteration 11780, time = 14.20s, wps = 28848, train loss = 3.9852
+Iteration 11800, time = 12.08s, wps = 33903, train loss = 4.0021
+Iteration 11820, time = 12.09s, wps = 33892, train loss = 4.0429
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00011-of-00100
+Finished processing!
+Iteration 11840, time = 14.08s, wps = 29088, train loss = 3.9568
+Iteration 11860, time = 12.18s, wps = 33633, train loss = 3.9679
+Iteration 11880, time = 12.06s, wps = 33966, train loss = 3.9826
+Iteration 11900, time = 12.13s, wps = 33778, train loss = 4.0116
+Iteration 11920, time = 12.23s, wps = 33480, train loss = 3.9802
+Iteration 11940, time = 12.13s, wps = 33777, train loss = 4.0045
+Iteration 11960, time = 12.08s, wps = 33915, train loss = 4.0283
+Iteration 11980, time = 12.19s, wps = 33610, train loss = 3.9654
+Iteration 12000, time = 12.13s, wps = 33764, train loss = 4.0030
+Iteration 12020, time = 12.12s, wps = 33789, train loss = 3.9607
+Iteration 12040, time = 12.13s, wps = 33765, train loss = 3.9988
+Iteration 12060, time = 11.97s, wps = 34223, train loss = 3.9608
+Iteration 12080, time = 12.15s, wps = 33722, train loss = 4.0012
+Iteration 12100, time = 12.13s, wps = 33765, train loss = 3.9886
+Iteration 12120, time = 12.17s, wps = 33663, train loss = 3.9484
+Iteration 12140, time = 12.17s, wps = 33665, train loss = 3.9614
+Iteration 12160, time = 12.12s, wps = 33802, train loss = 3.9932
+Iteration 12180, time = 12.26s, wps = 33405, train loss = 3.9626
+Iteration 12200, time = 12.15s, wps = 33715, train loss = 3.9662
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00029-of-00100
+Finished processing!
+Iteration 12220, time = 14.04s, wps = 29173, train loss = 3.9170
+Iteration 12240, time = 12.02s, wps = 34084, train loss = 3.9242
+Iteration 12260, time = 12.16s, wps = 33675, train loss = 3.8807
+Iteration 12280, time = 12.01s, wps = 34116, train loss = 3.9236
+Iteration 12300, time = 12.11s, wps = 33829, train loss = 3.9192
+Iteration 12320, time = 11.95s, wps = 34270, train loss = 3.8887
+Iteration 12340, time = 12.07s, wps = 33936, train loss = 3.9092
+Iteration 12360, time = 12.17s, wps = 33656, train loss = 3.9373
+Iteration 12380, time = 12.22s, wps = 33525, train loss = 3.9021
+Iteration 12400, time = 12.24s, wps = 33465, train loss = 3.8985
+Iteration 12420, time = 12.25s, wps = 33436, train loss = 3.9100
+Iteration 12440, time = 12.14s, wps = 33726, train loss = 3.9174
+Iteration 12460, time = 12.08s, wps = 33900, train loss = 3.9169
+Iteration 12480, time = 12.09s, wps = 33892, train loss = 3.9435
+Iteration 12500, time = 11.99s, wps = 34175, train loss = 3.9228
+Iteration 12520, time = 11.98s, wps = 34184, train loss = 3.9136
+Iteration 12540, time = 12.02s, wps = 34077, train loss = 3.8970
+Iteration 12560, time = 12.12s, wps = 33789, train loss = 3.8965
+Iteration 12580, time = 12.13s, wps = 33764, train loss = 3.8744
+Iteration 12600, time = 12.05s, wps = 33983, train loss = 3.9245
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00023-of-00100
+Finished processing!
+Iteration 12620, time = 14.17s, wps = 28916, train loss = 3.9797
+Iteration 12640, time = 12.25s, wps = 33439, train loss = 3.9321
+Iteration 12660, time = 12.18s, wps = 33641, train loss = 3.9233
+Iteration 12680, time = 12.04s, wps = 34017, train loss = 3.9668
+Iteration 12700, time = 12.05s, wps = 33983, train loss = 3.9890
+Iteration 12720, time = 12.07s, wps = 33946, train loss = 3.9551
+Iteration 12740, time = 12.68s, wps = 32298, train loss = 3.9616
+Iteration 12760, time = 13.26s, wps = 30896, train loss = 3.9569
+Iteration 12780, time = 12.03s, wps = 34053, train loss = 3.9833
+Iteration 12800, time = 11.92s, wps = 34361, train loss = 3.9420
+Iteration 12820, time = 12.10s, wps = 33855, train loss = 3.9187
+Iteration 12840, time = 12.16s, wps = 33685, train loss = 3.9578
+Iteration 12860, time = 12.16s, wps = 33673, train loss = 3.9882
+Iteration 12880, time = 12.08s, wps = 33920, train loss = 3.9908
+Iteration 12900, time = 11.99s, wps = 34153, trI tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 1603992 get requests, put_count=1603992 evicted_count=2000 eviction_rate=0.00124689 and unsatisfied allocation rate=0.00132607
+ain loss = 3.9475
+Iteration 12920, time = 12.11s, wps = 33822, train loss = 3.9218
+Iteration 12940, time = 12.08s, wps = 33912, train loss = 3.9616
+Iteration 12960, time = 11.81s, wps = 34683, train loss = 3.9908
+Iteration 12980, time = 12.10s, wps = 33848, train loss = 3.9435
+Iteration 13000, time = 12.13s, wps = 33770, train loss = 3.9373
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00004-of-00100
+Finished processing!
+Iteration 13020, time = 14.04s, wps = 29170, train loss = 3.9370
+Iteration 13040, time = 12.18s, wps = 33642, train loss = 3.8961
+Iteration 13060, time = 12.08s, wps = 33915, train loss = 3.9660
+Iteration 13080, time = 12.05s, wps = 33995, train loss = 3.9570
+Iteration 13100, time = 12.12s, wps = 33806, train loss = 3.9570
+Iteration 13120, time = 11.85s, wps = 34565, train loss = 3.9674
+Iteration 13140, time = 12.02s, wps = 34078, train loss = 3.9309
+Iteration 13160, time = 12.03s, wps = 34056, train loss = 3.9067
+Iteration 13180, time = 12.09s, wps = 33883, train loss = 3.9038
+Iteration 13200, time = 12.16s, wps = 33684, train loss = 3.9345
+Iteration 13220, time = 12.11s, wps = 33820, train loss = 3.8893
+Iteration 13240, time = 12.07s, wps = 33924, train loss = 3.8908
+Iteration 13260, time = 12.14s, wps = 33740, train loss = 3.9297
+Iteration 13280, time = 12.09s, wps = 33881, train loss = 3.9270
+Iteration 13300, time = 12.13s, wps = 33759, train loss = 3.9280
+Iteration 13320, time = 12.10s, wps = 33865, train loss = 3.9341
+Iteration 13340, time = 11.91s, wps = 34399, train loss = 3.9047
+Iteration 13360, time = 12.01s, wps = 34107, train loss = 3.9285
+Iteration 13380, time = 12.14s, wps = 33753, train loss = 3.8998
+Iteration 13400, time = 12.05s, wps = 33998, train loss = 3.9437
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00016-of-00100
+Finished processing!
+Iteration 13420, time = 13.99s, wps = 29275, train loss = 3.9035
+Iteration 13440, time = 12.09s, wps = 33891, train loss = 3.9531
+Iteration 13460, time = 12.08s, wps = 33900, train loss = 3.9090
+Iteration 13480, time = 12.06s, wps = 33953, train loss = 3.9187
+Iteration 13500, time = 11.99s, wps = 34158, train loss = 4.0142
+Iteration 13520, time = 12.07s, wps = 33944, train loss = 3.9496
+Iteration 13540, time = 12.06s, wps = 33977, train loss = 3.9213
+Iteration 13560, time = 12.10s, wps = 33851, train loss = 3.9169
+Iteration 13580, time = 11.98s, wps = 34187, train loss = 3.9753
+Iteration 13600, time = 12.06s, wps = 33952, train loss = 3.9170
+Iteration 13620, time = 12.18s, wps = 33626, train loss = 3.9062
+Iteration 13640, time = 12.11s, wps = 33821, train loss = 3.9114
+Iteration 13660, time = 12.08s, wps = 33897, train loss = 3.9448
+Iteration 13680, time = 12.11s, wps = 33837, train loss = 3.9741
+Iteration 13700, time = 12.12s, wps = 33794, train loss = 3.9620
+Iteration 13720, time = 12.13s, wps = 33766, train loss = 3.9045
+Iteration 13740, time = 15.25s, wps = 26853, train loss = 3.9086
+Iteration 13760, time = 12.10s, wps = 33854, train loss = 3.9021
+Iteration 13780, time = 12.16s, wps = 33694, train loss = 3.9138
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00009-of-00100
+Finished processing!
+Iteration 13800, time = 13.89s, wps = 29498, train loss = 3.9282
+Iteration 13820, time = 12.07s, wps = 33939, train loss = 3.9642
+Iteration 13840, time = 12.08s, wps = 33914, train loss = 3.9323
+Iteration 13860, time = 11.95s, wps = 34279, train loss = 3.9854
+Iteration 13880, time = 11.85s, wps = 34569, train loss = 3.9152
+Iteration 13900, time = 12.22s, wps = 33524, train loss = 3.9612
+Iteration 13920, time = 12.14s, wps = 33730, train loss = 3.9600
+Iteration 13940, time = 12.10s, wps = 33844, train loss = 3.9454
+Iteration 13960, time = 12.10s, wps = 33848, train loss = 3.8990
+Iteration 13980, time = 11.94s, wps = 34293, train loss = 3.9649
+Iteration 14000, time = 11.96s, wps = 34235, train loss = 3.9732
+Iteration 14020, time = 12.11s, wps = 33827, train loss = 3.9267
+Iteration 14040, time = 11.96s, wps = 34242, train loss = 3.9340
+Iteration 14060, time = 11.94s, wps = 34310, train loss = 3.9725
+Iteration 14080, time = 12.15s, wps = 33716, train loss = 3.9407
+Iteration 14100, time = 12.06s, wps = 33977, train loss = 3.9357
+Iteration 14120, time = 12.13s, wps = 33760, train loss = 3.9056
+Iteration 14140, time = 12.23s, wps = 33501, train loss = 3.9089
+Iteration 14160, time = 12.10s, wps = 33858, train loss = 3.9378
+Iteration 14180, time = 12.05s, wps = 33979, train loss = 3.9237
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00005-of-00100
+Finished processing!
+Iteration 14200, time = 14.13s, wps = 28994, train loss = 3.9055
+Iteration 14220, time = 11.86s, wps = 34539, train loss = 3.9444
+Iteration 14240, time = 12.07s, wps = 33935, train loss = 3.9472
+Iteration 14260, time = 12.06s, wps = 33977, train loss = 3.9024
+Iteration 14280, time = 12.03s, wps = 34046, train loss = 3.9048
+Iteration 14300, time = 12.01s, wps = 34101, train loss = 3.9306
+Iteration 14320, time = 12.11s, wps = 33824, train loss = 3.8936
+Iteration 14340, time = 12.14s, wps = 33740, train loss = 3.9036
+Iteration 14360, time = 12.11s, wps = 33830, train loss = 3.9166
+Iteration 14380, time = 12.11s, wps = 33812, train loss = 3.8742
+Iteration 14400, time = 12.12s, wps = 33801, train loss = 3.9175
+Iteration 14420, time = 12.08s, wps = 33893, train loss = 3.8944
+Iteration 14440, time = 12.02s, wps = 34079, train loss = 3.9106
+Iteration 14460, time = 12.01s, wps = 34118, train loss = 3.9346
+Iteration 14480, time = 11.82s, wps = 34656, train loss = 3.8949
+Iteration 14500, time = 12.16s, wps = 33691, train loss = 3.8808
+Iteration 14520, time = 11.96s, wps = 34249, train loss = 3.8963
+Iteration 14540, time = 12.00s, wps = 34127, train loss = 3.9099
+Iteration 14560, time = 12.03s, wps = 34057, train loss = 3.9272
+Iteration 14580, time = 12.00s, wps = 34129, train loss = 3.9187
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00006-of-00100
+Finished processing!
+Iteration 14600, time = 14.13s, wps = 28982, train loss = 3.8858
+Iteration 14620, time = 12.03s, wps = 34035, train loss = 3.8756
+Iteration 14640, time = 12.06s, wps = 33968, train loss = 3.8814
+Iteration 14660, time = 12.10s, wps = 33849, train loss = 3.8658
+Iteration 14680, time = 12.09s, wps = 33874, train loss = 3.8614
+Iteration 14700, time = 12.07s, wps = 33925, train loss = 3.8927
+Iteration 14720, time = 14.34s, wps = 28559, train loss = 3.9284
+Iteration 14740, time = 12.13s, wps = 33762, train loss = 3.9216
+Iteration 14760, time = 12.09s, wps = 33866, train loss = 3.8757
+Iteration 14780, time = 12.16s, wps = 33685, train loss = 3.8800
+Iteration 14800, time = 12.20s, wps = 33577, train loss = 3.8760
+Iteration 14820, time = 12.05s, wps = 34006, train loss = 3.8933
+Iteration 14840, time = 12.18s, wps = 33640, train loss = 3.8906
+Iteration 14860, time = 12.10s, wps = 33861, train loss = 3.8810
+Iteration 14880, time = 12.18s, wps = 33618, train loss = 3.8728
+Iteration 14900, time = 11.89s, wps = 34460, train loss = 3.9106
+Iteration 14920, time = 12.00s, wps = 34126, train loss = 3.8770
+Iteration 14940, time = 12.02s, wps = 34063, train loss = 3.8916
+Iteration 14960, time = 12.08s, wps = 33908, train loss = 3.8593
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00002-of-00100
+Finished processing!
+Iteration 14980, time = 14.06s, wps = 29130, train loss = 3.9499
+Iteration 15000, time = 12.03s, wps = 34053, train loss = 3.8908
+Iteration 15020, time = 12.10s, wps = 33864, train loss = 3.9268
+Iteration 15040, time = 12.05s, wps = 33991, train loss = 3.9517
+Iteration 15060, time = 12.12s, wps = 33799, train loss = 3.9492
+Iteration 15080, time = 12.15s, wps = 33720, train loss = 3.9512
+Iteration 15100, time = 12.10s, wps = 33842, train loss = 3.9244
+Iteration 15120, time = 12.13s, wps = 33777, train loss = 3.9410
+Iteration 15140, time = 12.18s, wps = 33620, train loss = 3.9373
+Iteration 15160, time = 12.15s, wps = 33716, train loss = 3.8954
+Iteration 15180, time = 12.05s, wps = 33986, train loss = 3.8691
+Iteration 15200, time = 12.11s, wps = 33832, train loss = 3.9074
+Iteration 15220, time = 12.13s, wps = 33778, train loss = 3.8963
+Iteration 15240, time = 12.14s, wps = 33727, train loss = 3.9105
+Iteration 15260, time = 12.09s, wps = 33889, train loss = 3.9527
+Iteration 15280, time = 12.08s, wps = 33912, train loss = 3.8722
+Iteration 15300, time = 12.13s, wps = 33768, train loss = 3.9043
+Iteration 15320, time = 12.17s, wps = 33666, train loss = 3.9537
+Iteration 15340, time = 12.15s, wps = 33710, train loss = 3.9175
+Iteration 15360, time = 12.15s, wps = 33724, train loss = 3.9450
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00017-of-00100
+Finished processing!
+Iteration 15380, time = 13.98s, wps = 29291, train loss = 3.8569
+Iteration 15400, time = 11.99s, wps = 34169, train loss = 3.8558
+Iteration 15420, time = 12.14s, wps = 33745, train loss = 3.8618
+Iteration 15440, time = 11.91s, wps = 34388, train loss = 3.8602
+Iteration 15460, time = 12.14s, wps = 33745, train loss = 3.8620
+Iteration 15480, time = 12.06s, wps = 33967, train loss = 3.8626
+Iteration 15500, time = 12.11s, wps = 33818, train loss = 3.8457
+Iteration 15520, time = 11.97s, wps = 34225, train loss = 3.8804
+Iteration 15540, time = 12.11s, wps = 33826, train loss = 3.8393
+Iteration 15560, time = 12.12s, wps = 33791, train loss = 3.8728
+Iteration 15580, time = 12.16s, wps = 33696, train loss = 3.8225
+Iteration 15600, time = 11.97s, wps = 34210, train loss = 3.8865
+Iteration 15620, time = 12.19s, wps = 33590, train loss = 3.9090
+Iteration 15640, time = 12.09s, wps = 33892, train loss = 3.8440
+Iteration 15660, time = 12.07s, wps = 33948, train loss = 3.8405
+Iteration 15680, time = 12.03s, wps = 34041, train loss = 3.8594
+Iteration 15700, time = 15.63s, wps = 26208, train loss = 3.8835
+Iteration 15720, time = 12.09s, wps = 33880, train loss = 3.8604
+Iteration 15740, time = 12.06s, wps = 33956, train loss = 3.8617
+Iteration 15760, time = 12.10s, wps = 33846, train loss = 3.8661
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00003-of-00100
+Finished processing!
+Iteration 15780, time = 13.91s, wps = 29441, train loss = 3.8781
+Iteration 15800, time = 12.10s, wps = 33862, train loss = 3.9182
+Iteration 15820, time = 12.03s, wps = 34036, train loss = 3.8920
+Iteration 15840, time = 12.07s, wps = 33932, train loss = 3.8711
+Iteration 15860, time = 12.13s, wps = 33763, train loss = 3.8842
+Iteration 15880, time = 12.15s, wps = 33718, train loss = 3.8948
+Iteration 15900, time = 11.80s, wps = 34716, train loss = 3.8906
+Iteration 15920, time = 12.01s, wps = 34110, train loss = 3.9410
+Iteration 15940, time = 12.16s, wps = 33694, train loss = 3.9201
+Iteration 15960, time = 12.12s, wps = 33796, train loss = 3.8959
+Iteration 15980, time = 12.13s, wps = 33777, train loss = 3.9226
+Iteration 16000, time = 12.14s, wps = 33741, train loss = 3.8971
+Iteration 16020, time = 12.11s, wps = 33837, train loss = 3.9538
+Iteration 16040, time = 12.15s, wps = 33708, train loss = 3.8656
+Iteration 16060, time = 12.23s, wps = 33485, train loss = 3.8970
+Iteration 16080, time = 12.03s, wps = 34040, train loss = 3.8912
+Iteration 16100, time = 12.10s, wps = 33854, train loss = 3.8615
+Iteration 16120, time = 12.19s, wps = 33588, train loss = 3.9183
+Iteration 16140, time = 12.09s, wps = 33880, train loss = 3.8788
+Iteration 16160, time = 12.14s, wps = 33748, train loss = 3.8880
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00001-of-00100
+Finished processing!
+Iteration 16180, time = 14.02s, wps = 29221, train loss = 3.8680
+Iteration 16200, time = 12.14s, wps = 33743, train loss = 3.8822
+Iteration 16220, time = 12.00s, wps = 34132, train loss = 3.8488
+Iteration 16240, time = 12.13s, wps = 33768, train loss = 3.8848
+Iteration 16260, time = 12.07s, wps = 33941, train loss = 3.9014
+Iteration 16280, time = 12.08s, wps = 33899, train loss = 3.8753
+Iteration 16300, time = 12.06s, wps = 33968, train loss = 3.8600
+Iteration 16320, time = 12.04s, wps = 34009, train loss = 3.8541
+Iteration 16340, time = 12.05s, wps = 33983, train loss = 3.8775
+Iteration 16360, time = 12.14s, wps = 33737, train loss = 3.8976
+Iteration 16380, time = 12.13s, wps = 33763, train loss = 3.8708
+Iteration 16400, time = 12.13s, wps = 33759, train loss = 3.8578
+Iteration 16420, time = 12.14s, wps = 33728, train loss = 3.8357
+Iteration 16440, time = 12.18s, wps = 33631, train loss = 3.8354
+Iteration 16460, time = 12.07s, wps = 33943, train loss = 3.8395
+Iteration 16480, time = 12.02s, wps = 34076, train loss = 3.8506
+Iteration 16500, time = 12.09s, wps = 33866, train loss = 3.8347
+Iteration 16520, time = 12.12s, wps = 33809, train loss = 3.8946
+Iteration 16540, time = 12.14s, wps = 33745, train loss = 3.8346
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00007-of-00100
+Finished processing!
+Iteration 16560, time = 14.02s, wps = 29216, train loss = 3.8706
+Iteration 16580, time = 12.01s, wps = 34114, train loss = 3.9039
+Iteration 16600, time = 12.06s, wps = 33971, train loss = 3.8759
+Iteration 16620, time = 12.09s, wps = 33887, train loss = 3.8979
+Iteration 16640, time = 12.10s, wps = 33848, train loss = 3.8514
+Iteration 16660, time = 12.12s, wps = 33783, train loss = 3.8448
+Iteration 16680, time = 15.44s, wps = 26521, train loss = 3.8779
+Iteration 16700, time = 12.05s, wps = 34002, train loss = 3.8758
+Iteration 16720, time = 12.03s, wps = 34042, train loss = 3.8817
+Iteration 16740, time = 12.01s, wps = 34099, train loss = 3.8341
+Iteration 16760, time = 12.04s, wps = 34021, train loss = 3.8674
+Iteration 16780, time = 12.10s, wps = 33865, train loss = 3.8184
+Iteration 16800, time = 12.01s, wps = 34109, train loss = 3.8573
+Iteration 16820, time = 12.11s, wps = 33814, train loss = 3.8703
+Iteration 16840, time = 12.07s, wps = 33938, train loss = 3.8592
+Iteration 16860, time = 12.16s, wps = 33686, train loss = 3.8564
+Iteration 16880, time = 12.14s, wps = 33737, train loss = 3.8725
+Iteration 16900, time = 12.18s, wps = 33630, train loss = 3.8663
+Iteration 16920, time = 12.24s, wps = 33458, train loss = 3.8418
+Iteration 16940, time = 12.10s, wps = 33862, train loss = 3.8131
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00025-of-00100
+Finished processing!
+Iteration 16960, time = 13.95s, wps = 29366, train loss = 3.8708
+Iteration 16980, time = 12.11s, wps = 33812, train loss = 3.8670
+Iteration 17000, time = 12.04s, wps = 34015, train loss = 3.9001
+Iteration 17020, time = 12.14s, wps = 33753, train loss = 3.8509
+Iteration 17040, time = 12.04s, wps = 34019, train loss = 3.8496
+Iteration 17060, time = 12.02s, wps = 34070, train loss = 3.8591
+Iteration 17080, time = 12.11s, wps = 33834, train loss = 3.8322
+Iteration 17100, time = 11.99s, wps = 34172, train loss = 3.8380
+Iteration 17120, time = 12.09s, wps = 33875, train loss = 3.8792
+Iteration 17140, time = 12.19s, wps = 33604, train loss = 3.8484
+Iteration 17160, time = 12.18s, wps = 33630, train loss = 3.8572
+Iteration 17180, time = 12.12s, wps = 33788, train loss = 3.8325
+Iteration 17200, time = 12.04s, wps = 34030, train loss = 3.8782
+Iteration 17220, time = 12.10s, wps = 33845, train loss = 3.8302
+Iteration 17240, time = 12.08s, wps = 33909, train loss = 3.8581
+Iteration 17260, time = 12.06s, wps = 33961, train loss = 3.8762
+Iteration 17280, time = 12.09s, wps = 33886, train loss = 3.8564
+Iteration 17300, time = 12.08s, wps = 33906, train loss = 3.8849
+Iteration 17320, time = 12.14s, wps = 33745, train loss = 3.8624
+Iteration 17340, time = 11.72s, wps = 34963, train loss = 3.8701
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00021-of-00100
+Finished processing!
+Iteration 17360, time = 13.91s, wps = 29454, train loss = 3.8694
+Iteration 17380, time = 12.08s, wps = 33907, train loss = 3.8768
+Iteration 17400, time = 12.10s, wps = 33838, train loss = 3.8253
+Iteration 17420, time = 12.06s, wps = 33952, train loss = 3.8651
+Iteration 17440, time = 12.05s, wps = 33989, train loss = 3.8692
+Iteration 17460, time = 12.01s, wps = 34101, train loss = 3.8493
+Iteration 17480, time = 11.85s, wps = 34553, train loss = 3.8358
+Iteration 17500, time = 12.07s, wps = 33931, train loss = 3.8207
+Iteration 17520, time = 12.11s, wps = 33828, train loss = 3.8951
+Iteration 17540, time = 12.16s, wps = 33687, train loss = 3.8950
+Iteration 17560, time = 12.04s, wps = 34014, train loss = 3.8711
+Iteration 17580, time = 11.91s, wps = 34396, train loss = 3.8650
+Iteration 17600, time = 12.04s, wps = 34028, train loss = 3.8997
+Iteration 17620, time = 12.12s, wps = 33792, train loss = 3.8741
+Iteration 17640, time = 12.17s, wps = 33657, train loss = 3.8423
+Iteration 17660, time = 15.79s, wps = 25948, train loss = 3.8639
+Iteration 17680, time = 12.15s, wps = 33709, train loss = 3.8230
+Iteration 17700, time = 11.88s, wps = 34481, train loss = 3.8710
+Iteration 17720, time = 12.08s, wps = 33897, train loss = 3.8418
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00020-of-00100
+Finished processing!
+Iteration 17740, time = 14.00s, wps = 29258, train loss = 3.8122
+Iteration 17760, time = 12.11s, wps = 33822, train loss = 3.8142
+Iteration 17780, time = 12.01s, wps = 34110, train loss = 3.8440
+Iteration 17800, time = 12.13s, wps = 33777, train loss = 3.8634
+Iteration 17820, time = 12.05s, wps = 33982, train loss = 3.8979
+Iteration 17840, time = 12.07s, wps = 33944, train loss = 3.8445
+Iteration 17860, time = 12.16s, wps = 33681, train loss = 3.8289
+Iteration 17880, time = 12.02s, wps = 34067, train loss = 3.8294
+Iteration 17900, time = 12.11s, wps = 33814, train loss = 3.8571
+Iteration 17920, time = 12.07s, wps = 33928, train loss = 3.8365
+Iteration 17940, time = 12.11s, wps = 33828, train loss = 3.8109
+Iteration 17960, time = 12.12s, wps = 33782, train loss = 3.8329
+Iteration 17980, time = 12.01s, wps = 34117, train loss = 3.8536
+Iteration 18000, time = 12.06s, wps = 33958, train loss = 3.8130
+Iteration 18020, time = 12.13s, wps = 33774, train loss = 3.8513
+Iteration 18040, time = 12.05s, wps = 33995, train loss = 3.8857
+Iteration 18060, time = 12.15s, wps = 33725, train loss = 3.8367
+Iteration 18080, time = 12.12s, wps = 33796, train loss = 3.8570
+Iteration 18100, time = 12.17s, wps = 33664, train loss = 3.7973
+Iteration 18120, time = 12.08s, wps = 33905, train loss = 3.8135
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00010-of-00100
+Finished processing!
+Iteration 18140, time = 13.95s, wps = 29353, train loss = 3.8660
+Iteration 18160, time = 12.11s, wps = 33836, train loss = 3.8540
+Iteration 18180, time = 12.10s, wps = 33852, train loss = 3.8446
+Iteration 18200, time = 12.10s, wps = 33857, train loss = 3.8449
+Iteration 18220, time = 12.12s, wps = 33790, train loss = 3.8330
+Iteration 18240, time = 12.05s, wps = 33991, train loss = 3.8322
+Iteration 18260, time = 12.08s, wps = 33899, train loss = 3.8740
+Iteration 18280, time = 12.01s, wps = 34103, train loss = 3.8780
+Iteration 18300, time = 12.14s, wps = 33751, train loss = 3.8412
+Iteration 18320, time = 12.21s, wps = 33556, train loss = 3.8729
+Iteration 18340, time = 12.11s, wps = 33812, train loss = 3.8432
+Iteration 18360, time = 12.19s, wps = 33610, train loss = 3.8417
+Iteration 18380, time = 12.09s, wps = 33893, train loss = 3.7947
+Iteration 18400, time = 12.08s, wps = 33917, train loss = 3.8284
+Iteration 18420, time = 12.03s, wps = 34035, train loss = 3.8835
+Iteration 18440, time = 12.10s, wps = 33859, train loss = 3.8604
+Iteration 18460, time = 12.09s, wps = 33867, train loss = 3.8497
+Iteration 18480, time = 12.10s, wps = 33838, train loss = 3.9043
+Iteration 18500, time = 12.17s, wps = 33661, train loss = 3.8524
+Iteration 18520, time = 11.78s, wps = 34770, train loss = 3.8292
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00022-of-00100
+Finished processing!
+Iteration 18540, time = 13.94s, wps = 29393, train loss = 3.8164
+Iteration 18560, time = 12.08s, wps = 33914, train loss = 3.7974
+Iteration 18580, time = 12.14s, wps = 33749, train loss = 3.8163
+Iteration 18600, time = 11.94s, wps = 34314, train loss = 3.8676
+Iteration 18620, time = 12.11s, wps = 33815, train loss = 3.8169
+Iteration 18640, time = 15.36s, wps = 26666, train loss = 3.8536
+Iteration 18660, time = 12.13s, wps = 33780, train loss = 3.8045
+Iteration 18680, time = 12.02s, wps = 34081, train loss = 3.8353
+Iteration 18700, time = 12.08s, wps = 33904, train loss = 3.8558
+Iteration 18720, time = 12.09s, wps = 33875, train loss = 3.8202
+Iteration 18740, time = 12.16s, wps = 33693, train loss = 3.7999
+Iteration 18760, time = 12.12s, wps = 33793, train loss = 3.8711
+Iteration 18780, time = 12.06s, wps = 33965, train loss = 3.8222
+Iteration 18800, time = 12.06s, wps = 33959, train loss = 3.8192
+Iteration 18820, time = 12.08s, wps = 33898, train loss = 3.8077
+Iteration 18840, time = 12.08s, wps = 33895, train loss = 3.8155
+Iteration 18860, time = 11.85s, wps = 34562, train loss = 3.8258
+Iteration 18880, time = 11.88s, wps = 34475, train loss = 3.8340
+Iteration 18900, time = 12.23s, wps = 33490, train loss = 3.7910
+Iteration 18920, time = 12.17s, wps = 33669, train loss = 3.8119
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00018-of-00100
+Finished processing!
+Iteration 18940, time = 13.77s, wps = 29740, train loss = 3.8644
+Iteration 18960, time = 12.14s, wps = 33751, train loss = 3.8211
+Iteration 18980, time = 12.10s, wps = 33849, train loss = 3.8537
+Iteration 19000, time = 12.16s, wps = 33679, train loss = 3.7866
+Iteration 19020, time = 12.07s, wps = 33938, train loss = 3.8191
+Iteration 19040, time = 12.08s, wps = 33897, train loss = 3.8407
+Iteration 19060, time = 11.88s, wps = 34467, train loss = 3.8359
+Iteration 19080, time = 12.15s, wps = 33706, train loss = 3.8454
+Iteration 19100, time = 12.09s, wps = 33889, train loss = 3.8131
+Iteration 19120, time = 12.10s, wps = 33859, train loss = 3.8496
+Iteration 19140, time = 12.23s, wps = 33489, train loss = 3.8413
+Iteration 19160, time = 12.08s, wps = 33908, train loss = 3.8200
+Iteration 19180, time = 11.93s, wps = 34330, train loss = 3.8299
+Iteration 19200, time = 12.04s, wps = 34012, train loss = 3.8408
+Iteration 19220, time = 12.07s, wps = 33936, train loss = 3.7931
+Iteration 19240, time = 12.08s, wps = 33900, train loss = 3.8250
+Iteration 19260, time = 12.02s, wps = 34086, train loss = 3.8110
+Iteration 19280, time = 12.13s, wps = 33759, train loss = 3.8022
+Iteration 19300, time = 12.07s, wps = 33932, train loss = 3.8200
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00012-of-00100
+Finished processing!
+Iteration 19320, time = 13.78s, wps = 29735, train loss = 3.8762
+Iteration 19340, time = 12.11s, wps = 33831, train loss = 3.8554
+Iteration 19360, time = 12.02s, wps = 34074, train loss = 3.8807
+Iteration 19380, time = 12.00s, wps = 34127, train loss = 3.8952
+Iteration 19400, time = 12.05s, wps = 33990, train loss = 3.8423
+Iteration 19420, time = 11.86s, wps = 34535, train loss = 3.8310
+Iteration 19440, time = 12.11s, wps = 33831, train loss = 3.8718
+Iteration 19460, time = 12.09s, wps = 33892, train loss = 3.8332
+Iteration 19480, time = 11.95s, wps = 34284, train loss = 3.8213
+Iteration 19500, time = 12.10s, wps = 33842, train loss = 3.8367
+Iteration 19520, time = 12.03s, wps = 34037, train loss = 3.8393
+Iteration 19540, time = 12.03s, wps = 34050, train loss = 3.8501
+Iteration 19560, time = 12.15s, wps = 33724, train loss = 3.8169
+Iteration 19580, time = 11.94s, wps = 34302, train loss = 3.8465
+Iteration 19600, time = 12.09s, wps = 33886, train loss = 3.8154
+Iteration 19620, time = 15.61s, wps = 26240, train loss = 3.8820
+Iteration 19640, time = 12.11s, wps = 33833, train loss = 3.8685
+Iteration 19660, time = 12.09s, wps = 33867, train loss = 3.8324
+Iteration 19680, time = 12.04s, wps = 34019, train loss = 3.8451
+Iteration 19700, time = 12.08s, wps = 33917, train loss = 3.8168
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00013-of-00100
+Finished processing!
+Iteration 19720, time = 13.93s, wps = 29406, train loss = 3.8420
+Iteration 19740, time = 12.01s, wps = 34097, train loss = 3.7961
+Iteration 19760, time = 12.08s, wps = 33903, train loss = 3.8283
+Iteration 19780, time = 12.18s, wps = 33638, train loss = 3.8442
+Iteration 19800, time = 12.06s, wps = 33975, train loss = 3.8341
+Iteration 19820, time = 12.15s, wps = 33701, train loss = 3.8246
+Iteration 19840, time = 12.07s, wps = 33944, train loss = 3.8251
+Iteration 19860, time = 12.14s, wps = 33738, train loss = 3.8925
+Iteration 19880, time = 12.06s, wps = 33956, train loss = 3.7795
+Iteration 19900, time = 12.06s, wps = 33959, train loss = 3.8006
+Iteration 19920, time = 11.99s, wps = 34160, train loss = 3.8323
+Iteration 19940, time = 12.01s, wps = 34095, train loss = 3.8351
+Iteration 19960, time = 12.11s, wps = 33824, train loss = 3.8398
+Iteration 19980, time = 12.18s, wps = 33641, train loss = 3.7957
+Iteration 20000, time = 11.96s, wps = 34258, train loss = 3.8432
+Iteration 20020, time = 12.10s, wps = 33838, train loss = 3.8310
+Iteration 20040, time = 12.07s, wps = 33934, train loss = 3.7975
+Iteration 20060, time = 12.12s, wps = 33792, train loss = 3.8538
+Iteration 20080, time = 11.91s, wps = 34382, train loss = 3.8641
+Iteration 20100, time = 12.05s, wps = 33983, train loss = 3.8227
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00014-of-00100
+Finished processing!
+Iteration 20120, time = 13.85s, wps = 29566, train loss = 3.8584
+Iteration 20140, time = 12.14s, wps = 33733, train loss = 3.8852
+Iteration 20160, time = 12.05s, wps = 33988, train loss = 3.8758
+Iteration 20180, time = 12.05s, wps = 33985, train loss = 3.8922
+Iteration 20200, time = 12.10s, wps = 33848, train loss = 3.8776
+Iteration 20220, time = 12.01s, wps = 34092, train loss = 3.8504
+Iteration 20240, time = 12.18s, wps = 33616, train loss = 3.9168
+Iteration 20260, time = 12.11s, wps = 33822, train loss = 3.8397
+Iteration 20280, time = 12.12s, wps = 33782, train loss = 3.8356
+Iteration 20300, time = 12.02s, wps = 34073, train loss = 3.8392
+Iteration 20320, time = 12.04s, wps = 34013, train loss = 3.8249
+Iteration 20340, time = 12.06s, wps = 33959, train loss = 3.8760
+Iteration 20360, time = 12.18s, wps = 33617, train loss = 3.8624
+Iteration 20380, time = 11.99s, wps = 34153, train loss = 3.8524
+Iteration 20400, time = 12.03s, wps = 34039, train loss = 3.8563
+Iteration 20420, time = 12.07s, wps = 33932, train loss = 3.8390
+Iteration 20440, time = 12.07s, wps = 33924, train loss = 3.8424
+Iteration 20460, time = 12.08s, wps = 33905, train loss = 3.8891
+Iteration 20480, time = 12.11s, wps = 33822, train loss = 3.8181
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00019-of-00100
+Finished processing!
+Iteration 20500, time = 13.55s, wps = 30233, train loss = 3.8038
+Iteration 20520, time = 12.11s, wps = 33810, train loss = 3.8771
+Iteration 20540, time = 12.10s, wps = 33862, train loss = 3.8098
+Iteration 20560, time = 12.07s, wps = 33922, train loss = 3.7994
+Iteration 20580, time = 12.16s, wps = 33687, train loss = 3.8365
+Iteration 20600, time = 14.76s, wps = 27754, train loss = 3.8535
+Iteration 20620, time = 11.83s, wps = 34618, train loss = 3.7598
+Iteration 20640, time = 12.02s, wps = 34071, train loss = 3.8089
+Iteration 20660, time = 12.03s, wps = 34049, train loss = 3.8036
+Iteration 20680, time = 12.13s, wps = 33772, train loss = 3.8694
+Iteration 20700, time = 12.12s, wps = 33801, train loss = 3.8588
+Iteration 20720, time = 12.10s, wps = 33857, train loss = 3.8577
+Iteration 20740, time = 12.06s, wps = 33960, train loss = 3.8057
+Iteration 20760, time = 11.98s, wps = 34180, train loss = 3.8374
+Iteration 20780, time = 12.10s, wps = 33848, train loss = 3.8416
+Iteration 20800, time = 12.05s, wps = 33996, train loss = 3.8489
+Iteration 20820, time = 12.13s, wps = 33765, train loss = 3.8118
+Iteration 20840, time = 12.09s, wps = 33893, train loss = 3.8262
+Iteration 20860, time = 12.07s, wps = 33947, train loss = 3.8141
+Iteration 20880, time = 12.16s, wps = 33698, train loss = 3.8517
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00008-of-00100
+Finished processing!
+Iteration 20900, time = 14.08s, wps = 29096, train loss = 3.8517
+Iteration 20920, time = 12.05s, wps = 34003, train loss = 3.8008
+Iteration 20940, time = 12.14s, wps = 33732, train loss = 3.8585
+Iteration 20960, time = 11.96s, wps = 34256, train loss = 3.8478
+Iteration 20980, time = 12.11s, wps = 33830, train loss = 3.8290
+Iteration 21000, time = 12.05s, wps = 34002, train loss = 3.8346
+Iteration 21020, time = 12.10s, wps = 33865, train loss = 3.8122
+Iteration 21040, time = 12.01s, wps = 34119, train loss = 3.8253
+Iteration 21060, time = 12.12s, wps = 33799, train loss = 3.8031
+Iteration 21080, time = 12.12s, wps = 33785, train loss = 3.8435
+Iteration 21100, time = 12.01s, wps = 34100, train loss = 3.7753
+Iteration 21120, time = 12.07s, wps = 33934, train loss = 3.8008
+Iteration 21140, time = 12.09s, wps = 33875, train loss = 3.8487
+Iteration 21160, time = 12.05s, wps = 33983, train loss = 3.8318
+Iteration 21180, time = 12.15s, wps = 33721, train loss = 3.8903
+Iteration 21200, time = 12.18s, wps = 33635, train loss = 3.8137
+Iteration 21220, time = 12.10s, wps = 33840, train loss = 3.8234
+Iteration 21240, time = 12.11s, wps = 33822, train loss = 3.7736
+Iteration 21260, time = 12.18s, wps = 33636, train loss = 3.7948
+Iteration 21280, time = 12.09s, wps = 33873, train loss = 3.8372
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00015-of-00100
+Finished processing!
+Iteration 21300, time = 13.92s, wps = 29415, train loss = 3.8466
+Iteration 21320, time = 12.04s, wps = 34032, train loss = 3.8508
+Iteration 21340, time = 12.06s, wps = 33963, train loss = 3.8064
+Iteration 21360, time = 12.07s, wps = 33945, train loss = 3.8078
+Iteration 21380, time = 12.09s, wps = 33890, train loss = 3.8454
+Iteration 21400, time = 12.07s, wps = 33930, train loss = 3.8454
+Iteration 21420, time = 12.04s, wps = 34012, train loss = 3.8364
+Iteration 21440, time = 12.06s, wps = 33963, train loss = 3.8263
+Iteration 21460, time = 12.13s, wps = 33766, train loss = 3.8504
+Iteration 21480, time = 12.12s, wps = 33807, train loss = 3.8379
+Iteration 21500, time = 12.01s, wps = 34099, train loss = 3.8652
+Iteration 21520, time = 12.02s, wps = 34067, train loss = 3.8327
+Iteration 21540, time = 12.17s, wps = 33668, train loss = 3.8217
+Iteration 21560, time = 12.11s, wps = 33827, train loss = 3.8304
+Iteration 21580, time = 15.79s, wps = 25934, train loss = 3.8362
+Iteration 21600, time = 12.09s, wps = 33871, train loss = 3.8385
+Iteration 21620, time = 12.06s, wps = 33950, train loss = 3.8295
+Iteration 21640, time = 12.17s, wps = 33661, train loss = 3.8635
+Iteration 21660, time = 12.12s, wps = 33802, train loss = 3.7804
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00027-of-00100
+Finished processing!
+Iteration 21680, time = 14.03s, wps = 29188, train loss = 3.8289
+Iteration 21700, time = 12.04s, wps = 34009, train loss = 3.7876
+Iteration 21720, time = 12.02s, wps = 34069, train loss = 3.8164
+Iteration 21740, time = 12.09s, wps = 33871, train loss = 3.7799
+Iteration 21760, time = 12.11s, wps = 33818, train loss = 3.7824
+Iteration 21780, time = 12.08s, wps = 33920, train loss = 3.8123
+Iteration 21800, time = 12.14s, wps = 33742, train loss = 3.8261
+Iteration 21820, time = 12.03s, wps = 34035, train loss = 3.8190
+Iteration 21840, time = 12.14s, wps = 33744, train loss = 3.8561
+Iteration 21860, time = 12.14s, wps = 33740, train loss = 3.8588
+Iteration 21880, time = 12.05s, wps = 33997, train loss = 3.8527
+Iteration 21900, time = 12.10s, wps = 33863, train loss = 3.8182
+Iteration 21920, time = 11.96s, wps = 34246, train loss = 3.8113
+Iteration 21940, time = 12.07s, wps = 33943, train loss = 3.8522
+Iteration 21960, time = 12.01s, wps = 34091, train loss = 3.8176
+Iteration 21980, time = 12.11s, wps = 33832, train loss = 3.7865
+Iteration 22000, time = 12.09s, wps = 33879, train loss = 3.8345
+Iteration 22020, time = 12.12s, wps = 33786, train loss = 3.8418
+Iteration 22040, time = 12.12s, wps = 33792, train loss = 3.8401
+Iteration 22060, time = 12.08s, wps = 33918, train loss = 3.7987
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00026-of-00100
+Finished processing!
+Iteration 22080, time = 14.02s, wps = 29224, train loss = 3.7944
+Iteration 22100, time = 12.03s, wps = 34045, train loss = 3.8094
+Iteration 22120, time = 12.07s, wps = 33940, train loss = 3.8199
+Iteration 22140, time = 12.10s, wps = 33838, train loss = 3.7850
+Iteration 22160, time = 12.04s, wps = 34026, train loss = 3.8198
+Iteration 22180, time = 12.12s, wps = 33795, train loss = 3.8076
+Iteration 22200, time = 12.10s, wps = 33864, train loss = 3.7659
+Iteration 22220, time = 12.15s, wps = 33712, train loss = 3.7827
+Iteration 22240, time = 12.17s, wps = 33658, train loss = 3.8293
+Iteration 22260, time = 12.13s, wps = 33772, train loss = 3.8153
+Iteration 22280, time = 11.96s, wps = 34251, train loss = 3.8146
+Iteration 22300, time = 12.08s, wps = 33909, train loss = 3.8204
+Iteration 22320, time = 12.11s, wps = 33831, train loss = 3.7714
+Iteration 22340, time = 12.12s, wps = 33782, train loss = 3.7911
+Iteration 22360, time = 12.08s, wps = 33918, train loss = 3.7822
+Iteration 22380, time = 12.08s, wps = 33910, train loss = 3.8103
+Iteration 22400, time = 12.14s, wps = 33741, train loss = 3.7655
+Iteration 22420, time = 12.06s, wps = 33950, train loss = 3.8133
+Iteration 22440, time = 12.15s, wps = 33719, train loss = 3.8005
+Iteration 22460, time = 12.14s, wps = 33747, train loss = 3.7653
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00024-of-00100
+Finished processing!
+Iteration 22480, time = 13.92s, wps = 29429, train loss = 3.8188
+Iteration 22500, time = 12.09s, wps = 33889, train loss = 3.7894
+Iteration 22520, time = 12.07s, wps = 33940, train loss = 3.7934
+Iteration 22540, time = 12.05s, wps = 34002, train loss = 3.7840
+Iteration 22560, time = 15.25s, wps = 26853, train loss = 3.8232
+Iteration 22580, time = 12.05s, wps = 33998, train loss = 3.7771
+Iteration 22600, time = 12.16s, wps = 33693, train loss = 3.8160
+Iteration 22620, time = 12.15s, wps = 33722, train loss = 3.7988
+Iteration 22640, time = 12.11s, wps = 33813, train loss = 3.8425
+Iteration 22660, time = 11.91s, wps = 34385, train loss = 3.8307
+Iteration 22680, time = 12.05s, wps = 33994, train loss = 3.8176
+Iteration 22700, time = 12.08s, wps = 33907, train loss = 3.7878
+Iteration 22720, time = 12.10s, wps = 33865, train loss = 3.7766
+Iteration 22740, time = 12.12s, wps = 33808, train loss = 3.7745
+Iteration 22760, time = 12.09s, wps = 33880, train loss = 3.7682
+Iteration 22780, time = 11.92s, wps = 34376, train loss = 3.8080
+Iteration 22800, time = 11.92s, wps = 34368, train loss = 3.8115
+Iteration 22820, time = 12.16s, wps = 33677, train loss = 3.8053
+Iteration 22840, time = 12.02s, wps = 34067, train loss = 3.8006
+Iteration 22860, time = 12.09s, wps = 33869, train loss = 3.8150
+haibin: a new epoch just started
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00024-of-00100
+Finished processing!
+Iteration 22880, time = 13.93s, wps = 29395, train loss = 3.6234
+Iteration 22900, time = 12.09s, wps = 33878, train loss = 3.6398
+Iteration 22920, time = 12.16s, wps = 33682, train loss = 3.6579
+Iteration 22940, time = 12.13s, wps = 33780, train loss = 3.6510
+Iteration 22960, time = 12.03s, wps = 34037, train loss = 3.6510
+Iteration 22980, time = 12.07s, wps = 33922, train loss = 3.6715
+Iteration 23000, time = 12.01s, wps = 34097, train loss = 3.6831
+Iteration 23020, time = 12.19s, wps = 33611, train loss = 3.6539
+Iteration 23040, time = 12.07s, wps = 33934, train loss = 3.6598
+Iteration 23060, time = 12.10s, wps = 33850, train loss = 3.6831
+Iteration 23080, time = 12.13s, wps = 33768, train loss = 3.6605
+Iteration 23100, time = 12.09s, wps = 33893, train loss = 3.7135
+Iteration 23120, time = 12.16s, wps = 33696, train loss = 3.7084
+Iteration 23140, time = 12.08s, wps = 33909, train loss = 3.6899
+Iteration 23160, time = 12.13s, wps = 33770, train loss = 3.7037
+Iteration 23180, time = 12.12s, wps = 33792, train loss = 3.6679
+Iteration 23200, time = 12.10s, wps = 33851, train loss = 3.6693
+Iteration 23220, time = 12.11s, wps = 33828, train loss = 3.7073
+Iteration 23240, time = 12.09s, wps = 33890, train loss = 3.7356
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00021-of-00100
+Finished processing!
+Iteration 23260, time = 13.96s, wps = 29332, train loss = 3.7658
+Iteration 23280, time = 12.12s, wps = 33795, train loss = 3.7518
+Iteration 23300, time = 12.11s, wps = 33826, train loss = 3.7667
+Iteration 23320, time = 12.03s, wps = 34053, train loss = 3.7332
+Iteration 23340, time = 12.15s, wps = 33724, train loss = 3.7623
+Iteration 23360, time = 12.03s, wps = 34040, train loss = 3.7184
+Iteration 23380, time = 12.07s, wps = 33931, train loss = 3.7413
+Iteration 23400, time = 12.05s, wps = 33985, train loss = 3.7442
+Iteration 23420, time = 12.12s, wps = 33802, train loss = 3.7249
+Iteration 23440, time = 12.10s, wps = 33839, train loss = 3.7507
+Iteration 23460, time = 12.12s, wps = 33793, train loss = 3.7164
+Iteration 23480, time = 12.09s, wps = 33870, train loss = 3.7277
+Iteration 23500, time = 12.06s, wps = 33953, train loss = 3.6981
+Iteration 23520, time = 12.09s, wps = 33866, train loss = 3.7639
+Iteration 23540, time = 15.85s, wps = 25843, train loss = 3.7835
+Iteration 23560, time = 12.08s, wps = 33895, train loss = 3.7325
+Iteration 23580, time = 12.10s, wps = 33846, train loss = 3.7655
+Iteration 23600, time = 12.06s, wps = 33968, train loss = 3.7695
+Iteration 23620, time = 12.12s, wps = 33808, train loss = 3.7593
+Iteration 23640, time = 12.07s, wps = 33949, train loss = 3.7582
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00004-of-00100
+Finished processing!
+Iteration 23660, time = 13.93s, wps = 29397, train loss = 3.8001
+Iteration 23680, time = 12.05s, wps = 33981, train loss = 3.7600
+Iteration 23700, time = 12.15s, wps = 33703, train loss = 3.8261
+Iteration 23720, time = 12.11s, wps = 33824, train loss = 3.7506
+Iteration 23740, time = 12.14s, wps = 33732, train loss = 3.7380
+Iteration 23760, time = 11.97s, wps = 34218, train loss = 3.7446
+Iteration 23780, time = 12.15s, wps = 33715, train loss = 3.7431
+Iteration 23800, time = 12.07s, wps = 33933, train loss = 3.7462
+Iteration 23820, time = 12.05s, wps = 34005, train loss = 3.7627
+Iteration 23840, time = 12.13s, wps = 33760, train loss = 3.7369
+Iteration 23860, time = 12.12s, wps = 33796, train loss = 3.7239
+Iteration 23880, time = 12.14s, wps = 33740, train loss = 3.7848
+Iteration 23900, time = 12.11s, wps = 33832, train loss = 3.7506
+Iteration 23920, time = 12.05s, wps = 33979, train loss = 3.6786
+Iteration 23940, time = 11.99s, wps = 34173, train loss = 3.7870
+Iteration 23960, time = 12.14s, wps = 33743, train loss = 3.7722
+Iteration 23980, time = 12.16s, wps = 33675, train loss = 3.7484
+Iteration 24000, time = 12.13s, wps = 33763, train loss = 3.7477
+Iteration 24020, time = 12.07s, wps = 33946, train loss = 3.7348
+Iteration 24040, time = 12.03s, wps = 34061, train loss = 3.7425
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00001-of-00100
+Finished processing!
+Iteration 24060, time = 13.95s, wps = 29358, train loss = 3.7412
+Iteration 24080, time = 11.98s, wps = 34196, train loss = 3.7110
+Iteration 24100, time = 12.07s, wps = 33935, train loss = 3.7555
+Iteration 24120, time = 12.07s, wps = 33947, train loss = 3.6955
+Iteration 24140, time = 12.14s, wps = 33738, train loss = 3.7465
+Iteration 24160, time = 12.21s, wps = 33555, train loss = 3.7302
+Iteration 24180, time = 12.06s, wps = 33973, train loss = 3.7151
+Iteration 24200, time = 12.11s, wps = 33836, train loss = 3.7943
+Iteration 24220, time = 12.07s, wps = 33940, train loss = 3.7441
+Iteration 24240, time = 12.12s, wps = 33795, train loss = 3.7433
+Iteration 24260, time = 12.15s, wps = 33721, train loss = 3.7482
+Iteration 24280, time = 12.14s, wps = 33748, train loss = 3.7152
+Iteration 24300, time = 11.94s, wps = 34310, train loss = 3.7253
+Iteration 24320, time = 12.12s, wps = 33784, train loss = 3.7829
+Iteration 24340, time = 12.08s, wps = 33918, train loss = 3.7325
+Iteration 24360, time = 12.14s, wps = 33746, train loss = 3.7313
+Iteration 24380, time = 12.15s, wps = 33717, train loss = 3.7762
+Iteration 24400, time = 12.12s, wps = 33798, train loss = 3.7881
+Iteration 24420, time = 12.09s, wps = 33875, train loss = 3.7622
+Iteration 24440, time = 12.08s, wps = 33903, train loss = 3.7475
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00007-of-00100
+Finished processing!
+Iteration 24460, time = 13.95s, wps = 29366, train loss = 3.7117
+Iteration 24480, time = 12.12s, wps = 33802, train loss = 3.7231
+Iteration 24500, time = 12.02s, wps = 34074, train loss = 3.6978
+Iteration 24520, time = 15.48s, wps = 26466, train loss = 3.7602
+Iteration 24540, time = 12.13s, wps = 33775, train loss = 3.7240
+Iteration 24560, time = 12.18s, wps = 33625, train loss = 3.6868
+Iteration 24580, time = 12.08s, wps = 33895, train loss = 3.6963
+Iteration 24600, time = 12.07s, wps = 33941, train loss = 3.7195
+Iteration 24620, time = 12.08s, wps = 33909, train loss = 3.7669
+Iteration 24640, time = 12.10s, wps = 33850, train loss = 3.7268
+Iteration 24660, time = 12.08s, wps = 33919, train loss = 3.7333
+Iteration 24680, time = 12.09s, wps = 33880, train loss = 3.7349
+Iteration 24700, time = 12.18s, wps = 33638, train loss = 3.7862
+Iteration 24720, time = 12.09s, wps = 33889, train loss = 3.7153
+Iteration 24740, time = 12.13s, wps = 33760, train loss = 3.7321
+Iteration 24760, time = 12.07s, wps = 33933, train loss = 3.7055
+Iteration 24780, time = 12.06s, wps = 33967, train loss = 3.7248
+Iteration 24800, time = 12.09s, wps = 33867, train loss = 3.7006
+Iteration 24820, time = 12.15s, wps = 33706, train loss = 3.7438
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00029-of-00100
+Finished processing!
+Iteration 24840, time = 13.96s, wps = 29338, train loss = 3.7073
+Iteration 24860, time = 12.13s, wps = 33765, train loss = 3.7415
+Iteration 24880, time = 12.13s, wps = 33778, train loss = 3.7804
+Iteration 24900, time = 12.09s, wps = 33893, train loss = 3.7645
+Iteration 24920, time = 12.11s, wps = 33813, train loss = 3.7580
+Iteration 24940, time = 12.13s, wps = 33777, train loss = 3.7407
+Iteration 24960, time = 12.13s, wps = 33757, train loss = 3.7504
+Iteration 24980, time = 12.13s, wps = 33763, train loss = 3.7561
+Iteration 25000, time = 12.18s, wps = 33633, train loss = 3.7152
+Iteration 25020, time = 12.09s, wps = 33867, train loss = 3.7222
+Iteration 25040, time = 12.04s, wps = 34015, train loss = 3.7376
+Iteration 25060, time = 12.11s, wps = 33822, train loss = 3.7676
+Iteration 25080, time = 12.12s, wps = 33804, train loss = 3.7736
+Iteration 25100, time = 12.00s, wps = 34141, train loss = 3.7615
+Iteration 25120, time = 12.03s, wps = 34055, train loss = 3.7221
+Iteration 25140, time = 12.10s, wps = 33843, train loss = 3.7308
+Iteration 25160, time = 12.12s, wps = 33796, train loss = 3.7359
+Iteration 25180, time = 12.09s, wps = 33890, train loss = 3.7421
+Iteration 25200, time = 12.07s, wps = 33922, train loss = 3.7515
+Iteration 25220, time = 12.09s, wps = 33876, train loss = 3.7520
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00009-of-00100
+Finished processing!
+Iteration 25240, time = 13.86s, wps = 29544, train loss = 3.7599
+Iteration 25260, time = 12.13s, wps = 33773, train loss = 3.7975
+Iteration 25280, time = 12.01s, wps = 34103, train loss = 3.7812
+Iteration 25300, time = 12.09s, wps = 33868, train loss = 3.7989
+Iteration 25320, time = 12.13s, wps = 33778, train loss = 3.7961
+Iteration 25340, time = 12.09s, wps = 33873, train loss = 3.7613
+Iteration 25360, time = 12.10s, wps = 33861, train loss = 3.7797
+Iteration 25380, time = 11.98s, wps = 34198, train loss = 3.7523
+Iteration 25400, time = 12.11s, wps = 33813, train loss = 3.7405
+Iteration 25420, time = 12.09s, wps = 33871, train loss = 3.7470
+Iteration 25440, time = 11.99s, wps = 34164, train loss = 3.7871
+Iteration 25460, time = 12.11s, wps = 33816, train loss = 3.7302
+Iteration 25480, time = 12.14s, wps = 33749, train loss = 3.7558
+Iteration 25500, time = 15.09s, wps = 27144, train loss = 3.7291
+Iteration 25520, time = 12.17s, wps = 33656, train loss = 3.7782
+Iteration 25540, time = 12.05s, wps = 33981, train loss = 3.7502
+Iteration 25560, time = 12.23s, wps = 33496, train loss = 3.7759
+Iteration 25580, time = 12.15s, wps = 33699, train loss = 3.7534
+Iteration 25600, time = 12.00s, wps = 34139, train loss = 3.7426
+Iteration 25620, time = 12.05s, wps = 33998, train loss = 3.7272
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00006-of-00100
+Finished processing!
+Iteration 25640, time = 14.01s, wps = 29228, train loss = 3.7166
+Iteration 25660, time = 12.10s, wps = 33856, train loss = 3.6890
+Iteration 25680, time = 12.04s, wps = 34028, train loss = 3.7585
+Iteration 25700, time = 12.09s, wps = 33878, train loss = 3.7146
+Iteration 25720, time = 12.13s, wps = 33754, train loss = 3.7297
+Iteration 25740, time = 12.09s, wps = 33892, train loss = 3.7210
+Iteration 25760, time = 12.05s, wps = 34001, train loss = 3.7351
+Iteration 25780, time = 12.27s, wps = 33382, train loss = 3.7324
+Iteration 25800, time = 12.30s, wps = 33292, train loss = 3.7388
+Iteration 25820, time = 12.14s, wps = 33741, train loss = 3.7378
+Iteration 25840, time = 12.09s, wps = 33890, train loss = 3.7166
+Iteration 25860, time = 12.15s, wps = 33713, train loss = 3.7051
+Iteration 25880, time = 12.18s, wps = 33636, train loss = 3.7505
+Iteration 25900, time = 12.15s, wps = 33702, train loss = 3.7114
+Iteration 25920, time = 12.21s, wps = 33542, train loss = 3.7872
+Iteration 25940, time = 12.12s, wps = 33784, train loss = 3.7194
+Iteration 25960, time = 12.16s, wps = 33677, train loss = 3.7694
+Iteration 25980, time = 12.15s, wps = 33715, train loss = 3.7342
+Iteration 26000, time = 12.18s, wps = 33629, train loss = 3.7515
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00022-of-00100
+Finished processing!
+Iteration 26020, time = 13.97s, wps = 29327, train loss = 3.7061
+Iteration 26040, time = 12.20s, wps = 33577, train loss = 3.7243
+Iteration 26060, time = 12.18s, wps = 33616, train loss = 3.6905
+Iteration 26080, time = 12.30s, wps = 33298, train loss = 3.6751
+Iteration 26100, time = 12.26s, wps = 33422, train loss = 3.7081
+Iteration 26120, time = 12.25s, wps = 33435, train loss = 3.7203
+Iteration 26140, time = 12.33s, wps = 33207, train loss = 3.7354
+Iteration 26160, time = 12.34s, wps = 33204, train loss = 3.7054
+Iteration 26180, time = 12.15s, wps = 33700, train loss = 3.6875
+Iteration 26200, time = 12.10s, wps = 33846, train loss = 3.6935
+Iteration 26220, time = 12.18s, wps = 33615, train loss = 3.7152
+Iteration 26240, time = 12.16s, wps = 33695, train loss = 3.7096
+Iteration 26260, time = 12.21s, wps = 33538, train loss = 3.7004
+Iteration 26280, time = 12.17s, wps = 33668, train loss = 3.6745
+Iteration 26300, time = 12.26s, wps = 33418, train loss = 3.6985
+Iteration 26320, time = 12.27s, wps = 33376, train loss = 3.7038
+Iteration 26340, time = 12.28s, wps = 33364, train loss = 3.7475
+Iteration 26360, time = 12.24s, wps = 33454, train loss = 3.7212
+Iteration 26380, time = 12.20s, wps = 33569, train loss = 3.7190
+Iteration 26400, time = 12.25s, wps = 33427, train loss = 3.6685
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00010-of-00100
+Finished processing!
+Iteration 26420, time = 14.05s, wps = 29156, train loss = 3.6843
+Iteration 26440, time = 12.07s, wps = 33924, train loss = 3.7565
+Iteration 26460, time = 14.24s, wps = 28766, train loss = 3.7084
+Iteration 26480, time = 12.64s, wps = 32411, train loss = 3.7209
+Iteration 26500, time = 12.10s, wps = 33857, train loss = 3.7283
+Iteration 26520, time = 12.17s, wps = 33663, train loss = 3.7263
+Iteration 26540, time = 12.16s, wps = 33679, train loss = 3.7047
+Iteration 26560, time = 12.23s, wps = 33501, train loss = 3.7159
+Iteration 26580, time = 12.10s, wps = 33849, train loss = 3.7280
+Iteration 26600, time = 12.14s, wps = 33745, train loss = 3.7611
+Iteration 26620, time = 12.23s, wps = 33500, train loss = 3.7402
+Iteration 26640, time = 12.21s, wps = 33558, train loss = 3.7421
+Iteration 26660, time = 12.24s, wps = 33475, train loss = 3.7734
+Iteration 26680, time = 12.25s, wps = 33441, train loss = 3.7517
+Iteration 26700, time = 12.26s, wps = 33399, train loss = 3.7362
+Iteration 26720, time = 12.20s, wps = 33567, train loss = 3.7549
+Iteration 26740, time = 12.27s, wps = 33386, train loss = 3.7257
+Iteration 26760, time = 12.23s, wps = 33490, train loss = 3.6959
+Iteration 26780, time = 12.18s, wps = 33623, train loss = 3.7493
+Iteration 26800, time = 12.20s, wps = 33574, train loss = 3.7354
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00002-of-00100
+Finished processing!
+Iteration 26820, time = 14.06s, wps = 29135, train loss = 3.7248
+Iteration 26840, time = 12.17s, wps = 33656, train loss = 3.7624
+Iteration 26860, time = 12.17s, wps = 33649, train loss = 3.7704
+Iteration 26880, time = 12.29s, wps = 33316, train loss = 3.7390
+Iteration 26900, time = 12.17s, wps = 33652, train loss = 3.7565
+Iteration 26920, time = 12.22s, wps = 33529, train loss = 3.7572
+Iteration 26940, time = 12.00s, wps = 34146, train loss = 3.7519
+Iteration 26960, time = 12.18s, wps = 33619, train loss = 3.7499
+Iteration 26980, time = 12.24s, wps = 33460, train loss = 3.7478
+Iteration 27000, time = 12.15s, wps = 33699, train loss = 3.7385
+Iteration 27020, time = 12.22s, wps = 33522, train loss = 3.7081
+Iteration 27040, time = 12.09s, wps = 33866, train loss = 3.7379
+Iteration 27060, time = 12.11s, wps = 33812, train loss = 3.7555
+Iteration 27080, time = 12.06s, wps = 33970, train loss = 3.7626
+Iteration 27100, time = 12.16s, wps = 33673, train loss = 3.7582
+Iteration 27120, time = 12.30s, wps = 33291, train loss = 3.7883
+Iteration 27140, time = 12.21s, wps = 33557, train loss = 3.7337
+Iteration 27160, time = 12.07s, wps = 33924, train loss = 3.7534
+Iteration 27180, time = 12.18s, wps = 33618, train loss = 3.7410
+Iteration 27200, time = 12.27s, wps = 33383, train loss = 3.7369
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00011-of-00100
+Finished processing!
+Iteration 27220, time = 14.21s, wps = 28835, train loss = 3.7836
+Iteration 27240, time = 12.04s, wps = 34028, train loss = 3.7895
+Iteration 27260, time = 12.26s, wps = 33398, train loss = 3.7204
+Iteration 27280, time = 12.17s, wps = 33652, train loss = 3.7430
+Iteration 27300, time = 12.14s, wps = 33738, train loss = 3.7124
+Iteration 27320, time = 12.10s, wps = 33840, train loss = 3.7670
+Iteration 27340, time = 12.17s, wps = 33650, train loss = 3.7390
+Iteration 27360, time = 12.13s, wps = 33775, train loss = 3.7214
+Iteration 27380, time = 12.15s, wps = 33719, train loss = 3.7385
+Iteration 27400, time = 12.14s, wps = 33732, train loss = 3.7287
+Iteration 27420, time = 12.17s, wps = 33654, train loss = 3.7612
+Iteration 27440, time = 14.83s, wps = 27621, train loss = 3.7827
+Iteration 27460, time = 12.61s, wps = 32492, train loss = 3.7491
+Iteration 27480, time = 12.15s, wps = 33720, train loss = 3.7654
+Iteration 27500, time = 12.10s, wps = 33838, train loss = 3.7390
+Iteration 27520, time = 12.26s, wps = 33413, train loss = 3.7311
+Iteration 27540, time = 12.11s, wps = 33831, train loss = 3.7291
+Iteration 27560, time = 12.08s, wps = 33895, train loss = 3.7162
+Iteration 27580, time = 12.06s, wps = 33974, train loss = 3.7689
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00023-of-00100
+Finished processing!
+Iteration 27600, time = 14.10s, wps = 29050, train loss = 3.7410
+Iteration 27620, time = 12.18s, wps = 33639, train loss = 3.7620
+Iteration 27640, time = 12.22s, wps = 33508, train loss = 3.7573
+Iteration 27660, time = 12.05s, wps = 33996, train loss = 3.7245
+Iteration 27680, time = 12.19s, wps = 33594, train loss = 3.7430
+Iteration 27700, time = 12.00s, wps = 34137, train loss = 3.7320
+Iteration 27720, time = 12.05s, wps = 33995, train loss = 3.7183
+Iteration 27740, time = 12.12s, wps = 33801, train loss = 3.7060
+Iteration 27760, time = 12.22s, wps = 33529, train loss = 3.7557
+Iteration 27780, time = 12.08s, wps = 33914, train loss = 3.7254
+Iteration 27800, time = 12.17s, wps = 33660, train loss = 3.7575
+Iteration 27820, time = 12.05s, wps = 33985, train loss = 3.7439
+Iteration 27840, time = 12.14s, wps = 33749, train loss = 3.7169
+Iteration 27860, time = 12.23s, wps = 33503, train loss = 3.7821
+Iteration 27880, time = 12.31s, wps = 33283, train loss = 3.7476
+Iteration 27900, time = 12.22s, wps = 33523, train loss = 3.6913
+Iteration 27920, time = 12.20s, wps = 33587, train loss = 3.7286
+Iteration 27940, time = 12.12s, wps = 33797, train loss = 3.7244
+Iteration 27960, time = 12.26s, wps = 33405, train loss = 3.7601
+Iteration 27980, time = 12.24s, wps = 33465, train loss = 3.7115
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00013-of-00100
+Finished processing!
+Iteration 28000, time = 14.07s, wps = 29101, train loss = 3.7264
+Iteration 28020, time = 11.99s, wps = 34149, train loss = 3.7353
+Iteration 28040, time = 12.15s, wps = 33699, train loss = 3.7037
+Iteration 28060, time = 12.10s, wps = 33841, train loss = 3.7016
+Iteration 28080, time = 12.06s, wps = 33973, train loss = 3.7216
+Iteration 28100, time = 12.18s, wps = 33642, train loss = 3.7735
+Iteration 28120, time = 12.08s, wps = 33915, train loss = 3.6769
+Iteration 28140, time = 12.07s, wps = 33931, train loss = 3.7363
+Iteration 28160, time = 12.15s, wps = 33706, train loss = 3.7272
+Iteration 28180, time = 12.07s, wps = 33946, train loss = 3.7299
+Iteration 28200, time = 12.09s, wps = 33882, train loss = 3.7189
+Iteration 28220, time = 12.15s, wps = 33699, train loss = 3.7123
+Iteration 28240, time = 12.15s, wps = 33707, train loss = 3.7550
+Iteration 28260, time = 12.12s, wps = 33784, train loss = 3.7516
+Iteration 28280, time = 12.11s, wps = 33813, train loss = 3.7109
+Iteration 28300, time = 12.08s, wps = 33909, train loss = 3.7146
+Iteration 28320, time = 12.14s, wps = 33740, train loss = 3.7231
+Iteration 28340, time = 12.16s, wps = 33694, train loss = 3.7155
+Iteration 28360, time = 12.18s, wps = 33617, train loss = 3.7163
+Iteration 28380, time = 12.13s, wps = 33756, train loss = 3.7278
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00018-of-00100
+Finished processing!
+Iteration 28400, time = 14.22s, wps = 28810, train loss = 3.6891
+Iteration 28420, time = 15.72s, wps = 26053, train loss = 3.7057
+Iteration 28440, time = 12.19s, wps = 33604, train loss = 3.6862
+Iteration 28460, time = 11.95s, wps = 34282, train loss = 3.7154
+Iteration 28480, time = 12.15s, wps = 33723, train loss = 3.7262
+Iteration 28500, time = 12.22s, wps = 33524, train loss = 3.6860
+Iteration 28520, time = 12.03s, wps = 34036, train loss = 3.7048
+Iteration 28540, time = 12.09s, wps = 33874, train loss = 3.7498
+Iteration 28560, time = 12.21s, wps = 33548, train loss = 3.6951
+Iteration 28580, time = 12.14s, wps = 33736, train loss = 3.7123
+Iteration 28600, time = 12.12s, wps = 33797, train loss = 3.7328
+Iteration 28620, time = 12.18s, wps = 33637, train loss = 3.7386
+Iteration 28640, time = 12.09s, wps = 33870, train loss = 3.6831
+Iteration 28660, time = 12.12s, wps = 33783, train loss = 3.7101
+Iteration 28680, time = 12.07s, wps = 33924, train loss = 3.6952
+Iteration 28700, time = 12.01s, wps = 34118, train loss = 3.6949
+Iteration 28720, time = 12.12s, wps = 33802, train loss = 3.6977
+Iteration 28740, time = 12.12s, wps = 33807, train loss = 3.6763
+Iteration 28760, time = 12.08s, wps = 33917, train loss = 3.6497
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00015-of-00100
+Finished processing!
+Iteration 28780, time = 14.02s, wps = 29209, train loss = 3.7151
+Iteration 28800, time = 12.06s, wps = 33952, train loss = 3.6952
+Iteration 28820, time = 12.16s, wps = 33685, train loss = 3.7565
+Iteration 28840, time = 12.09s, wps = 33882, train loss = 3.7323
+Iteration 28860, time = 12.04s, wps = 34017, train loss = 3.7194
+Iteration 28880, time = 12.09s, wps = 33886, train loss = 3.7197
+Iteration 28900, time = 12.00s, wps = 34139, train loss = 3.7434
+Iteration 28920, time = 12.07s, wps = 33939, train loss = 3.7008
+Iteration 28940, time = 11.90s, wps = 34432, train loss = 3.6749
+Iteration 28960, time = 12.08s, wps = 33914, train loss = 3.6854
+Iteration 28980, time = 12.07s, wps = 33923, train loss = 3.7245
+Iteration 29000, time = 12.05s, wps = 34002, train loss = 3.6969
+Iteration 29020, time = 12.09s, wps = 33882, train loss = 3.7405
+Iteration 29040, time = 12.19s, wps = 33601, train loss = 3.7055
+Iteration 29060, time = 12.04s, wps = 34033, train loss = 3.7030
+Iteration 29080, time = 12.14s, wps = 33737, train loss = 3.7347
+Iteration 29100, time = 12.10s, wps = 33859, train loss = 3.6951
+Iteration 29120, time = 12.07s, wps = 33933, train loss = 3.7709
+Iteration 29140, time = 12.08s, wps = 33906, train loss = 3.7164
+Iteration 29160, time = 12.08s, wps = 33908, train loss = 3.7531
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00003-of-00100
+Finished processing!
+Iteration 29180, time = 14.00s, wps = 29261, train loss = 3.7275
+Iteration 29200, time = 12.06s, wps = 33951, train loss = 3.6913
+Iteration 29220, time = 12.10s, wps = 33865, train loss = 3.7020
+Iteration 29240, time = 12.01s, wps = 34108, train loss = 3.7402
+Iteration 29260, time = 11.97s, wps = 34229, train loss = 3.7290
+Iteration 29280, time = 12.11s, wps = 33837, train loss = 3.7187
+Iteration 29300, time = 12.04s, wps = 34030, train loss = 3.6995
+Iteration 29320, time = 12.08s, wps = 33896, train loss = 3.7202
+Iteration 29340, time = 12.15s, wps = 33720, train loss = 3.7443
+Iteration 29360, time = 12.10s, wps = 33844, train loss = 3.7593
+Iteration 29380, time = 12.10s, wps = 33862, train loss = 3.7028
+Iteration 29400, time = 14.92s, wps = 27456, train loss = 3.6757
+Iteration 29420, time = 12.10s, wps = 33842, train loss = 3.7422
+Iteration 29440, time = 12.07s, wps = 33939, train loss = 3.6847
+Iteration 29460, time = 12.09s, wps = 33876, train loss = 3.7180
+Iteration 29480, time = 12.11s, wps = 33823, train loss = 3.7387
+Iteration 29500, time = 12.10s, wps = 33852, train loss = 3.7256
+Iteration 29520, time = 11.97s, wps = 34208, train loss = 3.7305
+Iteration 29540, time = 12.04s, wps = 34012, train loss = 3.6989
+Iteration 29560, time = 12.17s, wps = 33650, train loss = 3.7427
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00025-of-00100
+Finished processing!
+Iteration 29580, time = 14.02s, wps = 29222, train loss = 3.7161
+Iteration 29600, time = 12.14s, wps = 33734, train loss = 3.6917
+Iteration 29620, time = 12.10s, wps = 33842, train loss = 3.7256
+Iteration 29640, time = 12.14s, wps = 33746, train loss = 3.7184
+Iteration 29660, time = 12.02s, wps = 34076, train loss = 3.7454
+Iteration 29680, time = 12.10s, wps = 33860, train loss = 3.7168
+Iteration 29700, time = 12.03s, wps = 34035, train loss = 3.6787
+Iteration 29720, time = 12.14s, wps = 33753, train loss = 3.6869
+Iteration 29740, time = 12.16s, wps = 33676, train loss = 3.6972
+Iteration 29760, time = 12.09s, wps = 33872, train loss = 3.7140
+Iteration 29780, time = 12.07s, wps = 33947, train loss = 3.6630
+Iteration 29800, time = 12.09s, wps = 33877, train loss = 3.7100
+Iteration 29820, time = 12.11s, wps = 33821, train loss = 3.7037
+Iteration 29840, time = 12.12s, wps = 33788, train loss = 3.7105
+Iteration 29860, time = 12.14s, wps = 33749, train loss = 3.7078
+Iteration 29880, time = 12.11s, wps = 33810, train loss = 3.7063
+Iteration 29900, time = 12.12s, wps = 33787, train loss = 3.6860
+Iteration 29920, time = 12.14s, wps = 33747, train loss = 3.7344
+Iteration 29940, time = 12.06s, wps = 33953, train loss = 3.7301
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00014-of-00100
+Finished processing!
+Iteration 29960, time = 13.86s, wps = 29550, train loss = 3.6571
+Iteration 29980, time = 12.10s, wps = 33856, train loss = 3.7349
+Iteration 30000, time = 12.01s, wps = 34099, train loss = 3.7218
+Iteration 30020, time = 12.05s, wps = 33997, train loss = 3.7484
+Iteration 30040, time = 12.03s, wps = 34056, train loss = 3.7123
+Iteration 30060, time = 12.07s, wps = 33949, train loss = 3.6992
+Iteration 30080, time = 12.05s, wps = 33987, train loss = 3.7147
+Iteration 30100, time = 12.05s, wps = 33992, train loss = 3.7288
+Iteration 30120, time = 12.10s, wps = 33846, train loss = 3.7277
+Iteration 30140, time = 12.15s, wps = 33715, train loss = 3.7245
+Iteration 30160, time = 12.08s, wps = 33897, train loss = 3.7104
+Iteration 30180, time = 12.09s, wps = 33870, train loss = 3.7528
+Iteration 30200, time = 12.10s, wps = 33862, train loss = 3.7432
+Iteration 30220, time = 12.05s, wps = 33984, train loss = 3.7179
+Iteration 30240, time = 12.11s, wps = 33836, train loss = 3.6744
+Iteration 30260, time = 12.08s, wps = 33895, train loss = 3.6983
+Iteration 30280, time = 12.14s, wps = 33728, train loss = 3.7566
+Iteration 30300, time = 12.06s, wps = 33972, train loss = 3.7476
+Iteration 30320, time = 12.07s, wps = 33927, train loss = 3.7307
+Iteration 30340, time = 12.02s, wps = 34082, train loss = 3.6992
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00008-of-00100
+Finished processing!
+Iteration 30360, time = 13.78s, wps = 29725, train loss = 3.7039
+Iteration 30380, time = 14.77s, wps = 27724, train loss = 3.7322
+Iteration 30400, time = 12.05s, wps = 34004, train loss = 3.7040
+Iteration 30420, time = 12.12s, wps = 33802, train loss = 3.7127
+Iteration 30440, time = 11.97s, wps = 34219, train loss = 3.6959
+Iteration 30460, time = 12.18s, wps = 33630, train loss = 3.6955
+Iteration 30480, time = 12.01s, wps = 34094, train loss = 3.7246
+Iteration 30500, time = 12.09s, wps = 33871, train loss = 3.6895
+Iteration 30520, time = 12.09s, wps = 33866, train loss = 3.6976
+Iteration 30540, time = 12.10s, wps = 33858, train loss = 3.6979
+Iteration 30560, time = 12.04s, wps = 34030, train loss = 3.7117
+Iteration 30580, time = 12.11s, wps = 33830, train loss = 3.6733
+Iteration 30600, time = 12.13s, wps = 33767, train loss = 3.7141
+Iteration 30620, time = 12.08s, wps = 33917, train loss = 3.7000
+Iteration 30640, time = 12.16s, wps = 33678, train loss = 3.7211
+Iteration 30660, time = 12.08s, wps = 33908, train loss = 3.6564
+Iteration 30680, time = 12.03s, wps = 34037, train loss = 3.7046
+Iteration 30700, time = 12.06s, wps = 33972, train loss = 3.6809
+Iteration 30720, time = 12.00s, wps = 34134, train loss = 3.7150
+Iteration 30740, time = 12.00s, wps = 34127, train loss = 3.7014
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00017-of-00100
+Finished processing!
+Iteration 30760, time = 13.90s, wps = 29458, train loss = 3.6657
+Iteration 30780, time = 12.03s, wps = 34056, train loss = 3.7118
+Iteration 30800, time = 12.13s, wps = 33776, train loss = 3.7133
+Iteration 30820, time = 12.02s, wps = 34076, train loss = 3.6920
+Iteration 30840, time = 12.08s, wps = 33899, train loss = 3.7267
+Iteration 30860, time = 12.12s, wps = 33790, train loss = 3.6898
+Iteration 30880, time = 12.08s, wps = 33909, train loss = 3.6692
+Iteration 30900, time = 12.07s, wps = 33936, train loss = 3.7096
+Iteration 30920, time = 12.05s, wps = 34000, train loss = 3.6670
+Iteration 30940, time = 12.07s, wps = 33929, train loss = 3.6795
+Iteration 30960, time = 12.16s, wps = 33681, train loss = 3.7072
+Iteration 30980, time = 12.04s, wps = 34032, train loss = 3.6866
+Iteration 31000, time = 12.12s, wps = 33791, train loss = 3.7336
+Iteration 31020, time = 12.10s, wps = 33846, train loss = 3.7301
+Iteration 31040, time = 12.06s, wps = 33974, train loss = 3.6806
+Iteration 31060, time = 12.10s, wps = 33858, train loss = 3.7460
+Iteration 31080, time = 12.09s, wps = 33871, train loss = 3.7132
+Iteration 31100, time = 12.14s, wps = 33742, train loss = 3.6590
+Iteration 31120, time = 12.09s, wps = 33880, train loss = 3.6632
+Iteration 31140, time = 12.12s, wps = 33783, train loss = 3.7003
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00028-of-00100
+Finished processing!
+Iteration 31160, time = 13.81s, wps = 29667, train loss = 3.7434
+Iteration 31180, time = 12.09s, wps = 33881, train loss = 3.7296
+Iteration 31200, time = 12.12s, wps = 33787, train loss = 3.7116
+Iteration 31220, time = 12.04s, wps = 34009, train loss = 3.7088
+Iteration 31240, time = 12.10s, wps = 33841, train loss = 3.7281
+Iteration 31260, time = 12.08s, wps = 33916, train loss = 3.7216
+Iteration 31280, time = 12.16s, wps = 33675, train loss = 3.7651
+Iteration 31300, time = 12.13s, wps = 33771, train loss = 3.701I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 7509840 get requests, put_count=7509840 evicted_count=12000 eviction_rate=0.0015979 and unsatisfied allocation rate=0.00161481
+5
+Iteration 31320, time = 12.09s, wps = 33874, train loss = 3.7146
+Iteration 31340, time = 12.05s, wps = 33984, train loss = 3.7590
+Iteration 31360, time = 15.47s, wps = 26485, train loss = 3.7442
+Iteration 31380, time = 12.11s, wps = 33832, train loss = 3.6856
+Iteration 31400, time = 12.06s, wps = 33967, train loss = 3.7473
+Iteration 31420, time = 12.10s, wps = 33858, train loss = 3.6995
+Iteration 31440, time = 12.09s, wps = 33866, train loss = 3.7564
+Iteration 31460, time = 12.03s, wps = 34055, train loss = 3.7105
+Iteration 31480, time = 12.11s, wps = 33822, train loss = 3.7240
+Iteration 31500, time = 12.13s, wps = 33755, train loss = 3.7877
+Iteration 31520, time = 12.08s, wps = 33915, train loss = 3.7199
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00027-of-00100
+Finished processing!
+Iteration 31540, time = 14.02s, wps = 29215, train loss = 3.6921
+Iteration 31560, time = 12.05s, wps = 33999, train loss = 3.6980
+Iteration 31580, time = 12.11s, wps = 33811, train loss = 3.6975
+Iteration 31600, time = 11.95s, wps = 34288, train loss = 3.6917
+Iteration 31620, time = 11.99s, wps = 34159, train loss = 3.7281
+Iteration 31640, time = 12.07s, wps = 33932, train loss = 3.7203
+Iteration 31660, time = 12.08s, wps = 33917, train loss = 3.6997
+Iteration 31680, time = 12.13s, wps = 33755, train loss = 3.6920
+Iteration 31700, time = 12.14s, wps = 33745, train loss = 3.7034
+Iteration 31720, time = 12.06s, wps = 33971, train loss = 3.6629
+Iteration 31740, time = 12.03s, wps = 34039, train loss = 3.7642
+Iteration 31760, time = 12.06s, wps = 33959, train loss = 3.7107
+Iteration 31780, time = 12.12s, wps = 33805, train loss = 3.7007
+Iteration 31800, time = 12.12s, wps = 33792, train loss = 3.7418
+Iteration 31820, time = 12.09s, wps = 33873, train loss = 3.6936
+Iteration 31840, time = 12.00s, wps = 34123, train loss = 3.7192
+Iteration 31860, time = 12.12s, wps = 33804, train loss = 3.7107
+Iteration 31880, time = 12.09s, wps = 33878, train loss = 3.7100
+Iteration 31900, time = 12.09s, wps = 33891, train loss = 3.7270
+Iteration 31920, time = 12.11s, wps = 33830, train loss = 3.6690
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00016-of-00100
+Finished processing!
+Iteration 31940, time = 13.95s, wps = 29354, train loss = 3.7587
+Iteration 31960, time = 12.05s, wps = 34006, train loss = 3.7056
+Iteration 31980, time = 12.02s, wps = 34065, train loss = 3.6885
+Iteration 32000, time = 12.12s, wps = 33809, train loss = 3.7083
+Iteration 32020, time = 12.06s, wps = 33969, train loss = 3.7105
+Iteration 32040, time = 12.12s, wps = 33800, train loss = 3.6864
+Iteration 32060, time = 12.02s, wps = 34086, train loss = 3.7225
+Iteration 32080, time = 12.10s, wps = 33857, train loss = 3.6809
+Iteration 32100, time = 12.03s, wps = 34036, train loss = 3.7589
+Iteration 32120, time = 11.97s, wps = 34225, train loss = 3.7138
+Iteration 32140, time = 12.06s, wps = 33973, train loss = 3.6997
+Iteration 32160, time = 11.96s, wps = 34242, train loss = 3.7044
+Iteration 32180, time = 12.10s, wps = 33861, train loss = 3.7072
+Iteration 32200, time = 12.12s, wps = 33782, train loss = 3.6595
+Iteration 32220, time = 12.00s, wps = 34143, train loss = 3.7201
+Iteration 32240, time = 12.05s, wps = 33992, train loss = 3.7167
+Iteration 32260, time = 12.17s, wps = 33662, train loss = 3.7005
+Iteration 32280, time = 12.14s, wps = 33750, train loss = 3.7357
+Iteration 32300, time = 12.04s, wps = 34011, train loss = 3.7028
+Iteration 32320, time = 12.09s, wps = 33890, train loss = 3.7089
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00019-of-00100
+Finished processing!
+Iteration 32340, time = 26.72s, wps = 15328, train loss = 3.6756
+Iteration 32360, time = 11.97s, wps = 34233, train loss = 3.7002
+Iteration 32380, time = 12.10s, wps = 33838, train loss = 3.6871
+Iteration 32400, time = 12.06s, wps = 33952, train loss = 3.6866
+Iteration 32420, time = 12.13s, wps = 33767, train loss = 3.6833
+Iteration 32440, time = 12.05s, wps = 34000, train loss = 3.6759
+Iteration 32460, time = 12.11s, wps = 33814, train loss = 3.7128
+Iteration 32480, time = 12.05s, wps = 33999, train loss = 3.7123
+Iteration 32500, time = 12.13s, wps = 33774, train loss = 3.7160
+Iteration 32520, time = 12.09s, wps = 33875, train loss = 3.7006
+Iteration 32540, time = 12.08s, wps = 33910, train loss = 3.6472
+Iteration 32560, time = 12.07s, wps = 33944, train loss = 3.6966
+Iteration 32580, time = 12.08s, wps = 33896, train loss = 3.6892
+Iteration 32600, time = 12.04s, wps = 34025, train loss = 3.7032
+Iteration 32620, time = 12.05s, wps = 34001, train loss = 3.6816
+Iteration 32640, time = 12.12s, wps = 33786, train loss = 3.7155
+Iteration 32660, time = 12.08s, wps = 33915, train loss = 3.6828
+Iteration 32680, time = 12.12s, wps = 33786, train loss = 3.7268
+Iteration 32700, time = 12.10s, wps = 33863, train loss = 3.6681
+Iteration 32720, time = 12.09s, wps = 33879, train loss = 3.7036
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00020-of-00100
+Finished processing!
+Iteration 32740, time = 13.93s, wps = 29404, train loss = 3.6839
+Iteration 32760, time = 12.05s, wps = 34000, train loss = 3.6868
+Iteration 32780, time = 12.03s, wps = 34035, train loss = 3.7028
+Iteration 32800, time = 12.05s, wps = 33984, train loss = 3.7000
+Iteration 32820, time = 12.04s, wps = 34014, train loss = 3.6918
+Iteration 32840, time = 12.12s, wps = 33786, train loss = 3.7032
+Iteration 32860, time = 12.06s, wps = 33969, train loss = 3.6818
+Iteration 32880, time = 12.11s, wps = 33834, train loss = 3.6969
+Iteration 32900, time = 11.90s, wps = 34432, train loss = 3.6491
+Iteration 32920, time = 12.07s, wps = 33934, train loss = 3.6829
+Iteration 32940, time = 12.02s, wps = 34090, train loss = 3.7165
+Iteration 32960, time = 12.14s, wps = 33731, train loss = 3.6898
+Iteration 32980, time = 12.16s, wps = 33682, train loss = 3.6911
+Iteration 33000, time = 12.04s, wps = 34020, train loss = 3.6724
+Iteration 33020, time = 12.07s, wps = 33946, train loss = 3.7072
+Iteration 33040, time = 12.03s, wps = 34043, train loss = 3.6838
+Iteration 33060, time = 11.79s, wps = 34749, train loss = 3.7073
+Iteration 33080, time = 12.18s, wps = 33637, train loss = 3.6907
+Iteration 33100, time = 12.04s, wps = 34026, train loss = 3.6769
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00012-of-00100
+Finished processing!
+Iteration 33120, time = 14.06s, wps = 29132, train loss = 3.6663
+Iteration 33140, time = 12.12s, wps = 33787, train loss = 3.6836
+Iteration 33160, time = 12.11s, wps = 33818, train loss = 3.7012
+Iteration 33180, time = 12.08s, wps = 33906, train loss = 3.6551
+Iteration 33200, time = 12.09s, wps = 33881, train loss = 3.6803
+Iteration 33220, time = 12.16s, wps = 33676, train loss = 3.7428
+Iteration 33240, time = 12.17s, wps = 33670, train loss = 3.6863
+Iteration 33260, time = 12.15s, wps = 33699, train loss = 3.7004
+Iteration 33280, time = 12.11s, wps = 33821, train loss = 3.6864
+Iteration 33300, time = 15.53s, wps = 26369, train loss = 3.7543
+Iteration 33320, time = 12.28s, wps = 33356, train loss = 3.7392
+Iteration 33340, time = 12.04s, wps = 34021, train loss = 3.6562
+Iteration 33360, time = 12.08s, wps = 33896, train loss = 3.6538
+Iteration 33380, time = 12.05s, wps = 33991, train loss = 3.7147
+Iteration 33400, time = 12.16s, wps = 33673, train loss = 3.6863
+Iteration 33420, time = 12.17s, wps = 33668, train loss = 3.6578
+Iteration 33440, time = 12.09s, wps = 33888, train loss = 3.7049
+Iteration 33460, time = 12.10s, wps = 33859, train loss = 3.6710
+Iteration 33480, time = 12.09s, wps = 33880, train loss = 3.6738
+Iteration 33500, time = 12.03s, wps = 34052, train loss = 3.7235
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00026-of-00100
+Finished processing!
+Iteration 33520, time = 14.01s, wps = 29228, train loss = 3.6891
+Iteration 33540, time = 12.09s, wps = 33870, train loss = 3.7104
+Iteration 33560, time = 12.12s, wps = 33785, train loss = 3.6858
+Iteration 33580, time = 12.08s, wps = 33899, train loss = 3.6886
+Iteration 33600, time = 12.10s, wps = 33864, train loss = 3.6888
+Iteration 33620, time = 12.04s, wps = 34021, train loss = 3.6489
+Iteration 33640, time = 11.98s, wps = 34195, train loss = 3.7128
+Iteration 33660, time = 12.16s, wps = 33683, train loss = 3.7032
+Iteration 33680, time = 12.05s, wps = 33992, train loss = 3.6840
+Iteration 33700, time = 12.07s, wps = 33932, train loss = 3.7184
+Iteration 33720, time = 12.04s, wps = 34009, train loss = 3.6615
+Iteration 33740, time = 12.15s, wps = 33701, train loss = 3.6978
+Iteration 33760, time = 12.09s, wps = 33880, train loss = 3.6821
+Iteration 33780, time = 12.04s, wps = 34031, train loss = 3.6915
+Iteration 33800, time = 12.09s, wps = 33873, train loss = 3.6954
+Iteration 33820, time = 12.06s, wps = 33957, train loss = 3.6869
+Iteration 33840, time = 11.91s, wps = 34399, train loss = 3.6593
+Iteration 33860, time = 12.05s, wps = 33982, train loss = 3.6603
+Iteration 33880, time = 12.06s, wps = 33972, train loss = 3.6523
+Iteration 33900, time = 12.06s, wps = 33974, train loss = 3.7082
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00005-of-00100
+Finished processing!
+Iteration 33920, time = 13.84s, wps = 29585, train loss = 3.7052
+Iteration 33940, time = 12.11s, wps = 33821, train loss = 3.7420
+Iteration 33960, time = 12.03s, wps = 34060, train loss = 3.6760
+Iteration 33980, time = 12.09s, wps = 33871, train loss = 3.6924
+Iteration 34000, time = 12.10s, wps = 33852, train loss = 3.7019
+Iteration 34020, time = 12.12s, wps = 33785, train loss = 3.6501
+Iteration 34040, time = 12.06s, wps = 33961, train loss = 3.7010
+Iteration 34060, time = 12.02s, wps = 34075, train loss = 3.7141
+Iteration 34080, time = 12.07s, wps = 33933, train loss = 3.7330
+Iteration 34100, time = 12.09s, wps = 33871, train loss = 3.6953
+Iteration 34120, time = 12.14s, wps = 33731, train loss = 3.6508
+Iteration 34140, time = 12.10s, wps = 33858, train loss = 3.6902
+Iteration 34160, time = 12.08s, wps = 33894, train loss = 3.6706
+Iteration 34180, time = 12.01s, wps = 34103, train loss = 3.6711
+Iteration 34200, time = 11.95s, wps = 34266, train loss = 3.7289
+Iteration 34220, time = 11.98s, wps = 34200, train loss = 3.6996
+Iteration 34240, time = 12.01s, wps = 34105, train loss = 3.7345
+Iteration 34260, time = 12.02s, wps = 34076, train loss = 3.6731
+Iteration 34280, time = 14.46s, wps = 28325, train loss = 3.6746
+haibin: a new epoch just started
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00029-of-00100
+Finished processing!
+Iteration 34300, time = 13.96s, wps = 29347, train loss = 3.6504
+Iteration 34320, time = 11.97s, wps = 34231, train loss = 3.6398
+Iteration 34340, time = 12.01s, wps = 34114, train loss = 3.6539
+Iteration 34360, time = 11.98s, wps = 34184, train loss = 3.6532
+Iteration 34380, time = 12.11s, wps = 33835, train loss = 3.6240
+Iteration 34400, time = 12.04s, wps = 34029, train loss = 3.6651
+Iteration 34420, time = 11.86s, wps = 34539, train loss = 3.6197
+Iteration 34440, time = 11.97s, wps = 34228, train loss = 3.6269
+Iteration 34460, time = 12.02s, wps = 34063, train loss = 3.6541
+Iteration 34480, time = 11.89s, wps = 34450, train loss = 3.6735
+Iteration 34500, time = 12.01s, wps = 34101, train loss = 3.6040
+Iteration 34520, time = 11.84s, wps = 34586, train loss = 3.6326
+Iteration 34540, time = 11.82s, wps = 34646, train loss = 3.6259
+Iteration 34560, time = 12.01s, wps = 34093, train loss = 3.6226
+Iteration 34580, time = 11.90s, wps = 34414, train loss = 3.6547
+Iteration 34600, time = 12.09s, wps = 33870, train loss = 3.6274
+Iteration 34620, time = 12.03s, wps = 34037, train loss = 3.6505
+Iteration 34640, time = 12.05s, wps = 33992, train loss = 3.6329
+Iteration 34660, time = 12.01s, wps = 34103, train loss = 3.6781
+Iteration 34680, time = 12.09s, wps = 33892, train loss = 3.6895
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00023-of-00100
+Finished processing!
+Iteration 34700, time = 13.75s, wps = 29793, train loss = 3.6823
+Iteration 34720, time = 11.97s, wps = 34228, train loss = 3.6361
+Iteration 34740, time = 11.84s, wps = 34604, train loss = 3.6420
+Iteration 34760, time = 12.03s, wps = 34059, train loss = 3.6818
+Iteration 34780, time = 11.93s, wps = 34343, train loss = 3.6664
+Iteration 34800, time = 11.97s, wps = 34211, train loss = 3.6500
+Iteration 34820, time = 12.12s, wps = 33788, train loss = 3.6392
+Iteration 34840, time = 12.17s, wps = 33657, train loss = 3.6666
+Iteration 34860, time = 12.11s, wps = 33812, train loss = 3.6991
+Iteration 34880, time = 12.04s, wps = 34014, train loss = 3.6247
+Iteration 34900, time = 11.97s, wps = 34205, train loss = 3.6324
+Iteration 34920, time = 12.01s, wps = 34092, train loss = 3.6819
+Iteration 34940, time = 12.00s, wps = 34140, train loss = 3.6504
+Iteration 34960, time = 12.07s, wps = 33922, train loss = 3.6557
+Iteration 34980, time = 12.03s, wps = 34056, train loss = 3.6559
+Iteration 35000, time = 12.06s, wps = 33961, train loss = 3.6013
+Iteration 35020, time = 11.88s, wps = 34464, train loss = 3.6500
+Iteration 35040, time = 12.13s, wps = 33776, train loss = 3.6735
+Iteration 35060, time = 12.13s, wps = 33754, train loss = 3.6182
+Iteration 35080, time = 12.08s, wps = 33894, train loss = 3.6682
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00012-of-00100
+Finished processing!
+Iteration 35100, time = 13.91s, wps = 29447, train loss = 3.6272
+Iteration 35120, time = 12.01s, wps = 34106, train loss = 3.5822
+Iteration 35140, time = 12.01s, wps = 34104, train loss = 3.6091
+Iteration 35160, time = 12.05s, wps = 34001, train loss = 3.5818
+Iteration 35180, time = 12.09s, wps = 33888, train loss = 3.6102
+Iteration 35200, time = 12.07s, wps = 33928, train loss = 3.5670
+Iteration 35220, time = 12.03s, wps = 34037, train loss = 3.6053
+Iteration 35240, time = 12.06s, wps = 33953, train loss = 3.6123
+Iteration 35260, time = 12.66s, wps = 32348, train loss = 3.6286
+Iteration 35280, time = 14.55s, wps = 28157, train loss = 3.5983
+Iteration 35300, time = 12.06s, wps = 33960, train loss = 3.5793
+Iteration 35320, time = 12.09s, wps = 33884, train loss = 3.5777
+Iteration 35340, time = 12.15s, wps = 33725, train loss = 3.6050
+Iteration 35360, time = 12.08s, wps = 33909, train loss = 3.6455
+Iteration 35380, time = 12.02s, wps = 34077, train loss = 3.6417
+Iteration 35400, time = 11.93s, wps = 34326, train loss = 3.5922
+Iteration 35420, time = 11.89s, wps = 34446, train loss = 3.6233
+Iteration 35440, time = 12.04s, wps = 34019, train loss = 3.6040
+Iteration 35460, time = 12.07s, wps = 33948, train loss = 3.5920
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00001-of-00100
+Finished processing!
+Iteration 35480, time = 14.02s, wps = 29224, train loss = 3.6530
+Iteration 35500, time = 12.04s, wps = 34015, train loss = 3.6738
+Iteration 35520, time = 12.10s, wps = 33856, train loss = 3.6248
+Iteration 35540, time = 12.09s, wps = 33881, train loss = 3.6349
+Iteration 35560, time = 11.99s, wps = 34171, train loss = 3.6458
+Iteration 35580, time = 11.88s, wps = 34476, train loss = 3.6746
+Iteration 35600, time = 12.05s, wps = 33989, train loss = 3.6889
+Iteration 35620, time = 12.03s, wps = 34035, train loss = 3.6446
+Iteration 35640, time = 12.00s, wps = 34124, train loss = 3.6837
+Iteration 35660, time = 12.12s, wps = 33801, train loss = 3.6031
+Iteration 35680, time = 11.97s, wps = 34225, train loss = 3.6414
+Iteration 35700, time = 11.95s, wps = 34276, train loss = 3.6784
+Iteration 35720, time = 12.01s, wps = 34095, train loss = 3.6634
+Iteration 35740, time = 12.09s, wps = 33878, train loss = 3.6464
+Iteration 35760, time = 12.14s, wps = 33729, train loss = 3.6198
+Iteration 35780, time = 12.17s, wps = 33650, train loss = 3.6309
+Iteration 35800, time = 11.99s, wps = 34172, train loss = 3.6640
+Iteration 35820, time = 12.03s, wps = 34042, train loss = 3.6551
+Iteration 35840, time = 12.04s, wps = 34020, train loss = 3.6518
+Iteration 35860, time = 12.04s, wps = 34016, train loss = 3.6662
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00008-of-00100
+Finished processing!
+Iteration 35880, time = 14.02s, wps = 29210, train loss = 3.6299
+Iteration 35900, time = 12.07s, wps = 33934, train loss = 3.6397
+Iteration 35920, time = 12.10s, wps = 33848, train loss = 3.6162
+Iteration 35940, time = 11.95s, wps = 34269, train loss = 3.6148
+Iteration 35960, time = 11.97s, wps = 34224, train loss = 3.6568
+Iteration 35980, time = 12.09s, wps = 33880, train loss = 3.6301
+Iteration 36000, time = 11.98s, wps = 34182, train loss = 3.6162
+Iteration 36020, time = 12.08s, wps = 33921, train loss = 3.6183
+Iteration 36040, time = 12.14s, wps = 33753, train loss = 3.6492
+Iteration 36060, time = 12.14s, wps = 33732, train loss = 3.6375
+Iteration 36080, time = 12.01s, wps = 34094, train loss = 3.5886
+Iteration 36100, time = 12.02s, wps = 34080, train loss = 3.6393
+Iteration 36120, time = 12.00s, wps = 34132, train loss = 3.6426
+Iteration 36140, time = 12.03s, wps = 34038, train loss = 3.6640
+Iteration 36160, time = 12.04s, wps = 34017, train loss = 3.5943
+Iteration 36180, time = 12.06s, wps = 33963, train loss = 3.6162
+Iteration 36200, time = 11.99s, wps = 34161, train loss = 3.6607
+Iteration 36220, time = 12.00s, wps = 34134, train loss = 3.6314
+Iteration 36240, time = 11.99s, wps = 34158, train loss = 3.6154
+Iteration 36260, time = 15.19s, wps = 26973, train loss = 3.6272
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00004-of-00100
+Finished processing!
+Iteration 36280, time = 13.80s, wps = 29672, train loss = 3.6318
+Iteration 36300, time = 12.09s, wps = 33886, train loss = 3.6715
+Iteration 36320, time = 12.07s, wps = 33923, train loss = 3.6367
+Iteration 36340, time = 11.97s, wps = 34221, train loss = 3.6483
+Iteration 36360, time = 11.86s, wps = 34548, train loss = 3.6774
+Iteration 36380, time = 12.11s, wps = 33837, train loss = 3.6621
+Iteration 36400, time = 12.05s, wps = 33989, train loss = 3.6446
+Iteration 36420, time = 12.03s, wps = 34040, train loss = 3.6650
+Iteration 36440, time = 12.10s, wps = 33864, train loss = 3.6777
+Iteration 36460, time = 11.95s, wps = 34275, train loss = 3.6738
+Iteration 36480, time = 12.01s, wps = 34110, train loss = 3.6573
+Iteration 36500, time = 12.04s, wps = 34021, train loss = 3.6673
+Iteration 36520, time = 12.02s, wps = 34063, train loss = 3.6770
+Iteration 36540, time = 11.97s, wps = 34210, train loss = 3.6653
+Iteration 36560, time = 12.06s, wps = 33971, train loss = 3.6445
+Iteration 36580, time = 12.01s, wps = 34109, train loss = 3.6568
+Iteration 36600, time = 11.97s, wps = 34232, train loss = 3.6912
+Iteration 36620, time = 12.11s, wps = 33812, train loss = 3.6607
+Iteration 36640, time = 12.04s, wps = 34015, train loss = 3.6428
+Iteration 36660, time = 12.04s, wps = 34016, train loss = 3.6464
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00025-of-00100
+Finished processing!
+Iteration 36680, time = 13.84s, wps = 29597, train loss = 3.6598
+Iteration 36700, time = 12.07s, wps = 33942, train loss = 3.5952
+Iteration 36720, time = 12.09s, wps = 33877, train loss = 3.6244
+Iteration 36740, time = 12.02s, wps = 34069, train loss = 3.6530
+Iteration 36760, time = 12.05s, wps = 33984, train loss = 3.6237
+Iteration 36780, time = 12.10s, wps = 33858, train loss = 3.6239
+Iteration 36800, time = 12.14s, wps = 33744, train loss = 3.6205
+Iteration 36820, time = 11.98s, wps = 34178, train loss = 3.6035
+Iteration 36840, time = 12.01s, wps = 34118, train loss = 3.6244
+Iteration 36860, time = 12.04s, wps = 34018, train loss = 3.6459
+Iteration 36880, time = 12.04s, wps = 34006, train loss = 3.6323
+Iteration 36900, time = 11.95s, wps = 34279, train loss = 3.5969
+Iteration 36920, time = 11.89s, wps = 34443, train loss = 3.6139
+Iteration 36940, time = 12.15s, wps = 33705, train loss = 3.6425
+Iteration 36960, time = 12.04s, wps = 34026, train loss = 3.6064
+Iteration 36980, time = 12.02s, wps = 34075, train loss = 3.6611
+Iteration 37000, time = 11.93s, wps = 34328, train loss = 3.6379
+Iteration 37020, time = 11.90s, wps = 34427, train loss = 3.6227
+Iteration 37040, time = 12.15s, wps = 33708, train loss = 3.6501
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00013-of-00100
+Finished processing!
+Iteration 37060, time = 14.05s, wps = 29153, train loss = 3.6189
+Iteration 37080, time = 12.11s, wps = 33818, train loss = 3.6031
+Iteration 37100, time = 12.07s, wps = 33935, train loss = 3.6405
+Iteration 37120, time = 12.09s, wps = 33879, train loss = 3.6469
+Iteration 37140, time = 12.02s, wps = 34066, train loss = 3.6316
+Iteration 37160, time = 12.04s, wps = 34019, train loss = 3.5938
+Iteration 37180, time = 11.93s, wps = 34333, train loss = 3.6268
+Iteration 37200, time = 11.98s, wps = 34184, train loss = 3.6087
+Iteration 37220, time = 12.10s, wps = 33859, train loss = 3.6017
+Iteration 37240, time = 16.60s, wps = 24680, train loss = 3.6106
+Iteration 37260, time = 12.17s, wps = 33663, train loss = 3.6404
+Iteration 37280, time = 12.10s, wps = 33864, train loss = 3.6228
+Iteration 37300, time = 12.10s, wps = 33852, train loss = 3.6226
+Iteration 37320, time = 12.04s, wps = 34030, train loss = 3.6488
+Iteration 37340, time = 12.15s, wps = 33704, train loss = 3.6725
+Iteration 37360, time = 12.05s, wps = 33998, train loss = 3.6315
+Iteration 37380, time = 12.04s, wps = 34027, train loss = 3.6567
+Iteration 37400, time = 12.13s, wps = 33759, train loss = 3.6540
+Iteration 37420, time = 12.11s, wps = 33812, train loss = 3.6172
+Iteration 37440, time = 12.06s, wps = 33969, train loss = 3.6045
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00011-of-00100
+Finished processing!
+Iteration 37460, time = 13.84s, wps = 29591, train loss = 3.6523
+Iteration 37480, time = 11.99s, wps = 34165, train loss = 3.6548
+Iteration 37500, time = 11.97s, wps = 34206, train loss = 3.6245
+Iteration 37520, time = 12.04s, wps = 34015, train loss = 3.6502
+Iteration 37540, time = 12.11s, wps = 33812, train loss = 3.6039
+Iteration 37560, time = 12.08s, wps = 33895, train loss = 3.6606
+Iteration 37580, time = 12.03s, wps = 34036, train loss = 3.5977
+Iteration 37600, time = 12.10s, wps = 33847, train loss = 3.6722
+Iteration 37620, time = 12.07s, wps = 33931, train loss = 3.6180
+Iteration 37640, time = 12.11s, wps = 33832, train loss = 3.6517
+Iteration 37660, time = 12.07s, wps = 33937, train loss = 3.6715
+Iteration 37680, time = 12.07s, wps = 33938, train loss = 3.6619
+Iteration 37700, time = 12.08s, wps = 33912, train loss = 3.6413
+Iteration 37720, time = 12.01s, wps = 34111, train loss = 3.6840
+Iteration 37740, time = 12.06s, wps = 33951, train loss = 3.6721
+Iteration 37760, time = 11.92s, wps = 34356, train loss = 3.6616
+Iteration 37780, time = 12.03s, wps = 34049, train loss = 3.6292
+Iteration 37800, time = 12.05s, wps = 34003, train loss = 3.6492
+Iteration 37820, time = 12.00s, wps = 34134, train loss = 3.6112
+Iteration 37840, time = 12.00s, wps = 34146, train loss = 3.6973
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00018-of-00100
+Finished processing!
+Iteration 37860, time = 13.94s, wps = 29386, train loss = 3.5937
+Iteration 37880, time = 12.01s, wps = 34093, train loss = 3.6316
+Iteration 37900, time = 12.02s, wps = 34088, train loss = 3.6058
+Iteration 37920, time = 12.10s, wps = 33861, train loss = 3.6389
+Iteration 37940, time = 12.08s, wps = 33920, train loss = 3.6238
+Iteration 37960, time = 12.10s, wps = 33855, train loss = 3.6480
+Iteration 37980, time = 12.11s, wps = 33832, train loss = 3.6388
+Iteration 38000, time = 12.15s, wps = 33700, train loss = 3.6364
+Iteration 38020, time = 12.08s, wps = 33900, train loss = 3.6698
+Iteration 38040, time = 12.02s, wps = 34089, train loss = 3.6297
+Iteration 38060, time = 12.15s, wps = 33714, train loss = 3.6026
+Iteration 38080, time = 12.10s, wps = 33863, train loss = 3.6100
+Iteration 38100, time = 12.14s, wps = 33727, train loss = 3.6707
+Iteration 38120, time = 12.06s, wps = 33973, train loss = 3.5983
+Iteration 38140, time = 12.15s, wps = 33713, train loss = 3.6245
+Iteration 38160, time = 12.03s, wps = 34039, train loss = 3.6363
+Iteration 38180, time = 12.07s, wps = 33929, train loss = 3.5836
+Iteration 38200, time = 12.03s, wps = 34060, train loss = 3.5836
+Iteration 38220, time = 13.81s, wps = 29664, train loss = 3.6177
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00016-of-00100
+Finished processing!
+Iteration 38240, time = 13.87s, wps = 29538, train loss = 3.6673
+Iteration 38260, time = 12.09s, wps = 33888, train loss = 3.6290
+Iteration 38280, time = 12.01s, wps = 34109, train loss = 3.6639
+Iteration 38300, time = 11.96s, wps = 34243, train loss = 3.6360
+Iteration 38320, time = 12.15s, wps = 33724, train loss = 3.6418
+Iteration 38340, time = 12.05s, wps = 34005, train loss = 3.6159
+Iteration 38360, time = 12.10s, wps = 33858, train loss = 3.5907
+Iteration 38380, time = 12.03s, wps = 34052, train loss = 3.6581
+Iteration 38400, time = 11.99s, wps = 34158, train loss = 3.6548
+Iteration 38420, time = 12.12s, wps = 33783, train loss = 3.6019
+Iteration 38440, time = 12.06s, wps = 33956, train loss = 3.6028
+Iteration 38460, time = 12.06s, wps = 33969, train loss = 3.6498
+Iteration 38480, time = 12.07s, wps = 33935, train loss = 3.6283
+Iteration 38500, time = 12.05s, wps = 33998, train loss = 3.6612
+Iteration 38520, time = 12.04s, wps = 34027, train loss = 3.6285
+Iteration 38540, time = 12.08s, wps = 33896, train loss = 3.6535
+Iteration 38560, time = 12.15s, wps = 33722, train loss = 3.6153
+Iteration 38580, time = 11.96s, wps = 34245, train loss = 3.6393
+Iteration 38600, time = 12.09s, wps = 33866, train loss = 3.6523
+Iteration 38620, time = 12.04s, wps = 34021, train loss = 3.6445
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00027-of-00100
+Finished processing!
+Iteration 38640, time = 13.99s, wps = 29270, train loss = 3.6642
+Iteration 38660, time = 11.88s, wps = 34490, train loss = 3.6392
+Iteration 38680, time = 12.10s, wps = 33862, train loss = 3.6523
+Iteration 38700, time = 12.10s, wps = 33862, train loss = 3.6668
+Iteration 38720, time = 12.04s, wps = 34026, train loss = 3.6252
+Iteration 38740, time = 12.15s, wps = 33701, train loss = 3.6182
+Iteration 38760, time = 12.12s, wps = 33792, train loss = 3.6314
+Iteration 38780, time = 12.09s, wps = 33876, train loss = 3.6047
+Iteration 38800, time = 12.15s, wps = 33724, train loss = 3.6126
+Iteration 38820, time = 12.06s, wps = 33965, train loss = 3.6243
+Iteration 38840, time = 12.05s, wps = 34001, train loss = 3.6376
+Iteration 38860, time = 12.13s, wps = 33755, train loss = 3.5993
+Iteration 38880, time = 12.12s, wps = 33791, train loss = 3.6307
+Iteration 38900, time = 12.12s, wps = 33790, train loss = 3.5918
+Iteration 38920, time = 12.18s, wps = 33626, train loss = 3.6236
+Iteration 38940, time = 12.24s, wps = 33468, train loss = 3.6037
+Iteration 38960, time = 12.14s, wps = 33748, train loss = 3.6188
+Iteration 38980, time = 12.14s, wps = 33732, train loss = 3.6476
+Iteration 39000, time = 12.25s, wps = 33425, train loss = 3.6111
+Iteration 39020, time = 12.14s, wps = 33745, train loss = 3.6098
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00003-of-00100
+Finished processing!
+Iteration 39040, time = 13.98s, wps = 29309, train loss = 3.6624
+Iteration 39060, time = 12.15s, wps = 33702, train loss = 3.6826
+Iteration 39080, time = 12.30s, wps = 33313, train loss = 3.6354
+Iteration 39100, time = 12.23s, wps = 33478, train loss = 3.6008
+Iteration 39120, time = 12.19s, wps = 33599, train loss = 3.6625
+Iteration 39140, time = 12.13s, wps = 33759, train loss = 3.6325
+Iteration 39160, time = 12.07s, wps = 33938, train loss = 3.6059
+Iteration 39180, time = 12.10s, wps = 33852, train loss = 3.6177
+Iteration 39200, time = 15.48s, wps = 26455, train loss = 3.6644
+Iteration 39220, time = 12.18s, wps = 33625, train loss = 3.6667
+Iteration 39240, time = 12.13s, wps = 33772, train loss = 3.6492
+Iteration 39260, time = 12.11s, wps = 33833, train loss = 3.6122
+Iteration 39280, time = 12.05s, wps = 33989, train loss = 3.6221
+Iteration 39300, time = 12.22s, wps = 33520, train loss = 3.6549
+Iteration 39320, time = 11.96s, wps = 34256, train loss = 3.6351
+Iteration 39340, time = 12.03s, wps = 34051, train loss = 3.5789
+Iteration 39360, time = 12.11s, wps = 33828, train loss = 3.6427
+Iteration 39380, time = 12.09s, wps = 33875, train loss = 3.6176
+Iteration 39400, time = 12.10s, wps = 33845, train loss = 3.6167
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00005-of-00100
+Finished processing!
+Iteration 39420, time = 13.96s, wps = 29337, train loss = 3.6558
+Iteration 39440, time = 12.09s, wps = 33884, train loss = 3.6279
+Iteration 39460, time = 12.11s, wps = 33828, train loss = 3.5788
+Iteration 39480, time = 12.15s, wps = 33710, train loss = 3.6467
+Iteration 39500, time = 12.11s, wps = 33814, train loss = 3.5929
+Iteration 39520, time = 12.13s, wps = 33767, train loss = 3.5927
+Iteration 39540, time = 12.07s, wps = 33932, train loss = 3.6308
+Iteration 39560, time = 12.11s, wps = 33822, train loss = 3.6429
+Iteration 39580, time = 12.12s, wps = 33791, train loss = 3.6627
+Iteration 39600, time = 12.08s, wps = 33920, train loss = 3.6703
+Iteration 39620, time = 12.07s, wps = 33939, train loss = 3.6244
+Iteration 39640, time = 12.11s, wps = 33820, train loss = 3.5949
+Iteration 39660, time = 12.03s, wps = 34035, train loss = 3.5680
+Iteration 39680, time = 12.05s, wps = 34003, train loss = 3.6019
+Iteration 39700, time = 12.12s, wps = 33786, train loss = 3.5819
+Iteration 39720, time = 12.09s, wps = 33892, train loss = 3.5827
+Iteration 39740, time = 12.15s, wps = 33711, train loss = 3.5636
+Iteration 39760, time = 12.10s, wps = 33858, train loss = 3.6031
+Iteration 39780, time = 12.11s, wps = 33818, train loss = 3.5932
+Iteration 39800, time = 12.16s, wps = 33686, train loss = 3.6107
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00021-of-00100
+Finished processing!
+Iteration 39820, time = 13.89s, wps = 29495, train loss = 3.6463
+Iteration 39840, time = 12.10s, wps = 33863, train loss = 3.6314
+Iteration 39860, time = 12.13s, wps = 33756, train loss = 3.6364
+Iteration 39880, time = 12.03s, wps = 34052, train loss = 3.6820
+Iteration 39900, time = 11.96s, wps = 34255, train loss = 3.6168
+Iteration 39920, time = 12.04s, wps = 34022, train loss = 3.6490
+Iteration 39940, time = 12.10s, wps = 33841, train loss = 3.6205
+Iteration 39960, time = 12.07s, wps = 33931, train loss = 3.6369
+Iteration 39980, time = 12.07s, wps = 33943, train loss = 3.6584
+Iteration 40000, time = 12.06s, wps = 33970, train loss = 3.6270
+Iteration 40020, time = 12.08s, wps = 33902, train loss = 3.6775
+Iteration 40040, time = 11.77s, wps = 34811, train loss = 3.6190
+Iteration 40060, time = 12.18s, wps = 33640, train loss = 3.6184
+Iteration 40080, time = 12.10s, wps = 33844, train loss = 3.6149
+Iteration 40100, time = 12.02s, wps = 34075, train loss = 3.6654
+Iteration 40120, time = 12.17s, wps = 33664, train loss = 3.6093
+Iteration 40140, time = 12.04s, wps = 34020, train loss = 3.6613
+Iteration 40160, time = 12.18s, wps = 33632, train loss = 3.6077
+Iteration 40180, time = 15.10s, wps = 27120, train loss = 3.6394
+Iteration 40200, time = 12.52s, wps = 32726, train loss = 3.6205
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00020-of-00100
+Finished processing!
+Iteration 40220, time = 14.07s, wps = 29111, train loss = 3.5995
+Iteration 40240, time = 12.07s, wps = 33937, train loss = 3.6220
+Iteration 40260, time = 12.12s, wps = 33802, train loss = 3.5681
+Iteration 40280, time = 12.12s, wps = 33787, train loss = 3.6328
+Iteration 40300, time = 11.94s, wps = 34302, train loss = 3.6575
+Iteration 40320, time = 12.08s, wps = 33896, train loss = 3.6306
+Iteration 40340, time = 12.20s, wps = 33585, train loss = 3.6281
+Iteration 40360, time = 12.09s, wps = 33881, train loss = 3.6068
+Iteration 40380, time = 12.12s, wps = 33798, train loss = 3.6098
+Iteration 40400, time = 12.09s, wps = 33885, train loss = 3.6411
+Iteration 40420, time = 12.15s, wps = 33715, train loss = 3.6257
+Iteration 40440, time = 12.11s, wps = 33837, train loss = 3.6070
+Iteration 40460, time = 12.16s, wps = 33695, train loss = 3.6193
+Iteration 40480, time = 12.13s, wps = 33754, train loss = 3.6301
+Iteration 40500, time = 12.11s, wps = 33828, train loss = 3.6352
+Iteration 40520, time = 11.98s, wps = 34193, train loss = 3.5897
+Iteration 40540, time = 12.12s, wps = 33806, train loss = 3.6032
+Iteration 40560, time = 12.06s, wps = 33976, train loss = 3.6127
+Iteration 40580, time = 12.11s, wps = 33818, train loss = 3.6207
+Iteration 40600, time = 12.12s, wps = 33787, train loss = 3.6179
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00028-of-00100
+Finished processing!
+Iteration 40620, time = 13.96s, wps = 29339, train loss = 3.6396
+Iteration 40640, time = 12.15s, wps = 33723, train loss = 3.6762
+Iteration 40660, time = 11.94s, wps = 34293, train loss = 3.6678
+Iteration 40680, time = 12.11s, wps = 33817, train loss = 3.6515
+Iteration 40700, time = 11.85s, wps = 34580, train loss = 3.6279
+Iteration 40720, time = 12.04s, wps = 34010, train loss = 3.6653
+Iteration 40740, time = 12.10s, wps = 33861, train loss = 3.6478
+Iteration 40760, time = 12.10s, wps = 33850, train loss = 3.6136
+Iteration 40780, time = 12.11s, wps = 33831, train loss = 3.6525
+Iteration 40800, time = 12.11s, wps = 33820, train loss = 3.6591
+Iteration 40820, time = 12.17s, wps = 33669, train loss = 3.6348
+Iteration 40840, time = 12.04s, wps = 34010, train loss = 3.6450
+Iteration 40860, time = 12.09s, wps = 33872, train loss = 3.6632
+Iteration 40880, time = 12.08s, wps = 33898, train loss = 3.6271
+Iteration 40900, time = 12.17s, wps = 33668, train loss = 3.6192
+Iteration 40920, time = 12.16s, wps = 33673, train loss = 3.6224
+Iteration 40940, time = 12.11s, wps = 33836, train loss = 3.6119
+Iteration 40960, time = 12.12s, wps = 33803, train loss = 3.6360
+Iteration 40980, time = 12.12s, wps = 33787, train loss = 3.7169
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00015-of-00100
+Finished processing!
+Iteration 41000, time = 14.05s, wps = 29159, train loss = 3.6359
+Iteration 41020, time = 12.28s, wps = 33367, train loss = 3.5951
+Iteration 41040, time = 12.14s, wps = 33735, train loss = 3.6387
+Iteration 41060, time = 12.14s, wps = 33728, train loss = 3.6597
+Iteration 41080, time = 12.16s, wps = 33671, train loss = 3.6245
+Iteration 41100, time = 12.13s, wps = 33781, train loss = 3.6103
+Iteration 41120, time = 12.15s, wps = 33703, train loss = 3.5843
+Iteration 41140, time = 12.10s, wps = 33851, train loss = 3.6274
+Iteration 41160, time = 15.79s, wps = 25941, train loss = 3.6559
+Iteration 41180, time = 12.16s, wps = 33693, train loss = 3.6336
+Iteration 41200, time = 12.13s, wps = 33761, train loss = 3.6359
+Iteration 41220, time = 12.11s, wps = 33816, train loss = 3.6058
+Iteration 41240, time = 12.09s, wps = 33891, train loss = 3.6298
+Iteration 41260, time = 12.15s, wps = 33710, train loss = 3.6434
+Iteration 41280, time = 12.16s, wps = 33680, train loss = 3.6477
+Iteration 41300, time = 12.12s, wps = 33789, train loss = 3.6195
+Iteration 41320, time = 12.17s, wps = 33656, train loss = 3.6516
+Iteration 41340, time = 12.14s, wps = 33742, train loss = 3.6101
+Iteration 41360, time = 12.14s, wps = 33749, train loss = 3.6429
+Iteration 41380, time = 12.15s, wps = 33709, train loss = 3.5857
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00007-of-00100
+Finished processing!
+Iteration 41400, time = 13.97s, wps = 29318, train loss = 3.6392
+Iteration 41420, time = 12.12s, wps = 33790, train loss = 3.6495
+Iteration 41440, time = 12.14s, wps = 33739, train loss = 3.5837
+Iteration 41460, time = 12.18s, wps = 33627, train loss = 3.6322
+Iteration 41480, time = 12.15s, wps = 33714, train loss = 3.6243
+Iteration 41500, time = 12.03s, wps = 34045, train loss = 3.6045
+Iteration 41520, time = 12.10s, wps = 33850, train loss = 3.6275
+Iteration 41540, time = 12.08s, wps = 33912, train loss = 3.6268
+Iteration 41560, time = 12.15s, wps = 33721, train loss = 3.6367
+Iteration 41580, time = 12.06s, wps = 33960, train loss = 3.6065
+Iteration 41600, time = 12.15s, wps = 33724, train loss = 3.6068
+Iteration 41620, time = 12.24s, wps = 33475, train loss = 3.6319
+Iteration 41640, time = 12.17s, wps = 33670, train loss = 3.6737
+Iteration 41660, time = 12.15s, wps = 33724, train loss = 3.6449
+Iteration 41680, time = 12.14s, wps = 33743, train loss = 3.6099
+Iteration 41700, time = 12.13s, wps = 33779, train loss = 3.6294
+Iteration 41720, time = 12.14s, wps = 33739, train loss = 3.6341
+Iteration 41740, time = 12.16s, wps = 33679, train loss = 3.6549
+Iteration 41760, time = 12.19s, wps = 33607, train loss = 3.6225
+Iteration 41780, time = 12.13s, wps = 33779, train loss = 3.6390
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00019-of-00100
+Finished processing!
+Iteration 41800, time = 14.16s, wps = 28933, train loss = 3.6334
+Iteration 41820, time = 12.17s, wps = 33661, train loss = 3.6178
+Iteration 41840, time = 12.22s, wps = 33530, train loss = 3.6350
+Iteration 41860, time = 12.19s, wps = 33603, train loss = 3.5789
+Iteration 41880, time = 12.14s, wps = 33739, train loss = 3.5902
+Iteration 41900, time = 12.11s, wps = 33825, train loss = 3.5517
+Iteration 41920, time = 12.07s, wps = 33944, train loss = 3.5833
+Iteration 41940, time = 12.07s, wps = 33939, train loss = 3.6443
+Iteration 41960, time = 12.09s, wps = 33875, train loss = 3.6104
+Iteration 41980, time = 12.13s, wps = 33779, train loss = 3.6070
+Iteration 42000, time = 12.09s, wps = 33878, train loss = 3.6181
+Iteration 42020, time = 12.11s, wps = 33818, train loss = 3.6170
+Iteration 42040, time = 12.15s, wps = 33707, train loss = 3.6055
+Iteration 42060, time = 12.15s, wps = 33718, train loss = 3.6401
+Iteration 42080, time = 12.09s, wps = 33880, train loss = 3.6145
+Iteration 42100, time = 12.23s, wps = 33499, train loss = 3.5813
+Iteration 42120, time = 12.28s, wps = 33352, train loss = 3.6014
+Iteration 42140, time = 16.04s, wps = 25543, train loss = 3.6305
+Iteration 42160, time = 12.16s, wps = 33683, train loss = 3.6151
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00002-of-00100
+Finished processing!
+Iteration 42180, time = 14.25s, wps = 28753, train loss = 3.6297
+Iteration 42200, time = 12.16s, wps = 33674, train loss = 3.6289
+Iteration 42220, time = 12.32s, wps = 33240, train loss = 3.6858
+Iteration 42240, time = 12.15s, wps = 33724, train loss = 3.6216
+Iteration 42260, time = 12.17s, wps = 33650, train loss = 3.6177
+Iteration 42280, time = 12.13s, wps = 33771, train loss = 3.6720
+Iteration 42300, time = 12.08s, wps = 33899, train loss = 3.6296
+Iteration 42320, time = 12.10s, wps = 33847, train loss = 3.6581
+Iteration 42340, time = 12.16s, wps = 33683, train loss = 3.6369
+Iteration 42360, time = 12.09s, wps = 33891, train loss = 3.6205
+Iteration 42380, time = 12.08s, wps = 33900, train loss = 3.5844
+Iteration 42400, time = 12.04s, wps = 34031, train loss = 3.6406
+Iteration 42420, time = 12.11s, wps = 33811, train loss = 3.6662
+Iteration 42440, time = 12.13s, wps = 33781, train loss = 3.6356
+Iteration 42460, time = 12.08s, wps = 33900, train loss = 3.6568
+Iteration 42480, time = 12.12s, wps = 33795, train loss = 3.6374
+Iteration 42500, time = 12.13s, wps = 33764, train loss = 3.6323
+Iteration 42520, time = 12.14s, wps = 33730, train loss = 3.6100
+Iteration 42540, time = 12.14s, wps = 33743, train loss = 3.6854
+Iteration 42560, time = 12.07s, wps = 33933, train loss = 3.6640
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00009-of-00100
+Finished processing!
+Iteration 42580, time = 14.01s, wps = 29227, train loss = 3.6529
+Iteration 42600, time = 12.07s, wps = 33932, train loss = 3.6379
+Iteration 42620, time = 12.06s, wps = 33966, train loss = 3.6265
+Iteration 42640, time = 12.08s, wps = 33918, train loss = 3.6224
+Iteration 42660, time = 12.12s, wps = 33808, train loss = 3.6252
+Iteration 42680, time = 12.07s, wps = 33939, train loss = 3.6794
+Iteration 42700, time = 12.18s, wps = 33642, train loss = 3.6746
+Iteration 42720, time = 11.98s, wps = 34187, train loss = 3.6285
+Iteration 42740, time = 12.06s, wps = 33956, train loss = 3.5911
+Iteration 42760, time = 12.13s, wps = 33771, train loss = 3.6541
+Iteration 42780, time = 12.03s, wps = 34057, train loss = 3.6279
+Iteration 42800, time = 12.06s, wps = 33973, train loss = 3.6677
+Iteration 42820, time = 11.86s, wps = 34538, train loss = 3.6535
+Iteration 42840, time = 11.91s, wps = 34389, train loss = 3.6312
+Iteration 42860, time = 12.09s, wps = 33882, train loss = 3.6571
+Iteration 42880, time = 12.08s, wps = 33920, train loss = 3.6372
+Iteration 42900, time = 12.11s, wps = 33813, train loss = 3.6588
+Iteration 42920, time = 12.10s, wps = 33860, train loss = 3.6347
+Iteration 42940, time = 12.05s, wps = 33998, train loss = 3.6447
+Iteration 42960, time = 12.03s, wps = 34057, train loss = 3.6412
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00024-of-00100
+Finished processing!
+Iteration 42980, time = 13.98s, wps = 29304, train loss = 3.6329
+Iteration 43000, time = 12.13s, wps = 33779, train loss = 3.6175
+Iteration 43020, time = 12.02s, wps = 34083, train loss = 3.6083
+Iteration 43040, time = 11.96s, wps = 34257, train loss = 3.6111
+Iteration 43060, time = 11.95s, wps = 34266, train loss = 3.6524
+Iteration 43080, time = 12.11s, wps = 33822, train loss = 3.5968
+Iteration 43100, time = 12.38s, wps = 33089, train loss = 3.6155
+Iteration 43120, time = 14.99s, wps = 27326, train loss = 3.5949
+Iteration 43140, time = 12.06s, wps = 33956, train loss = 3.5993
+Iteration 43160, time = 11.97s, wps = 34225, train loss = 3.6178
+Iteration 43180, time = 12.10s, wps = 33849, train loss = 3.6458
+Iteration 43200, time = 11.98s, wps = 34181, train loss = 3.5877
+Iteration 43220, time = 12.11s, wps = 33836, train loss = 3.6439
+Iteration 43240, time = 12.03s, wps = 34041, train loss = 3.6232
+Iteration 43260, time = 12.03s, wps = 34045, train loss = 3.5850
+Iteration 43280, time = 12.10s, wps = 33861, train loss = 3.6120
+Iteration 43300, time = 12.12s, wps = 33795, train loss = 3.6168
+Iteration 43320, time = 12.07s, wps = 33947, train loss = 3.6356
+Iteration 43340, time = 12.11s, wps = 33821, train loss = 3.6368
+Iteration 43360, time = 12.18s, wps = 33636, train loss = 3.6307
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00014-of-00100
+Finished processing!
+Iteration 43380, time = 14.05s, wps = 29157, train loss = 3.6346
+Iteration 43400, time = 12.09s, wps = 33890, train loss = 3.6565
+Iteration 43420, time = 12.11s, wps = 33815, train loss = 3.5974
+Iteration 43440, time = 12.09s, wps = 33888, train loss = 3.6381
+Iteration 43460, time = 12.02s, wps = 34089, train loss = 3.6155
+Iteration 43480, time = 12.04s, wps = 34011, train loss = 3.6487
+Iteration 43500, time = 12.09s, wps = 33893, train loss = 3.6055
+Iteration 43520, time = 12.15s, wps = 33716, train loss = 3.6338
+Iteration 43540, time = 12.08s, wps = 33910, train loss = 3.5860
+Iteration 43560, time = 12.12s, wps = 33797, train loss = 3.6087
+Iteration 43580, time = 12.12s, wps = 33791, train loss = 3.6359
+Iteration 43600, time = 12.12s, wps = 33792, train loss = 3.6284
+Iteration 43620, time = 12.09s, wps = 33885, train loss = 3.6452
+Iteration 43640, time = 12.07s, wps = 33942, train loss = 3.6225
+Iteration 43660, time = 12.07s, wps = 33929, train loss = 3.6222
+Iteration 43680, time = 12.10s, wps = 33848, train loss = 3.6479
+Iteration 43700, time = 12.03s, wps = 34052, train loss = 3.6248
+Iteration 43720, time = 12.05s, wps = 33979, train loss = 3.6256
+Iteration 43740, time = 12.05s, wps = 33984, train loss = 3.6433
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00010-of-00100
+Finished processing!
+Iteration 43760, time = 13.99s, wps = 29288, train loss = 3.6100
+Iteration 43780, time = 12.08s, wps = 33898, train loss = 3.6542
+Iteration 43800, time = 12.15s, wps = 33707, train loss = 3.6541
+Iteration 43820, time = 12.15s, wps = 33707, train loss = 3.6713
+Iteration 43840, time = 11.91s, wps = 34388, train loss = 3.6015
+Iteration 43860, time = 12.16s, wps = 33687, train loss = 3.5965
+Iteration 43880, time = 11.99s, wps = 34164, train loss = 3.6213
+Iteration 43900, time = 12.09s, wps = 33879, train loss = 3.6182
+Iteration 43920, time = 12.06s, wps = 33952, train loss = 3.6522
+Iteration 43940, time = 12.14s, wps = 33736, train loss = 3.5912
+Iteration 43960, time = 12.13s, wps = 33770, train loss = 3.6220
+Iteration 43980, time = 12.05s, wps = 33990, train loss = 3.6377
+Iteration 44000, time = 12.01s, wps = 34102, train loss = 3.6426
+Iteration 44020, time = 12.05s, wps = 33978, train loss = 3.5769
+Iteration 44040, time = 11.93s, wps = 34326, train loss = 3.6102
+Iteration 44060, time = 12.14s, wps = 33750, train loss = 3.6361
+Iteration 44080, time = 12.25s, wps = 33428, train loss = 3.6130
+Iteration 44100, time = 14.54s, wps = 28174, train loss = 3.6546
+Iteration 44120, time = 12.04s, wps = 34013, train loss = 3.6435
+Iteration 44140, time = 12.05s, wps = 33980, train loss = 3.6187
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00022-of-00100
+Finished processing!
+Iteration 44160, time = 14.00s, wps = 29253, train loss = 3.6475
+Iteration 44180, time = 12.04s, wps = 34032, train loss = 3.6407
+Iteration 44200, time = 12.06s, wps = 33953, train loss = 3.6391
+Iteration 44220, time = 12.07s, wps = 33930, train loss = 3.6684
+Iteration 44240, time = 12.07s, wps = 33922, train loss = 3.6031
+Iteration 44260, time = 12.13s, wps = 33776, train loss = 3.5960
+Iteration 44280, time = 12.09s, wps = 33867, train loss = 3.6280
+Iteration 44300, time = 12.03s, wps = 34059, train loss = 3.6089
+Iteration 44320, time = 12.16s, wps = 33684, train loss = 3.6531
+Iteration 44340, time = 12.08s, wps = 33900, train loss = 3.6204
+Iteration 44360, time = 12.07s, wps = 33947, train loss = 3.5963
+Iteration 44380, time = 12.15s, wps = 33713, train loss = 3.5976
+Iteration 44400, time = 12.06s, wps = 33956, train loss = 3.6151
+Iteration 44420, time = 12.01s, wps = 34108, train loss = 3.6240
+Iteration 44440, time = 12.12s, wps = 33806, train loss = 3.5937
+Iteration 44460, time = 12.07s, wps = 33927, train loss = 3.5930
+Iteration 44480, time = 12.04s, wps = 34031, train loss = 3.6106
+Iteration 44500, time = 12.03s, wps = 34039, train loss = 3.6186
+Iteration 44520, time = 12.09s, wps = 33875, train loss = 3.6378
+Iteration 44540, time = 12.10s, wps = 33854, train loss = 3.6065
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00017-of-00100
+Finished processing!
+Iteration 44560, time = 13.96s, wps = 29342, train loss = 3.6105
+Iteration 44580, time = 11.98s, wps = 34177, train loss = 3.6329
+Iteration 44600, time = 12.03s, wps = 34037, train loss = 3.6172
+Iteration 44620, time = 12.11s, wps = 33835, train loss = 3.6409
+Iteration 44640, time = 12.07s, wps = 33931, train loss = 3.6225
+Iteration 44660, time = 12.22s, wps = 33519, train loss = 3.6224
+Iteration 44680, time = 12.02s, wps = 34065, train loss = 3.6164
+Iteration 44700, time = 12.14s, wps = 33741, train loss = 3.6247
+Iteration 44720, time = 11.99s, wps = 34164, train loss = 3.6168
+Iteration 44740, time = 12.16s, wps = 33692, train loss = 3.5773
+Iteration 44760, time = 12.14s, wps = 33745, train loss = 3.6084
+Iteration 44780, time = 12.09s, wps = 33873, train loss = 3.6118
+Iteration 44800, time = 12.11s, wps = 33829, train loss = 3.6015
+Iteration 44820, time = 12.09s, wps = 33877, train loss = 3.6185
+Iteration 44840, time = 12.14s, wps = 33728, train loss = 3.6341
+Iteration 44860, time = 12.11s, wps = 33821, train loss = 3.5778
+Iteration 44880, time = 12.08s, wps = 33898, train loss = 3.5661
+Iteration 44900, time = 12.04s, wps = 34007, train loss = 3.6141
+Iteration 44920, time = 12.09s, wps = 33887, train loss = 3.6214
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00006-of-00100
+Finished processing!
+Iteration 44940, time = 13.94s, wps = 29388, train loss = 3.5961
+Iteration 44960, time = 12.05s, wps = 33979, train loss = 3.6044
+Iteration 44980, time = 12.05s, wps = 33999, train loss = 3.6319
+Iteration 45000, time = 12.12s, wps = 33806, train loss = 3.6492
+Iteration 45020, time = 12.12s, wps = 33793, train loss = 3.6481
+Iteration 45040, time = 12.07s, wps = 33935, train loss = 3.6456
+Iteration 45060, time = 13.19s, wps = 31065, train loss = 3.6385
+Iteration 45080, time = 14.52s, wps = 28202, train loss = 3.6341
+Iteration 45100, time = 12.05s, wps = 33991, train loss = 3.6357
+Iteration 45120, time = 12.13s, wps = 33774, train loss = 3.6057
+Traceback (most recent call last):
+  File "single_lm_train.py", line 36, in <module>
+    tf.app.run()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/platform/app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "single_lm_train.py", line 26, in main
+    run_train(dataset, hps, FLAGS.logdir + "/train", ps_device="/gpu:0")
+  File "/home/ubuntu/lm/run_utils.py", line 73, in run_train
+    fetched = sess.run(fetches, {model.x: x, model.y: y, model.w: w})
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 766, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 964, in _run
+    feed_dict_string, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1014, in _do_run
+    target_list, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1021, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1003, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt

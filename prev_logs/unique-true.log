@@ -1,0 +1,429 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so.7.5 locally
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:132 in _backward.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:133 in _backward.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:134 in _backward.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:31 in __init__.: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From /home/ubuntu/lm/language_model.py:40 in __init__.: merge_all_summaries (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.merge_all.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/logging_ops.py:264 in merge_all_summaries.: merge_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.merge.
+WARNING:tensorflow:From /home/ubuntu/lm/run_utils.py:17 in run_train.: all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Please use tf.global_variables instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/supervisor.py:344 in __init__.: __init__ (from tensorflow.python.training.summary_io) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.FileWriter. The interface and behavior is the same; this is just a rename.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:0f.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x96a6330
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 1 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:10.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x975e9b0
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 2 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:11.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x9b8efb0
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 3 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:12.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x96cced0
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 4 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:13.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x6adec50
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 5 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:14.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x9565ab0
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 6 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:15.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x95dc0a0
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 7 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:16.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 1 2 3 4 5 6 7 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 1:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 2:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 3:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 4:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 5:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 6:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 7:   Y Y Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:0f.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:00:10.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:00:11.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:00:12.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:4) -> (device: 4, name: Tesla K80, pci bus id: 0000:00:13.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:5) -> (device: 5, name: Tesla K80, pci bus id: 0000:00:14.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:6) -> (device: 6, name: Tesla K80, pci bus id: 0000:00:15.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:7) -> (device: 7, name: Tesla K80, pci bus id: 0000:00:16.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 3069 get requests, put_count=2860 evicted_count=1000 eviction_rate=0.34965 and unsatisfied allocation rate=0.426523
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+haibin overriding impl: Unique=True
+ALL VARIABLES
+model/emb_0:0 (99184, 512) /gpu:0
+model/emb_1:0 (99184, 512) /gpu:0
+model/emb_2:0 (99184, 512) /gpu:0
+model/emb_3:0 (99184, 512) /gpu:0
+model/emb_4:0 (99184, 512) /gpu:0
+model/emb_5:0 (99184, 512) /gpu:0
+model/emb_6:0 (99184, 512) /gpu:0
+model/emb_7:0 (99184, 512) /gpu:0
+model/lstm_0/LSTMCell/W_0:0 (1024, 8192) /gpu:0
+model/lstm_0/LSTMCell/B:0 (8192,) /gpu:0
+model/lstm_0/LSTMCell/W_P_0:0 (2048, 512) /gpu:0
+model/softmax_w_0:0 (99184, 512) /gpu:0
+model/softmax_w_1:0 (99184, 512) /gpu:0
+model/softmax_w_2:0 (99184, 512) /gpu:0
+model/softmax_w_3:0 (99184, 512) /gpu:0
+model/softmax_w_4:0 (99184, 512) /gpu:0
+model/softmax_w_5:0 (99184, 512) /gpu:0
+model/softmax_w_6:0 (99184, 512) /gpu:0
+model/softmax_w_7:0 (99184, 512) /gpu:0
+model/softmax_b:0 (793470,) /gpu:0
+model/global_step:0 () 
+model/model/emb_0/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_1/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_2/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_3/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_4/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_5/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_6/Adagrad:0 (99184, 512) /gpu:0
+model/model/emb_7/Adagrad:0 (99184, 512) /gpu:0
+model/model/lstm_0/LSTMCell/W_0/Adagrad:0 (1024, 8192) /gpu:0
+model/model/lstm_0/LSTMCell/B/Adagrad:0 (8192,) /gpu:0
+model/model/lstm_0/LSTMCell/W_P_0/Adagrad:0 (2048, 512) /gpu:0
+model/model/softmax_w_0/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_1/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_2/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_3/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_4/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_5/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_6/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_w_7/Adagrad:0 (99184, 512) /gpu:0
+model/model/softmax_b/Adagrad:0 (793470,) /gpu:0
+model/lstm_0/LSTMCell/W_0/ExponentialMovingAverage:0 (1024, 8192) /gpu:0
+model/lstm_0/LSTMCell/B/ExponentialMovingAverage:0 (8192,) /gpu:0
+model/lstm_0/LSTMCell/W_P_0/ExponentialMovingAverage:0 (2048, 512) /gpu:0
+TRAINABLE VARIABLES
+model/emb_0:0 (99184, 512) /gpu:0
+model/emb_1:0 (99184, 512) /gpu:0
+model/emb_2:0 (99184, 512) /gpu:0
+model/emb_3:0 (99184, 512) /gpu:0
+model/emb_4:0 (99184, 512) /gpu:0
+model/emb_5:0 (99184, 512) /gpu:0
+model/emb_6:0 (99184, 512) /gpu:0
+model/emb_7:0 (99184, 512) /gpu:0
+model/lstm_0/LSTMCell/W_0:0 (1024, 8192) /gpu:0
+model/lstm_0/LSTMCell/B:0 (8192,) /gpu:0
+model/lstm_0/LSTMCell/W_P_0:0 (2048, 512) /gpu:0
+model/softmax_w_0:0 (99184, 512) /gpu:0
+model/softmax_w_1:0 (99184, 512) /gpu:0
+model/softmax_w_2:0 (99184, 512) /gpu:0
+model/softmax_w_3:0 (99184, 512) /gpu:0
+model/softmax_w_4:0 (99184, 512) /gpu:0
+model/softmax_w_5:0 (99184, 512) /gpu:0
+model/softmax_w_6:0 (99184, 512) /gpu:0
+model/softmax_w_7:0 (99184, 512) /gpu:0
+model/softmax_b:0 (793470,) /gpu:0
+LOCAL VARIABLES
+model/model/state_0_0:0 (256, 2560) /gpu:0
+model/model_1/state_1_0:0 (256, 2560) /gpu:0
+model/model_2/state_2_0:0 (256, 2560) /gpu:0
+model/model_3/state_3_0:0 (256, 2560) /gpu:0
+model/model_4/state_4_0:0 (256, 2560) /gpu:0
+model/model_5/state_5_0:0 (256, 2560) /gpu:0
+model/model_6/state_6_0:0 (256, 2560) /gpu:0
+model/model_7/state_7_0:0 (256, 2560) /gpu:0
+haibin: a new epoch just started
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00002-of-00100
+Finished processing!
+Iteration 1, time = 8.34s, wps = 4912, train loss = 13.3739
+Iteration 2, time = 5.18s, wps = 7902, train loss = 13.1766
+Iteration 3, time = 0.63s, wps = 65478, train loss = 12.7044
+Iteration 4, time = 0.57s, wps = 71564, train loss = 42.5391
+Iteration 5, time = 0.64s, wps = 64383, train loss = 65.3156
+Iteration 6, time = 0.68s, wps = 60021, train loss = 212.7301
+Iteration 7, time = 3.04s, wps = 13484, train loss = 105.3025
+IteratiI tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 6220 get requests, put_count=6251 evicted_count=1000 eviction_rate=0.159974 and unsatisfied allocation rate=0.159486
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 76384 get requests, put_count=76383 evicted_count=1000 eviction_rate=0.0130919 and unsatisfied allocation rate=0.0138773
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+on 8, time = 0.75s, wps = 54528, train loss = 139.4719
+Iteration 9, time = 1.03s, wps = 39639, train loss = 37.4485
+Iteration 20, time = 13.24s, wps = 34042, train loss = 17.3406
+Iteration 40, time = 17.28s, wps = 47410, train loss = 12.9627
+Iteration 60, time = 13.96s, wps = 58696, train loss = 10.2408
+Iteration 80, time = 14.06s, wps = 58244, train loss = 9.5823
+Iteration 100, time = 14.00s, wps = 58508, train loss = 8.8447
+Iteration 120, time = 14.05s, wps = 58290, train loss = 8.5190
+Iteration 140, time = 13.98s, wps = 58596, train loss = 8.0189
+Iteration 160, time = 14.09s, wps = 58155, train loss = 7.9249
+Iteration 180, time = 14.22s, wps = 57604, train loss = 7.5988
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00020-of-00100
+Finished processing!
+Iteration 200, time = 16.44s, wps = 49817, train loss = 7.8333
+Iteration 220, time = 14.16s, wps = 57842, train loss = 7.3477
+Iteration 240, time = 14.44s, wps = 56725, train loss = 7.4417
+Iteration 260, time = 14.34s, wps = 57119, train loss = 7.3279
+Iteration 280, time = 14.52s, wps = 56432, train loss = 6.9452
+Iteration 300, time = 14.39s, wps = 56929, train loss = 6.8585
+Iteration 320, time = 14.59s, wps = 56148, train loss = 6.6406
+Iteration 340, time = 14.25s, wps = 57498, train loss = 6.7755
+Iteration 360, time = 14.30s, wps = 57287, train loss = 6.5825
+Iteration 380, time = 14.35s, wps = 57095, train loss = 6.4980
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00018-of-00100
+Finished processing!
+Iteration 400, time = 16.36s, wps = 50059, train loss = 6.2916
+Iteration 420, time = 14.42s, wps = 56828, train loss = 6.3412
+Iteration 440, time = 14.53s, wps = 56386, train loss = 6.2930
+Iteration 460, time = 14.32s, wps = 57199, train loss = 6.2936
+Iteration 480, time = 14.41s, wps = 56860, train loss = 6.1660
+Iteration 500, time = 14.58s, wps = 56204, train loss = 6.1221
+Iteration 520, time = 14.38s, wps = 56965, train loss = 6.0788
+Iteration 540, time = 14.51s, wps = 56449, train loss = 5.9952
+Iteration 560, time = 14.30s, wps = 57298, train loss = 6.0124
+Iteration 580, time = 14.46s, wps = 56669, train loss = 5.9413
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00025-of-00100
+Finished processing!
+Iteration 600, time = 16.45s, wps = 49795, train loss = 5.8643
+Iteration 620, time = 14.60s, wps = 56105, train loss = 5.8887
+Iteration 640, time = 14.67s, wps = 55846, train loss = 5.7965
+Iteration 660, time = 14.62s, wps = 56023, train loss = 5.7796
+Iteration 680, time = 14.66s, wps = 55895, train loss = 5.7418
+Iteration 700, time = 14.47s, wps = 56622, train loss = 5.7183
+Iteration 720, time = 14.20s, wps = 57708, train loss = 5.6854
+Iteration 740, time = 14.36s, wps = 57031, train loss = 5.6782
+Iteration 760, time = 14.34s, wps = 57135, train loss = 5.5555
+Iteration 780, time = 14.58s, wps = 56170, train loss = 5.4539
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00001-of-00100
+Finished processing!
+Iteration 800, time = 16.57s, wps = 49435, train loss = 5.5051
+Iteration 820, time = 22.88s, wps = 35809, train loss = 5.4493
+Iteration 840, time = 16.41s, wps = 49935, train loss = 5.4344
+Iteration 860, time = 14.36s, wps = 57060, train loss = 5.4012
+Iteration 880, time = 14.38s, wps = 56974, train loss = 5.4065
+Iteration 900, time = 14.20s, wps = 57697, train loss = 5.3531
+Iteration 920, time = 14.21s, wps = 57641, train loss = 5.3811
+Iteration 940, time = 14.39s, wps = 56912, train loss = 5.2885
+Iteration 960, time = 14.16s, wps = 57848, train loss = 5.2642
+Iteration 980, time = 14.37s, wps = 56999, train loss = 5.2512
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00004-of-00100
+Finished processing!
+Iteration 1000, time = 16.41s, wps = 49925, train loss = 5.2432
+Iteration 1020, time = 14.18s, wps = 57764, train loss = 5.2181
+Iteration 1040, time = 14.66s, wps = 55888, train loss = 5.1790
+Iteration 1060, time = 14.30s, wps = 57280, train loss = 5.1809
+Iteration 1080, time = 14.88s, wps = 55045, train loss = 5.1325
+Iteration 1100, time = 14.46s, wps = 56645, train loss = 5.1550
+Iteration 1120, time = 14.34s, wps = 57111, train loss = 5.1353
+Iteration 1140, time = 14.31s, wps = 57238, train loss = 5.1110
+Iteration 1160, time = 14.36s, wps = 57054, train loss = 5.2483
+Iteration 1180, time = 14.33s, wps = 57175, train loss = 5.0813
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00021-of-00100
+Finished processing!
+Iteration 1200, time = 16.26s, wps = 50387, train loss = 5.0766
+Iteration 1220, time = 14.73s, wps = 55611, train loss = 5.0149
+Iteration 1240, time = 14.34s, wps = 57135, train loss = 5.0100
+Iteration 1260, time = 14.46s, wps = 56642, train loss = 4.9958
+Iteration 1280, time = 14.31s, wps = 57234, train loss = 4.9863
+Iteration 1300, time = 14.49s, wps = 56529, train loss = 4.9966
+Iteration 1320, time = 14.60s, wps = 56092, train loss = 4.9714
+Iteration 1340, time = 14.39s, wps = 56910, train loss = 4.9725
+Iteration 1360, time = 14.23s, wps = 57578, train loss = 4.9529
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00029-of-00100
+Finished processing!
+Iteration 1380, time = 16.30s, wps = 50243, train loss = 4.9357
+Iteration 1400, time = 14.45s, wps = 56691, train loss = 4.9350
+Iteration 1420, time = 14.31s, wps = 57231, train loss = 4.8571
+Iteration 1440, time = 14.34s, wps = 57109, train loss = 4.9024
+Iteration 1460, time = 14.55s, wps = 56311, train loss = 4.8871
+Iteration 1480, time = 14.61s, wps = 56089, train loss = 4.8754
+Iteration 1500, time = 14.43s, wps = 56755, train loss = 4.9464
+Iteration 1520, time = 14.42s, wps = 56801, train loss = 4.9897
+Iteration 1540, time = 14.27s, wps = 57398, train loss = 4.8541
+Iteration 1560, time = 14.54s, wps = 56327, train loss = 4.8286
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00010-of-00100
+Finished processing!
+Iteration 1580, time = 16.22s, wps = 50510, train loss = 4.8327
+Iteration 1600, time = 14.48s, wps = 56578, train loss = 4.8097
+Iteration 1620, time = 15.18s, wps = 53971, train loss = 4.8028
+Iteration 1640, time = 22.31s, wps = 36726, train loss = 4.7798
+Iteration 1660, time = 14.96s, wps = 54763, train loss = 4.8163
+Iteration 1680, time = 14.50s, wps = 56481, train loss = 4.7663
+Iteration 1700, time = 14.64s, wps = 55965, train loss = 4.7554
+Iteration 1720, time = 14.75s, wps = 55524, train loss = 4.7595
+Iteration 1740, time = 14.54s, wps = 56336, train loss = 4.7435
+Iteration 1760, time = 14.91s, wps = 54956, train loss = 4.7566
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00028-of-00100
+Finished processing!
+Iteration 1780, time = 16.38s, wps = 50018, train loss = 4.7209
+Iteration 1800, time = 14.57s, wps = 56236, train loss = 4.7521
+Iteration 1820, time = 14.56s, wps = 56247, train loss = 4.7375
+Iteration 1840, time = 14.34s, wps = 57123, train loss = 4.6717
+Iteration 1860, time = 14.56s, wps = 56274, train loss = 4.6849
+Iteration 1880, time = 14.45s, wps = 56675, train loss = 4.6756
+Iteration 1900, time = 14.29s, wps = 57333, train loss = 4.7146
+Iteration 1920, time = 14.63s, wps = 56007, train loss = 4.6634
+Iteration 1940, time = 14.24s, wps = 57527, train loss = 4.6716
+Iteration 1960, time = 14.31s, wps = 57264, train loss = 4.6584
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00023-of-00100
+Finished processing!
+Iteration 1980, time = 16.31s, wps = 50241, train loss = 4.6657
+Iteration 2000, time = 14.26s, wps = 57441, train loss = 4.6475
+Iteration 2020, time = 14.31s, wps = 57235, train loss = 4.6531
+Iteration 2040, time = 14.94s, wps = 54819, train loss = 4.6498
+Iteration 2060, time = 14.71s, wps = 55690, train loss = 4.6269
+Iteration 2080, time = 14.77s, wps = 55455, train loss = 4.6292
+Iteration 2100, time = 14.32s, wps = 57213, train loss = 4.6183
+Iteration 2120, time = 14.57s, wps = 56232, train loss = 4.5743
+Iteration 2140, time = 14.58s, wps = 56189, train loss = 4.5900
+Iteration 2160, time = 14.25s, wps = 57505, train loss = 4.5938
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00017-of-00100
+Finished processing!
+Iteration 2180, time = 16.42s, wps = 49886, train loss = 4.5743
+Iteration 2200, time = 14.30s, wps = 57304, train loss = 4.6108
+Iteration 2220, time = 14.36s, wps = 57029, train loss = 4.5902
+Iteration 2240, time = 14.25s, wps = 57472, train loss = 4.5636
+Iteration 2260, time = 14.31s, wps = 57266, train loss = 4.5524
+Iteration 2280, time = 14.45s, wps = 56699, train loss = 4.5325
+Iteration 2300, time = 14.28s, wps = 57356, train loss = 4.5452
+Iteration 2320, time = 14.44s, wps = 56741, train loss = 4.5293
+Iteration 2340, time = 14.30s, wps = 57267, train loss = 4.5561
+Iteration 2360, time = 14.46s, wps = 56670, train loss = 4.5266
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00026-of-00100
+Finished processing!
+Iteration 2380, time = 16.92s, wps = 48403, train loss = 4.5343
+Iteration 2400, time = 14.27s, wps = 57420, train loss = 4.5169
+Iteration 2420, time = 14.30s, wps = 57297, train loss = 4.5309
+Iteration 2440, time = 23.51s, wps = 34843, train loss = 4.5253
+Iteration 2460, time = 15.57s, wps = 52612, train loss = 4.5028
+Iteration 2480, time = 14.26s, wps = 57445, train loss = 4.5177
+Iteration 2500, time = 14.68s, wps = 55822, train loss = 4.5086
+Iteration 2520, time = 14.82s, wps = 55286, train loss = 4.4828
+Iteration 2540, time = 15.01s, wps = 54563, train loss = 4.4946
+Iteration 2560, time = 14.60s, wps = 56097, train loss = 4.4881
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00015-of-00100
+Finished processing!
+Iteration 2580, time = 16.81s, wps = 48732, train loss = 4.4977
+Iteration 2600, time = 14.50s, wps = 56511, train loss = 4.4728
+Iteration 2620, time = 14.52s, wps = 56400, train loss = 4.4761
+Iteration 2640, time = 14.85s, wps = 55179, train loss = 4.4649
+Iteration 2660, time = 14.59s, wps = 56142, train loss = 4.4721
+Iteration 2680, time = 14.67s, wps = 55827, train loss = 4.4400
+Iteration 2700, time = 14.58s, wps = 56196, train loss = 4.4674
+Iteration 2720, time = 14.86s, wps = 55146, train loss = 4.4323
+Iteration 2740, time = 14.52s, wps = 56413, train loss = 4.4304
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00012-of-00100
+Finished processing!
+Iteration 2760, time = 16.64s, wps = 49224, train loss = 4.4627
+Iteration 2780, time = 14.99s, wps = 54655, train loss = 4.4237
+Iteration 2800, time = 14.49s, wps = 56529, train loss = 4.4389
+Iteration 2820, time = 14.58s, wps = 56197, train loss = 4.4253
+Iteration 2840, time = 14.50s, wps = 56490, train loss = 4.4102
+Iteration 2860, time = 14.90s, wps = 54997, train loss = 4.4148
+Iteration 2880, time = 14.51s, wps = 56457, train loss = 4.3657
+Iteration 2900, time = 14.48s, wps = 56590, train loss = 4.4130
+Iteration 2920, time = 14.70s, wps = 55724, train loss = 4.3986
+Iteration 2940, time = 14.55s, wps = 56286, train loss = 4.3731
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00008-of-00100
+Finished processing!
+Iteration 2960, time = 16.77s, wps = 48855, train loss = 4.3832
+Iteration 2980, time = 14.45s, wps = 56690, train loss = 4.3875
+Iteration 3000, time = 14.69s, wps = 55748, train loss = 4.3742
+Iteration 3020, time = 14.67s, wps = 55844, train loss = 4.3717
+Iteration 3040, time = 14.80s, wps = 55359, train loss = 4.3522
+Iteration 3060, time = 14.60s, wps = 56092, train loss = 4.3861
+Iteration 3080, time = 14.74s, wps = 55569, train loss = 4.3995
+Iteration 3100, time = 14.60s, wps = 56107, train loss = 4.3869
+Iteration 3120, time = 14.69s, wps = 55749, train loss = 4.3463
+Iteration 3140, time = 14.38s, wps = 56951, train loss = 4.3578
+Processing file: /home/ubuntu/gbw-30/training-monolingual.tokenized.shuffled/news.en-00027-of-00100
+Finished processing!
+Iteration 3160, time = 16.38s, wps = 50024, train loss = 4.3475
+Iteration 3180, time = 14.47s, wps = 56623, train loss = 4.3472
+Iteration 3200, time = 14.32s, wps = 57197, train loss = 4.3685
+Iteration 3220, time = 14.37s, wps = 57009, train loss = 4.3904
+Iteration 3240, time = 14.30s, wps = 57286, train loss = 4.3332
+Iteration 3260, time = 14.39s, wps = 56910, train loss = 4.3471
+Iteration 3280, time = 14.57s, wps = 56207, train loss = 4.3461
+Iteration 3300, time = 20.72s, wps = 39535, train loss = 4.3349
+Traceback (most recent call last):
+  File "single_lm_train.py", line 36, in <module>
+    tf.app.run()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/platform/app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "single_lm_train.py", line 26, in main
+    run_train(dataset, hps, FLAGS.logdir + "/train", ps_device="/gpu:0")
+  File "/home/ubuntu/lm/run_utils.py", line 86, in run_train
+    prev_time = cur_time
+  File "/usr/lib/python2.7/contextlib.py", line 24, in __exit__
+    self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/supervisor.py", line 974, in managed_session
+    self.stop(close_summary_writer=close_summary_writer)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/supervisor.py", line 802, in stop
+    stop_grace_period_secs=self._stop_grace_secs)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/coordinator.py", line 386, in join
+    six.reraise(*self._exc_info_to_raise)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/coordinator.py", line 296, in stop_on_exception
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/coordinator.py", line 487, in run
+    self.run_loop()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/py
