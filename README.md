@@ -10,8 +10,8 @@ It takes about 16 hours to reach these results on 8 Titan Xs. DGX-1 is about 30%
 
 ## Dependencies
 * Anaconda
-* TensorFlow 0.10
-* Python 3.5 (should work with 2.7 but haven't tested it recently)
+* TensorFlow **0.12.1**
+* Python 3.5, Python 2.7
 * 1B Word Benchmark Dataset (https://github.com/ciprian-chelba/1-billion-word-language-modeling-benchmark to get data)
 * tmux (the start script opens up a tmux session with multiple windows)
 
